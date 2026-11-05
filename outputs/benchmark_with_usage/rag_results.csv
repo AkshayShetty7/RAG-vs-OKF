@@ -1,0 +1,859 @@
+﻿question_id,category,question,reference_answer,answer,status,latency_seconds,prompt_tokens,completion_tokens,total_tokens,reasoning_tokens,retrieved_document_ids,retrieved_evidence_count,error
+Q001,single_document,What clinic and home blood-pressure thresholds define hypertension in the MediCore cardiovascular guideline?,"Clinic blood pressure of 140/90 mmHg or higher on two visits, or home monitoring of 135/85 mmHg or higher.","Hypertension is defined as:
+
+* **Clinic blood pressure:** ≥ 140 mm Hg systolic / ≥ 90 mm Hg diastolic on two separate visits.  
+* **Home blood pressure monitoring:** ≥ 135 mm Hg systolic / ≥ 85 mm Hg diastolic.
+
+**Source:** DG‑01, Section 3.1 “Diagnosis and targets”【Evidence 1】.",success,10.5882,1881,221,2102,117,"[""DG-01"", ""LD-08""]",5,
+Q002,single_document,"What LVEF threshold is used to define HFrEF, and what additional evidence is required?",Symptoms or signs of heart failure plus an echocardiographic LVEF of 40% or lower.,"- **LVEF threshold:** HFrEF is defined by a left‑ventricular ejection fraction of **40 % or lower** on transthoracic echocardiography【DG-01†4.1 Diagnosis】.  
+
+- **Additional evidence required:** The low LVEF must be accompanied by **clinical symptoms or signs of heart failure**.  In addition, an **elevated NT‑proBNP** ( > 450 pg/mL if < 50 yr, > 900 pg/mL if 50‑75 yr, > 1,800 pg/mL if > 75 yr) can support the diagnosis, but it is **not sufficient on its own**【DG-01†4.1 Diagnosis】.",success,11.7802,1180,399,1579,223,"[""DG-01"", ""LD-01"", ""LD-06"", ""MP-01""]",5,
+Q003,single_document,"What is the specified sick-day medication pause rule for vomiting, diarrhea, or poor oral intake?","Pause the ACE inhibitor, spironolactone, diuretic, and metformin until eating and drinking normally for 24 to 48 hours.","The sick‑day rule states that **during vomiting, diarrhea, or poor oral intake the patient should pause the ACE inhibitor, spironolactone, diuretic, and metformin until eating and drinking normally for 24 to 48 hours**【DG-01, 4.4】.",success,10.989,1461,263,1724,190,"[""DG-01"", ""DG-02"", ""MP-01"", ""MP-02""]",5,
+Q004,single_document,What is the MediCore rule for metformin when eGFR is 30 to 44?,"Maximum 1,000 mg/day.","MediCore caps metformin at **a maximum of 1,000 mg per day** when the patient’s eGFR is **30 to 44 mL/min/1.73 m²** (the drug must be stopped if eGFR falls below 30)【DG-02†3.4 Metformin and kidney function】【MP-02†3. MED-001 Metformin】【DG-03†3.2 Drug and dose consequences】【MP-07†4.2 Drug‑specific rules】.",success,12.4761,1835,290,2125,166,"[""DG-02"", ""DG-03"", ""MP-02"", ""MP-07"", ""PR-01""]",5,
+Q005,single_document,What defines the first vancomycin level timing and action threshold in PRO-013 version 2?,"Draw the first level before the fourth dose; if it is above 20 mg/L, hold the next dose and have pharmacy redose.","The PRO‑013 antimicrobial‑stewardship protocol (version 2) specifies that **the first vancomycin serum level must be drawn before the fourth dose** – i.e., after the third dose and at least a short interval (≈30 min) prior to the fourth dose 【1†L154-L171】【4†L58-L71】.  
+
+If that initial level is **greater than 20 mg/L**, the protocol requires the next dose to be held and the pharmacy to re‑dose the patient 【4†L58-L71】.",success,13.7982,1903,344,2247,215,"[""HO-04"", ""HO-08"", ""MP-04"", ""PR-03"", ""PR-08""]",5,
+Q006,single_document,What contact-enteric precautions are specified for C. difficile?,"Gown and gloves, a single room with dedicated toilet, soap-and-water hand hygiene, dedicated equipment, and sporicidal cleaning.","**Contact‑enteric precautions for *C. difficile* (PRO‑012)**  
+
+| Element | Specification |
+|---------|----------------|
+| **Trigger** | A positive *C. difficile* result (LAB‑024) **or** ≥ 3 unformed stools in 24 h in a patient at risk, which permits starting precautions before the result is confirmed. |
+| **Start** | **Immediately** on the laboratory call for a positive result (effective 2026‑05‑01, PRO‑012 version 2); the ward nurse records the start time. |
+| **Duration** | Continue **until 72 hours after diarrhea has resolved** (formed stool or return to baseline). If the patient is discharged or transferred before that, the receiving unit must be informed. |
+| **Room & toilet** | Patient placed in a **single room with a dedicated toilet or commode**; shared bathrooms are not used. |
+| **Cleaning** | Daily cleaning and terminal cleaning with a **sporicidal agent**. |
+| **Additional notes** | Version 1 required the ward nurse to wait for Infection‑Control confirmation before starting precautions; version 2 (effective 2026‑05‑01) changes this to start on the lab call (HO‑06, §4). |
+
+**Citations**  
+- HO‑06, “4. C. difficile Precautions (FPA‑10)” – lines describing trigger, start, duration, room/toilet, cleaning.  
+- HO‑06, “2. PRO‑012: Version History” – lines showing the change to immediate start on laboratory call (version 2).",success,6.4015,1375,516,1891,168,"[""HO-06"", ""HO-08"", ""LD-05"", ""PR-03""]",5,
+Q007,single_document,What is the PRO-009 version 2 escalation rule after failed calls for a critical result?,"After two unanswered or busy attempts, the call escalates automatically to the responsible clinician's pager.","The PRO‑009 version 2 escalation rule states that **if the first two telephone attempts to reach the responsible clinician are unanswered or encounter a busy line, the call is automatically escalated to the clinician’s pager**【HO-08, 3.2 INC‑002】.",success,10.4025,1705,208,1913,141,"[""HO-03"", ""HO-04"", ""HO-08"", ""LD-01"", ""PR-06""]",5,
+Q008,single_document,What is the required deadline for a heart-failure post-discharge call and clinic visit?,A Care Coordination telephone call within 48 hours and a heart-failure clinic visit within 7 days of discharge.,"The protocol requires that, after a heart‑failure admission, the patient receive **a telephone call within 48 hours of discharge** and **a clinic visit within 7 days of discharge**【DG-01†4.5 After discharge】【HO-07†3.1 Standard】.",success,9.3027,1335,177,1512,106,"[""DG-01"", ""HO-07"", ""HO-08"", ""PR-01"", ""PR-08""]",5,
+Q009,single_document,Which drugs are listed as high-alert medications in PRO-002?,"MED-002, MED-003, MED-012, MED-013, MED-014, MED-015, MED-019, and MED-029.","The high‑alert medications identified in PRO‑002 are:
+
+- Insulin glargine (MED‑002)  
+- Insulin regular (MED‑003)  
+- Apixaban (MED‑012)  
+- Warfarin (MED‑013)  
+- Unfractionated heparin (MED‑014)  
+- Enoxaparin (MED‑015)  
+- Vancomycin (MED‑019)  
+- Epinephrine (MED‑029)  
+
+**Source:** HO‑02, Section 3 “PRO‑002: High‑Alert Medication Safety” lists these eight drugs as the high‑alert medications for MediCore【HO-02†3.25-35】.",success,10.2912,1310,388,1698,234,"[""HO-02"", ""MP-03"", ""PR-02""]",5,
+Q010,single_document,What are the specified C. difficile isolation duration and discharge-transfer communication requirements?,"Precautions continue until 72 hours after diarrhea resolves; if discharge or transfer occurs earlier, the receiving unit must be informed.","The protocol states that contact‑enteric precautions for a patient with C. difficile **continue for 72 hours after the diarrhea has resolved** (i.e., after the stool is formed or the patient returns to baseline)【HO-06, 4. C. difficile Precautions (FPA‑10)】.  
+
+If the patient is **discharged or transferred before the 72‑hour period is complete**, the unit to which the patient is moving must be **informed of the ongoing isolation requirement**【HO-06, 4. C. difficile Precautions (FPA‑10)】.",success,7.1407,1335,284,1619,145,"[""HO-01"", ""HO-06"", ""HO-08"", ""PR-03""]",5,
+Q011,single_document,What is the PRO-005 version 2 door-to-CT target?,CT scan start within 20 minutes of arrival.,"The PRO‑005 version 2 sets the **door‑to‑CT‑head target at 20 minutes** (the CT scan must start within 20 minutes of patient arrival)【HO-03†3】. This change is recorded in the policy change log, which notes that version 2 (effective 2025‑06‑01) reduced the door‑to‑CT target from 25 minutes to **20 minutes**【HO-08†6】.",success,12.3709,2264,270,2534,160,"[""DG-06"", ""HO-03"", ""HO-08"", ""PR-05""]",5,
+Q012,single_document,What is the INR target range and follow-up rule when INR is above range up to 4.5?,"The default warfarin target is INR 2.0 to 3.0; when INR is above range up to 4.5, reduce the weekly dose by about 10% and recheck within 3 days.","**INR target range:** 2.0 to 3.0 by default【MP-03†6. MED-013 Warfarin】.  
+
+**Follow‑up rule when the INR is above the target range but ≤ 4.5:** reduce the weekly warfarin dose by about 10 % and obtain a repeat INR **within 3 days**【HO-04†2.2 Rules】.",success,11.4674,2090,300,2390,199,"[""HO-04"", ""LD-02"", ""MP-03"", ""PR-06""]",5,
+Q013,single_document,"Which allergen class covers NSAIDs including aspirin, and which alternative antiplatelet is named?",ALG-003; clopidogrel (MED-011) is the antiplatelet alternative.,"- **Allergen class:** **ALG‑003** – the class defined for “NSAIDs including aspirin”【MP-07†2.1 Definitions and rules】.  
+- **Alternative antiplatelet:** **Clopidogrel (MED‑011)** is listed as the antiplatelet alternative for patients with ALG‑003【PR-05†7.3 Antiplatelet choice】.",success,12.3649,1354,281,1635,188,"[""MP-03"", ""MP-07"", ""PR-05""]",5,
+Q014,single_document,What are the two consecutive beta-hydroxybutyrate readings required before transition from DKA infusion to subcutaneous insulin?,Beta-hydroxybutyrate must be below 0.6 mmol/L on two consecutive checks.,The protocol requires **two back‑to‑back beta‑hydroxybutyrate values that are each < 0.6 mmol/L** before the IV insulin infusion can be stopped and subcutaneous insulin started. In the documented case the patient met this criterion with a reading of **0.5 mmol/L** followed 2 hours later by **0.4 mmol/L**【HO-02†6.2 DKA insulin infusion transition (FPA-12)】. This “two consecutive checks < 0.6 mmol/L” rule is also stated in the resolution‑criterion policy【DG-02†4.3 Resolution criterion】.,success,14.5627,1455,460,1915,307,"[""DG-02"", ""HO-02"", ""MP-02"", ""PR-04""]",5,
+Q015,single_document,What is the MediCore urgent specimen receipt target for blood gas samples?,Urgent blood gas specimens have a receipt-to-verification target of 15 minutes.,"The MediCore policy sets a **15‑minute target** for urgent blood‑gas specimens – i.e., the time from receipt in the laboratory to verification should be no more than 15 minutes【LD-01, 5. Turnaround Targets (MediCore Policy, urgent samples)】. This same target is reflected in the related HO‑05 summary of urgent‑specimen turnaround times【HO-05, 4. Turnaround Targets (urgent specimens; LD‑01)】.",success,10.8547,1159,258,1417,147,"[""DG-05"", ""HO-05"", ""LD-01""]",5,
+Q016,two_documents,"For PAT-006, what happened after ciprofloxacin was started while warfarin was being taken, and what did the incident review identify as the control failure?",INR rose from 2.4 to 6.8; the Major alert was overridden with “will monitor” and no INR recheck plan was made. The review found that version 1 expected a plan but did not enforce it.,"After ciprofloxacin was started on 2025‑10‑21 while the patient was on warfarin, the INR rose sharply from 2.4 to 6.8 (verified on 2025‑10‑26), producing temporary gum bleeding and bruising and prompting the warfarin to be held (no transfusion needed)【HO-08†3.3】.  
+
+The incident review found that the control failure was that **PRO‑007 version 1 only expected an INR‑recheck plan but did not enforce it**, and the alert‑override field accepted free‑text, allowing the order to proceed without a mandatory recheck plan【HO-08†3.3】.  
+
+(Also noted in the worked‑example summary that the required INR‑recheck plan was not created, leading to the incident【HO-04†2.3】).",success,14.8551,1799,499,2298,310,"[""DG-05"", ""HO-04"", ""HO-08"", ""LD-05"", ""MP-03""]",5,
+Q017,two_documents,"For PAT-001, how late was the critical potassium notification and what policy change followed?","Potassium 6.4 mmol/L was verified at 08:05 and called at 08:41, 36 minutes later; PRO-009 version 2 introduced automatic pager escalation after two failed attempts, effective 2025-11-01.","- **Notification delay:** The potassium result was verified at 08:05 and the physician was called at 08:41 – a **36‑minute interval**, which exceeded the 20‑minute policy (FPA‑13) by 16 minutes【HO-08†3.2 INC-002: Delayed critical potassium call】.  
+
+- **Policy change:** In response, **PRO‑009 version 2** was introduced (effective 2025‑11‑01) to provide **automatic escalation to the clinician’s pager after two unanswered or busy call attempts**【HO-08†3.2 INC-002: Delayed critical potassium call】.",success,14.7377,1343,387,1730,241,"[""DG-03"", ""HO-05"", ""HO-08"", ""PR-01""]",5,
+Q018,two_documents,"For PAT-003, distinguish the compliant laboratory notification from the delayed isolation response.","The positive C. difficile result was verified at 08:40 and the ward nurse was called at 08:52 (12 minutes, compliant); contact-enteric precautions began at 15:25, 6 hours 45 minutes after verification.","**Compliant laboratory notification**
+
+- The C. difficile result for PAT‑003 was verified at 08:40 on 2026‑03‑07.  
+- The laboratory called the ward nurse at 08:52 (12 minutes after verification), which meets the PRO‑009 time requirement and is recorded as **“Met (laboratory call)”**【HO-05†2.5】.  
+- This call is described as “laboratory phoned the ward nurse at 08:52 (compliant)”【HO-08†3.4】 and as “Laboratory phones ward nurse 08:52 (12 minutes; compliant with PRO‑009)”【HO-06†6】.
+
+**Delayed isolation response**
+
+- After the lab call, the ward waited for Infection Prevention confirmation before starting precautions.  
+- Infection Prevention was not notified until 14:50, and contact‑enteric precautions were finally started at 15:25, **6 hours 45 minutes after verification**【HO-08†3.4】.  
+- This lag is the incident recorded as **INC‑004** (delayed isolation)【HO-06†6】, and the audit notes that “the nurse waited for Infection Control; this produced the delay reported as INC‑004”【HO-06†6】.  
+
+Thus, the **lab notification** (08:52 call) was compliant, whereas the **isolation response** (precautions started at 15:25) was delayed and non‑compliant.",success,16.3064,1669,574,2243,241,"[""HO-05"", ""HO-06"", ""HO-08""]",5,
+Q019,two_documents,"What happened to PAT-007 after amoxicillin-clavulanate was administered despite an unverified penicillin flag, and what allergy rule applies to unverified flags?",PAT-007 developed anaphylaxis after amoxicillin-clavulanate; unverified or patient-reported flags must be treated as the worst credible reaction until verified.,"**What happened to PAT‑007**
+
+- After receiving amoxicillin‑clavulanate (MED‑016) at 21:05, the patient developed an anaphylactic reaction at 21:17.  
+- Treatment included two doses of epinephrine 0.5 mg IM (21:19 and 21:27) and the patient required ICU observation for 24 hours. The event was classified as **Serious**, but the patient later **recovered**【HO-08†3.1 INC-001: Penicillin anaphylaxis (PAT-007)】.  
+
+**Allergy rule that applies to unverified flags**
+
+- An allergy entry that is **unverified or patient‑reported** must **not be treated as low risk**; it is **treated as the worst credible reaction** until verification, and beta‑lactam administration requires dual verification by pharmacist and nurse【MP-07†2.2 Penicillin to cephalosporin cross‑reactivity】,【HO-02†4.1 Allergy record】,【DG-07†5.4 Allergy documentation】.  ",success,13.9528,1094,615,1709,372,"[""DG-07"", ""HO-02"", ""HO-08"", ""MP-07"", ""PR-07""]",5,
+Q020,two_documents,"For PAT-009, what medication exposure preceded the AKI and what renal-order safeguard was added in PRO-008 version 3?","Ibuprofen 600 mg three times daily was prescribed despite CKD/eGFR 40 while the patient was taking lisinopril and furosemide; version 3 made NSAID orders at eGFR below 60 a hard stop, requiring a second pharmacist and documented reason for override.","- **Medication exposure that preceded the AKI:** Ibuprofen (MED‑026) was prescribed (600 mg three times daily) to PAT‑009 and was followed by AKI stage 2【HO-08†3.5】.  
+
+- **Renal‑order safeguard added in PRO‑008 version 3:** A hard‑stop rule for NSAID orders when the patient’s eGFR is below 60 mL/min/1.73 m² – the order cannot be overridden without a second pharmacist’s approval and a documented reason【HO-02†5】.",success,16.6379,1752,431,2183,300,"[""DG-03"", ""DG-08"", ""HO-02"", ""HO-08"", ""MP-01""]",5,
+Q021,two_documents,"For PAT-011's first discharge, which follow-up obligations were missed and what does the casebook report about the subsequent readmission?","The call reached a wrong number with no second attempt, the clinic visit was missed without outreach, and no INR check occurred within 72 hours. PAT-011 was readmitted 16 days after the first discharge.","**Missed follow‑up obligations after PAT‑011’s first discharge (2026‑01‑17)**  
+
+| Obligation | What was missed |
+|------------|-----------------|
+| Telephone follow‑up call | The discharge phone number had two digits transposed; the only call made on 2026‑01‑19 reached the wrong number and no second attempt was made【HO-08†3.6】 |
+| Clinic visit | The scheduled outpatient visit on 2026‑01‑23 was not attended【HO-08†3.6】 |
+| INR check | The INR test that was due by 2026‑01‑20 14:30 was never performed【HO-08†3.6】 |
+
+**What the casebook reports about the subsequent readmission**
+
+* PAT‑011 was readmitted 16 days after the first discharge (2026‑02‑02) with worsening heart‑failure: dyspnea, weight 80.1 kg (4.1 kg above dry weight), NT‑proBNP 5,300 pg/mL, and an INR of 3.4 (above the target range)【PR-08†3.4】.  
+* The casebook labels this episode as “the principal example of a missed heart‑failure follow‑up in this dataset”【PR-08†3.4】.  
+
+Thus, the first discharge missed the call, clinic visit, and INR check, and the patient’s subsequent readmission was documented as a serious heart‑failure relapse with elevated weight, NT‑proBNP, and INR.",success,15.7705,1464,815,2279,474,"[""HO-07"", ""HO-08"", ""LD-02"", ""PR-08""]",5,
+Q022,two_documents,"What was PAT-012's antibiotic stop decision based on, and what policy criteria govern that decision?",Antibiotics were stopped after the day-5 dose; the case record reports procalcitonin 0.18 ng/mL and afebrile status since 2026-05-06 06:00. PRO-013 permits stopping at day 5 when procalcitonin is below 0.25 ng/mL and the patient has been afebrile for at least 48 hours.,"**Antibiotic‑stop decision for PAT‑012**  
+- The stop was made because the patient’s **procalcitonin (PCT) fell to 0.18 ng/mL** – a value **below the 0.25 ng/mL stewardship stop threshold** – and the patient had been **afebrile for ≥48 hours**【Evidence 4†PR-08|7. Policy Compliance Review (retrospective)】.  
+
+**Policy criteria that govern the decision**  
+- The decision satisfied **PRO‑013 “stop rule at day 5.”** This rule requires **(a) PCT < 0.25 ng/mL (the stewardship stop value defined in HO‑04) and (b) the patient being afebrile for at least 48 h**【Evidence 2†LD-04|5.2 PAT-012, non‑severe pneumonia】.  
+- The stewardship stop value is part of the **MediCore Policy in HO‑04**, referenced in the antibiotic monograph scope【Evidence 5†MP-04|2. Purpose and Scope】.  
+
+**Inference** – The combination of the low PCT result and sustained afebrile status met the PRO‑013 criteria, allowing the antibiotic course to be stopped on day 5.",success,13.5509,1148,660,1808,375,"[""DG-04"", ""LD-04"", ""MP-04"", ""PR-07"", ""PR-08""]",5,
+Q023,two_documents,"For PAT-013, how did the vancomycin level affect dosing and how was the 48-hour stop rule applied?","The pre-dose-four level was 24.1 mg/L, above 20 mg/L, so the dose was held and interval extended; vancomycin was stopped on 2026-06-20 at 48 hours because only gram-negative organisms had been identified.","**Effect of the level on dosing**  
+- A vancomycin level was drawn 30 minutes before the fourth dose and was **24.1 mg/L**, which is above the 20 mg/L threshold. According to the policy, a level > 20 mg/L requires the next dose to be **held and the interval re‑adjusted**; for PAT‑013 the interval was extended to every 24 hours【MP-04†6. MED-019 Vancomycin (IV and Oral)】.  
+
+**Application of the 48‑hour stop rule**  
+- After the dose was held, the vancomycin course was reviewed at 48 hours. Because cultures showed **only gram‑negative organisms** (no resistant gram‑positive pathogen), stewardship **stopped vancomycin at the 48‑hour mark**【HO-04†3.3 Worked examples】. This follows the rule that IV vancomycin is stopped at 48 hours when no resistant gram‑positive organism is identified【HO-04†3.2 Rules (version 2)】, and the dataset notes that PAT‑013 had vancomycin stopped at 48 hours【DG-05†3.5 De‑escalation】.  ",success,19.01,1572,720,2292,440,"[""DG-03"", ""DG-05"", ""HO-04"", ""MP-04""]",5,
+Q024,two_documents,"For PAT-014, what caused levothyroxine under-absorption and what timing separation is recommended?",Ferrous sulfate co-administration caused mild levothyroxine under-absorption; the medication instructions specify separating ferrous sulfate and levothyroxine dosing by at least 4 hours.,"**Cause of under‑absorption:**  
+PAT‑014’s levothyroxine (MED‑024) was poorly absorbed because it was taken together with ferrous sulfate (iron) 【1†L56-L66】.  
+
+**Recommended timing separation:**  
+Ferrous sulfate should be given at least 4 hours apart from levothyroxine to avoid this interaction 【2†L38-L39】【5†L64-L70】.",success,11.9556,1156,316,1472,214,"[""DG-02"", ""DG-07"", ""MP-02"", ""MP-07"", ""PR-08""]",5,
+Q025,two_documents,"How does the guideline define HFrEF, and what objective measurement was recorded for PAT-011?",HFrEF requires symptoms or signs of heart failure plus LVEF 40% or lower; PAT-011's echocardiogram on 2026-01-13 showed LVEF 30%.,"- **Guideline definition of HFrEF:**  
+  The guideline states that, for patients aged 50‑75 years, heart‑failure with reduced ejection fraction (HFrEF) is supported when the NT‑proBNP level is **greater than 900 pg/mL** (DG‑01)【Evidence 3†LD-04†4】.  
+
+- **Objective measurement recorded for PAT‑011:**  
+  An echocardiogram on 2026‑01‑13 documented a **left‑ventricular ejection fraction (LVEF) of 30 %**, indicating reduced ejection fraction consistent with HFrEF【Evidence 4†LD-06†7】.",success,13.7275,1123,447,1570,290,"[""DG-03"", ""LD-04"", ""LD-06"", ""PR-01""]",5,
+Q026,two_documents,"What was PAT-005's door-to-CT performance, and how does it compare with the active stroke pathway target?","CT began 19 minutes after arrival, meeting the version 2 target of scan start within 20 minutes of arrival.","PAT‑005 arrived at 18:55 and the CT scan started at 19:14, giving a **door‑to‑CT time of 19 minutes**【LD-07†4】.  
+
+The current stroke‑code pathway (PRO‑005) requires the CT scan to start **within 20 minutes of arrival**【HO-03†3】.  
+
+**Comparison:** The 19‑minute door‑to‑CT performance **meets** (and is slightly faster than) the pathway target of ≤20 minutes【HO-03†3】.",success,13.3818,1454,290,1744,161,"[""HO-03"", ""LD-02"", ""LD-06"", ""LD-07""]",5,
+Q027,two_documents,"For PAT-002's critical hs-troponin result, what value was reported and how long after verification was it telephoned?","The reported hs-troponin was 112 ng/L; it was verified at 00:10 and telephoned at 00:20, 10 minutes later.","PAT‑002’s critical hs‑troponin result was **112 ng/L** and it was **phoned 10 minutes after verification**【PR-02†7.1 Presentation and pathway timing】【LD-04†3.1 PAT‑002, NSTEML】【HO-05†2.5 Results recorded in the dataset】.",success,14.132,1800,240,2040,156,"[""HO-03"", ""HO-05"", ""HO-08"", ""LD-04"", ""PR-02""]",5,
+Q028,two_documents,"For PAT-003, what was the blood-culture finding and what did the stewardship record say about de-escalation timing?","A blood-culture bottle was positive and called at 04:18 after 04:10 verification; susceptibility reporting at 08:20 on 2026-03-01 was followed by de-escalation at 13:00, within 24 hours.","- **Blood‑culture finding for PAT‑003:** The aerobic bottle was positive for **gram‑positive cocci in chains** (preliminary) and the organism was later identified as **Streptococcus pneumoniae**【LD-05, 3.1 Blood cultures】.
+
+- **Stewardship record on de‑escalation timing:** The stewardship review de‑escalated therapy at **13:00 on 2026‑03‑01**, which was **≈4 h 40 min (within 5 hours) after the susceptibility report** became available【DG-05, 3.5 De‑escalation】; this timing is also described as “de‑escalated within 5 hours of the susceptibility report (PR‑03)”【PR-03, 6.4 Culture results and de‑escalation】.",success,15.0769,1643,628,2271,438,"[""DG-05"", ""HO-04"", ""HO-05"", ""LD-05"", ""PR-03""]",5,
+Q029,two_documents,"How is PAT-005's NSAID hypersensitivity classified in MP-07, and which antiplatelet alternative does PR-05 document?",MP-07 classifies the NSAID/aspirin hypersensitivity as ALG-003; PR-05 documents clopidogrel (MED-011) as the alternative antiplatelet.,"- **Classification in MP‑07:** PAT‑005’s reaction is recorded as **NSAID/aspirin hypersensitivity (ALG‑003)** — the definition and cross‑reactivity for this condition are listed in MP‑07【Evidence 2†DG-04†5.3】 (also shown in the Condition‑Drug Conflict table as “NSAID/aspirin hypersensitivity (ALG‑003)”【Evidence 1†DG-08†6】).  
+
+- **Antiplatelet alternative documented in PR‑05:** The record states that **clopidogrel** was selected as the alternative antiplatelet agent for PAT‑005【Evidence 5†PR-05†7.3】.",success,17.3248,1778,508,2286,351,"[""DG-04"", ""DG-08"", ""HO-02"", ""PR-05""]",5,
+Q030,two_documents,"For PAT-004, what adverse reaction was associated with empagliflozin and what happened to the drug afterward?",PAT-004 experienced euglycemic ketoacidosis associated with empagliflozin (MED-030); the drug was permanently stopped with no rechallenge.,"PAT‑004 developed **ketoacidosis (euglycemic ketoacidosis)** while taking empagliflozin.  The reaction was recorded as an adverse drug reaction and the drug was **permanently stopped with a “do not re‑challenge” directive**【DG-02†3.5 SGLT2 inhibitor precautions】,【PR-04†2. Purpose and Scope】,【MP-07†3.3 ADRs recorded in the dataset】.",success,14.03,1287,284,1571,175,"[""DG-02"", ""MP-02"", ""MP-07"", ""PR-04""]",5,
+Q031,two_documents,"For PAT-006, was the INR notification itself timely even though the interaction-monitoring plan failed?","Yes. INR 6.8 was phoned 16 minutes after verification, meeting the 20-minute critical-result target, although no INR recheck plan had been made before ciprofloxacin.",Yes. For PAT‑006 the INR result (6.8) was verified at 15:20 on 2025‑10‑26 and the clinic was phoned at 15:36—only 16 minutes later (the call was also made within 2 h 45 min of verification)【HO-08†3.3 INC-003: Ciprofloxacin and warfaron alert override (PAT-006)】【HO-08†2.3 Worked examples】. The notification was therefore timely even though no formal INR re‑check plan was created.,success,12.366,1615,354,1969,225,"[""DG-05"", ""HO-04"", ""HO-08"", ""MP-04""]",5,
+Q032,two_documents,"What potassium and eGFR were recorded for PAT-001 at the 2025-10-23 follow-up, and what monitoring schedule does the guideline specify after starting or increasing spironolactone?","At the 2025-10-23 follow-up, potassium was 4.7 mmol/L and eGFR was 42. The guideline specifies potassium and creatinine/eGFR checks at 1 week and 4 weeks after starting or increasing spironolactone.","**Recorded values on 2025‑10‑23**
+
+The supplied documents do not give a potassium or eGFR measurement for PAT‑001 on the 2025‑10‑23 follow‑up.  
+- Evidence 2 (DG‑03 §5.3) notes that spironolactone was resumed on that date and that “1‑week and 4‑week potassium checks” were planned, but no result is reported.  
+- Evidence 4 (PR‑01 §8.5) reports a potassium value (4.8 mmol/L) at the 4‑week check on 2025‑11‑20, not on 2025‑10‑23.  
+
+**Guideline monitoring schedule after starting or increasing spironolactone**
+
+The guideline requires checking potassium (LAB‑005) and creatinine/eGFR (LAB‑004) **at 1 week and again at 4 weeks** after a new start or dose increase of spironolactone. These checks are then repeated at each subsequent visit.  
+
+- DG‑01 §4.3 (Evidence 1) – “Check potassium … and creatinine/eGFR … at **1 week and 4 weeks** after starting or increasing spironolactone.”  
+- MP‑01 §7 (Evidence 3) – “Monitoring: **Potassium and creatinine at 1 week and 4 weeks** after start or dose increase, then at each visit.”  
+- DG‑03 §3.2 (Evidence 5) – “…check potassium and creatinine at 1 week and 4 weeks after starting or increasing.”",success,15.3053,1303,776,2079,420,"[""DG-01"", ""DG-03"", ""MP-01"", ""PR-01""]",5,
+Q033,two_documents,"For PAT-001, what medication combination was associated with the hyperkalemia episode, and what potassium threshold does the guideline specify for holding the ACE inhibitor and spironolactone?",The episode involved lisinopril with spironolactone during dehydration and potassium 6.4 mmol/L; the guideline says to hold spironolactone and the ACE inhibitor if potassium reaches 5.5 mmol/L or higher.,"- **Medication combination linked to the hyper‑kalaemia episode:** Lisinopril (MED‑004, an ACE‑inhibitor) together with spironolactone (MED‑008, a mineralocorticoid receptor antagonist) 【DG-01†4.3 Potassium safety for mineralocorticoid antagonists】.  
+
+- **Potassium threshold for holding the ACE‑inhibitor and spironolactone:** The guideline instructs to hold both drugs when serum potassium reaches **5.5 mmol/L or higher** 【DG-01†4.3 Potassium safety for mineralocorticoid antagonists】.",success,18.1845,1682,489,2171,341,"[""DG-01"", ""DG-03"", ""MP-01"", ""PR-01""]",5,
+Q034,two_documents,"How does the C. difficile manual define the start trigger, and what was the actual start delay for PAT-003?","A positive C. difficile result (or at-risk patient with at least three unformed stools in 24 hours) triggers precautions; for PAT-003, precautions began at 15:25, 6 hours 45 minutes after the 08:40 verification.","**Start trigger definition (C. difficile manual)**  
+The manual specifies that the isolation clock starts when the laboratory **phones the ward nurse** to report a positive C. difficile result (i.e., the laboratory call that follows verification of the result)【HO-05†L47-L59】.  
+
+**Actual start delay for PAT‑003**  
+For PAT‑003 the contact‑enteric precautions were not started until **15:25**, which is **6 hours 45 minutes after the result was verified at 08:40**【HO-08†L63-L73】【HO-06†L48-L61】. This interval is recorded as the delay reported as INC‑004.",success,30.4139,1550,658,2208,498,"[""HO-05"", ""HO-06"", ""HO-08"", ""LD-07"", ""PR-03""]",5,
+Q035,two_documents,"What is the policy deadline for warfarin INR testing after discharge, and did PAT-011 meet it at the first discharge?",The policy requires an INR check within 72 hours of discharge; PAT-011 did not have an INR check by the 2026-01-20 14:30 deadline after discharge on 2026-01-17 at 14:30.,,error,40.4708,,,,,[],0,APITimeoutError: Request timed out.
+Q036,two_documents,What was the recorded clinical outcome of INC-001 and what corrective control was introduced?,The event was classified as serious harm with 24-hour ICU observation and recovery; PRO-003 version 2 made the urgent override a hard stop and required the nursing check for first beta-lactam doses in patients with an allergy flag.,"- **Clinical outcome of INC‑001:** The event was recorded as **Serious harm** – the patient required **ICU observation for 24 hours** and subsequently **recovered**【HO-08†3.1】. (The follow‑up note also confirms a 24‑hour ICU stay and discharge with an epinephrine auto‑injector【PR-07†3.3】.)
+
+- **Corrective control introduced:** A new version of the dual‑verification control, **PRO‑003 version 2**, was put into effect on **1 July 2026**. This change makes the barcode “urgent override” a **hard stop**, treats unverified allergy flags as the worst credible reaction, upgrades the allergy record to confirmed anaphylaxis, adds an allergy‑clinic referral and includes staff briefing【HO-08†3.1】.",success,37.6187,1461,545,2006,357,"[""HO-02"", ""HO-08"", ""MP-07"", ""PR-07""]",5,
+Q037,two_documents,"For PAT-009, what was the baseline renal function and the peak creatinine after ibuprofen exposure?","Baseline creatinine was 1.3 mg/dL with eGFR 40; peak creatinine was 2.9 mg/dL on 2026-03-23, reported as 2.2 times baseline.","- **Baseline renal function (before ibuprofen):** creatinine 1.3 mg/dL with an eGFR of 40 mL/min/1.73 m²【HO-08†3.5 INC-005: NSAID prescribed in CKD with AKI (PAT-009)】.  
+
+- **Peak creatinine after ibuprofen exposure:** 2.9 mg/dL (recorded on 2026‑03‑23)【PR-07†5.2 Admission, 2026-03-22 to 2026-03-28】.",success,51.8813,1816,316,2132,181,"[""DG-03"", ""HO-08"", ""MP-01"", ""PR-07""]",5,
+Q038,two_documents,"For PAT-003, how did the sepsis antibiotic timing standard change between the event and current version 3?","On 2026-02-26 version 2 applied a 60-minute target and PAT-003 received antibiotics in 53 minutes; version 3, effective 2026-03-01, uses a 50-minute target.","For PAT‑003 the sepsis‑antibiotic timing rule was tightened.  
+- At the time of the admission (2026‑02‑26) the bundle in force was **PRO‑004 version 2**, which required the first antibiotic **within 60 minutes of the sepsis alert**【PR-03†6.1 Emergency Department and sepsis bundle (PRO-004 version 2)】.  
+- Version 3, which took effect on 2026‑03‑01, changed the target to **first antibiotic within 50 minutes of the alert**【PR-03†6.1 Emergency Department and sepsis bundle (PRO-004 version 2)】 (also shown in the later bundle description【PR-08†5.1 Sepsis bundle, 2026‑06‑18 (PRO-004 version 3)】).
+
+**Inference:** The standard was made stricter, reducing the allowable time from 60 minutes to 50 minutes.",success,13.1834,1667,461,2128,247,"[""HO-03"", ""HO-08"", ""PR-03"", ""PR-08""]",5,
+Q039,two_documents,"Which two tests in PAT-003's C. difficile episode establish a positive result and its notification, and what was the lab call interval?","The C. difficile toxin/PCR was positive; the result was verified at 08:40 and the ward nurse was called at 08:52, a 12-minute interval.","- **Test that gave the positive result:** the C. difficile toxin/PCR (LAB‑024) – result verified at 08:40 on 2026‑03‑07【Evidence 5†L34-L42】.  
+- **Test that provided the notification:** the laboratory’s telephone call to the ward nurse (recorded as the “Called” time for the C. difficile result) at 08:52 on 2026‑03‑07【Evidence 4†L55-L58】.  
+
+**Lab‑call interval:** 12 minutes between verification (08:40) and the laboratory call (08:52)【Evidence 4†L55-L58】.",success,12.8349,1561,550,2111,391,"[""HO-05"", ""HO-06"", ""HO-08"", ""LD-05"", ""PR-03""]",5,
+Q040,two_documents,"For PAT-007, why was the allergy flag not safely treated as low risk, and which protocol version change followed?","The flag was patient-reported and unverified, which policy says must be treated as the worst credible reaction; after INC-001, PRO-003 version 2 (effective 2026-07-01) made the override a hard stop.","The allergy entry for PAT‑007 was recorded as **“rash, patient‑reported, unverified.”** Guidance states that an unverified, patient‑reported allergy **must not be treated as low risk** but must be handled as the worst credible reaction (DG‑07 5.4; MP‑07 2.2). Nevertheless, staff relied on the flag’s low‑severity label and treated it as low risk, bypassing the required dual verification (HO‑08 3.1 Findings).
+
+Because the bypass caused a serious anaphylaxis, the protocol was revised: **PRO‑003 version 2** was issued (effective 2026‑07‑01), changing the barcode “urgent override” from a bypassable option to a **hard stop** for first beta‑lactam doses in patients with an allergy flag (HO‑08 3.1 Corrective actions; HO‑02 4.3 Version 2 change).",success,12.8436,1148,552,1700,342,"[""DG-07"", ""HO-02"", ""HO-08"", ""MP-07"", ""PR-07""]",5,
+Q041,three_documents,"For PAT-006, reconstruct the ciprofloxacin–warfarin event from the chart, INR report, and incident review.","Ciprofloxacin was started on 2025-10-21; INR increased from 2.4 to 6.8 by 2025-10-26. The critical INR was called within 16 minutes, but the Major interaction alert had been overridden and no INR recheck plan was made; the event caused gum bleeding and bruising and warfarin was held.","**Reconstructed ciprofloxacin – warfarin event for PAT‑006**
+
+| Date / Time | Action | Result / Observation | Source |
+|-------------|--------|----------------------|--------|
+| **2025‑10‑21 17:30** | Ciprofloxacin (MED‑020) started (first dose) while the patient was on warfarin (5 mg daily). | A PharmaSafe **Major** drug‑interaction alert fired at 17:32 and was **over‑ridden** with the free‑text reason “will monitor”; **no INR re‑check plan** was entered. | HO‑08 §3.3 (lines 51‑61) |
+| **2025‑10‑21** (baseline) | INR prior to ciprofloxacin | **2.4** (implied from “INR rose from 2.4 to 6.8”). | HO‑08 §3.3 (lines 51‑61) |
+| **2025‑10‑26 15:20** | INR measured | **6.8** (critical rise). | HO‑08 §3.3 (lines 51‑61) |
+| **2025‑10‑26 15:36** | Clinician phone call after verification | Call placed **16 min** after verification; clinic call **2 h 45 min** after verification (per worked example). | HO‑08 §3.3 (lines 51‑61); HO‑04 §2.3 (lines 42‑51) |
+| **2025‑10‑26** | Warfarin held (first dose missed) | Temporary cessation of warfarin. | PR‑06 §8.2 (lines 104‑105) |
+| **2025‑10‑27** | Warfarin held (second dose missed) | INR **4.1** (still above 4.5 threshold).",success,16.1742,1956,1000,2956,584,"[""HO-04"", ""HO-08"", ""LD-05"", ""MP-03"", ""PR-06""]",5,
+Q042,three_documents,"For PAT-001, distinguish the potassium clinical event, laboratory notification failure, and corrective protocol.","Potassium was 6.4 mmol/L on 2025-09-17; it was verified at 08:05 and called at 08:41 (36 minutes, beyond the 20-minute target). The first two calls reached a busy line; version 2 later added automatic pager escalation after two failed attempts.","**Potassium clinical event** – On 2025‑09‑17 the patient’s serum potassium was 6.4 mmol/L and the ECG showed peaked T‑waves, PR 224 ms and QRS 112 ms, findings interpreted as hyper‑kalaemia [LD‑06, Section 3]​.
+
+**Laboratory‑notification failure** – The critical potassium result was verified at 08:05 but the telephone call to the ED physician was not placed until 08:41, a 36‑minute delay against the 20‑minute policy (FPA‑13). The first two call attempts reached a busy triage line and there was no escalation route [HO‑08, Section 3.2]​.
+
+**Corrective protocol** – The incident triggered a revision of the escalation process: PRO‑009 version 2, effective 2025‑11‑01, adds automatic escalation to the clinician’s pager after two unanswered or busy call attempts [HO‑08, Section 3.2]​.",success,19.6925,1225,665,1890,434,"[""DG-01"", ""DG-03"", ""HO-08"", ""LD-06"", ""PR-01""]",5,
+Q043,three_documents,"For PAT-003, integrate the sepsis alert, lactate trend, and version-specific antibiotic target.","The 2026-02-26 sepsis alert was managed under PRO-004 version 2; antibiotic administration took 53 minutes against the then-applicable 60-minute target. Lactate was 3.4 mmol/L at 10:20 and repeated at 12:05, within the 2-hour repeat rule.","**PAT‑003 (2026‑02‑26)**  
+
+| Element | Timing / Value | Compliance with version‑specific target |
+|---------|----------------|------------------------------------------|
+| **Sepsis alert** | Activated at **10:05** (PR‑03, 6.1) | – |
+| **First lactate** | Drawn at **10:20**, result **3.4 mmol/L** (PR‑03, 6.1; LD‑04, 5.1) | – |
+| **Repeat lactate** | Drawn at **12:05** (1 h 45 min after the first), result **2.1 mmol/L** (PR‑03, 6.1; LD‑04, 5.1). The repeat falls within the **2‑hour rule** for a first value > 2.5 mmol/L (HO‑03, 2.2). | – |
+| **First antibiotic** | Given at **10:58**, **53 minutes** after the alert (PR‑03, 6.1; HO‑03, 2.3) | • **Version 2** (target ≤ 60 min) – **met** (HO‑03, 2.3).  <br>• **Version 3** (target ≤ 50 min) – **not met** (HO‑03, 2.2; HO‑03, 2.3). |
+
+**Integration** – The sepsis alert at 10:05 triggered the bundle. Lactate was elevated (3.4 mmol/L) and correctly repeated within the 2‑hour window, showing a decreasing trend to 2.1 mmol/L. The first antibiotic was administered 53 minutes after the alert, satisfying the version 2 requirement (≤60 min) but falling short of the stricter version 3 requirement (≤50 min).  
+
+*Sources: PR‑03 §6.1; PR‑03 §2 (Purpose and Scope); HO‑03 §2.3 Worked examples; HO‑03 §2.2 Bundle elements (version 3, identical to version 2 except antibiotic target).*",success,25.2848,1718,844,2562,362,"[""HO-03"", ""LD-04"", ""PR-03""]",5,
+Q044,three_documents,"For PAT-003's C. difficile episode, connect the microbiology result, laboratory call, and isolation incident.","The C. difficile result was positive and verified at 08:40 on 2026-03-07; the ward nurse was called at 08:52 (12 minutes, compliant). Contact-enteric precautions did not begin until 15:25, 6 hours 45 minutes after verification, because the ward waited for Infection Control under version 1.","- **Microbiology result:** The C. difficile toxin/PCR test (LAB‑024) was reported positive at 08:40 on 2026‑03‑07 (LD‑05 § 3.2).  
+- **Laboratory call:** The laboratory phoned the ward nurse at 08:52, 12 minutes after verification, which met the 20‑minute policy (HO‑05 § 2.5; HO‑08 § 3.4).  
+- **Isolation incident:** Although the call was timely, the ward waited for Infection‑Prevention confirmation; precautions were not started until 15:25, 6 h 45 min after verification. This delay is recorded as incident INC‑004 (HO‑08 § 3.4).  
+
+Thus, PAT‑003’s positive C. difficile microbiology result triggered a compliant laboratory call, but isolation precautions were delayed, creating the documented isolation incident.  
+
+**Citations:** LD‑05 § 3.2; HO‑05 § 2.5; HO‑08 § 3.4.",success,19.0597,1426,655,2081,407,"[""HO-05"", ""HO-08"", ""LD-05"", ""PR-03""]",5,
+Q045,three_documents,"For PAT-007, trace the allergy flag, medication administration, and governance response.",PAT-007 had an ALG-001 penicillin flag recorded as patient-reported and unverified; amoxicillin-clavulanate was administered on 2026-05-17 and anaphylaxis followed. The nursing independent check was bypassed; the corrective PRO-003 version 2 hard stop became effective 2026-07-01.,"**Allergy flag (PAT‑007)**  
+- An **ALG‑001** allergy flag was present, recorded as *“rash, patient‑reported, unverified”*【HO-08†3.1 INC-001: Penicillin anaphylaxis (PAT-007)】.  
+
+**Medication administration**  
+- **MED‑016 (Amoxicillin‑clavulanate)** was ordered and given at **21:05** on 2026‑05‑17【HO-08†3.1】.  
+- The order had been **pharmacist‑verified at 20:48**, but the required **nursing independent check (dual verification, PRO‑003, FPA‑09)** was **bypassed** using a barcode “urgent override”【HO-08†3.1】.  
+- The patient developed **anaphylaxis at 21:17**, treated with **epinephrine 0.5 mg IM at 21:19 and 21:27**【HO-08†3.1】.  
+
+**Governance response**  
+- A **PSC review** was conducted on 2026‑05‑27【HO-08†3.1】.  
+- **Corrective actions** (recorded in the incident closure) included:  
+  1. **PRO‑003 version 2** (effective 2026‑07‑01) makes the barcode override a **hard stop**; the nursing check can no longer be bypassed for a first beta‑lactam dose in a patient with an allergy flag【HO-08†3.1】.  
+  2. **Unverified flags are to be treated as the worst credible reaction** (i.e., as confirmed anaphylaxis)【HO-08†3.1】.  
+  3. The **allergy record is upgraded to confirmed anaphylaxis**, an **allergy‑clinic referral** is required, and a **staff briefing** is mandated【HO-08†3.1】.  
+- The policy change is described in **HO‑02 §4.3**, which notes that the incident (PAT‑007, INC‑001) triggered the shift from a bypassable “urgent override” to a hard‑stop requirement【HO-02†4.3】.  
+- Supporting policy (MP‑07 §2.2) already states that **unverified, patient‑reported flags must",success,15.8715,1362,1000,2362,485,"[""HO-02"", ""HO-08"", ""MP-04"", ""MP-07"", ""PR-07""]",5,
+Q046,three_documents,"For PAT-009, reconstruct the renal-risk medication event and the subsequent safeguard.","PAT-009 had CKD with baseline creatinine 1.3 mg/dL/eGFR 40 and was taking lisinopril and furosemide; ibuprofen 600 mg three times daily was prescribed, followed by AKI stage 2 with peak creatinine 2.9 mg/dL. PRO-008 version 3 later made NSAID orders at eGFR below 60 a hard stop.","**Renal‑risk medication event (PAT‑009)**  
+- On 2026‑03‑05 the patient (CKD, baseline creatinine 1.3 mg/dL, eGFR 40 mL/min/1.73 m²) was prescribed ibuprofen (MED‑026) 600 mg three times daily while already taking lisinopril and furosemide.  
+- The PharmaSafe decision‑support alert for an NSAID in CKD was overridden as a “short course.”  
+- The patient developed AKI stage 2 (peak creatinine 2.9 mg/dL on 2026‑03‑23, 2.2 × baseline), required a 6‑day hospitalization, and later recovered to a new baseline creatinine of 1.4 mg/dL – classified as **serious harm**【HO-08†3.5】.  
+
+**Subsequent safeguard**  
+- Review of the incident led to an update of the dosing‑policy PRO‑008.  
+- Effective 2026‑05‑01, PRO‑008 version 3 makes any NSAID order when eGFR < 60 a **hard stop** that must be reviewed and approved by a second pharmacist, and NSAIDs were added to PAT‑009’s chart as “avoid”【HO-08†3.5】.  ",success,11.2801,1131,777,1908,474,"[""DG-03"", ""HO-08"", ""PR-06"", ""PR-07""]",5,
+Q047,three_documents,"For PAT-011, compare the missed first-discharge follow-up with the successful second-discharge follow-up.","After the first discharge on 2026-01-17, the call reached a wrong number, no second attempt occurred, the clinic visit was missed without outreach, and INR testing was not done within 72 hours. After the second discharge on 2026-02-08, the call occurred within 22.5 hours, INR was checked on 2026-02-10, and the clinic visit occurred on 2026-02-12.","**Missed first‑discharge follow‑up (after the 2026‑01‑17 discharge)**  
+* What happened – the discharge phone number was wrong, the only call (11:05 on 2026‑01‑19) reached a wrong line; the scheduled clinic visit on 2026‑01‑23 was not attended; the INR that was due by 2026‑01‑20 14:30 was never drawn. No second call attempt or outreach was made. The patient was readmitted 16 days later with an INR of 3.4, classified as a **serious** harm event【HO-08†3.6】.  
+* Policy check – the first‑discharge requirements (PRO‑016/FPA‑06 call within 48 h, visit within 7 days, PRO‑007/FPA‑05 INR within 72 h) were all **not met**【PR-08†7】.  
+
+**Successful second‑discharge follow‑up (after the 2026‑02‑08 discharge)**  
+* What happened – the patient was called back at 09:30 on 2026‑02‑09 (22 h 30 min after discharge), INR was drawn on 2026‑02‑10 (2.6, within target), and the clinic visit occurred on 2026‑02‑12 (4 days after discharge). All three obligations were satisfied【PR-08†3.4】.  
+* Policy check – for the second discharge the same follow‑up criteria (call, INR, visit) were **met**【PR-08†7】.  
+
+**Comparison**  
+*First discharge*: no successful call, missed clinic visit, no INR check → policy failure → serious readmission.  
+*Second discharge*: call completed within 24 h, INR checked within 72 h, clinic visit within 7 days → policy compliance → no further adverse event reported.  ",success,20.2084,1587,849,2436,426,"[""HO-08"", ""LD-02"", ""PR-08""]",5,
+Q048,three_documents,"For PAT-012, assess whether the recorded antibiotic stop timing matches the stewardship rule.",PAT-012's procalcitonin was 0.18 ng/mL on 2026-05-07 and the patient had been afebrile since 2026-05-06 06:00; antibiotics stopped after the day-5 dose on 2026-05-09. PRO-013 permits day-5 stopping when procalcitonin is below 0.25 ng/mL and afebrile status has lasted at least 48 hours.,"The record shows that PAT‑012’s antibiotics were stopped after the final dose on **2026‑05‑09 (day 5)**.  
+
+- The stewardship rule (PRO‑013) permits stopping at day 5 when the procalcitonin is < 0.25 ng/mL and the patient has been afebrile ≥48 h【PR-08†4.2 Course and stewardship decision】.  
+- PAT‑012 met both conditions (PCT 0.18 ng/mL on 2026‑05‑07; afebrile since 06:00 on 2026‑05‑06) and the stop was recorded on day 5【PR-08†4.2 Course and stewardship decision】.  
+- The compliance review confirms the stop rule was met for PAT‑012【PR-08†7. Policy Compliance Review】.  
+- The worked‑example table also lists PAT‑012 as “Met” for the procalcitonin stop rule with the same stop timing【HO-04†3.3 Worked examples】.
+
+**Conclusion:** The recorded antibiotic stop timing for PAT‑012 aligns with the stewardship rule.",success,13.0799,1361,477,1838,226,"[""HO-04"", ""LD-04"", ""MP-04"", ""PR-08""]",5,
+Q049,three_documents,"For PAT-013, explain the vancomycin level response and why the course was stopped.","The first level was 24.1 mg/L before dose four; because it exceeded 20 mg/L, the next dose was held and the interval extended. Only gram-negative organisms were identified, so IV vancomycin was stopped at 48 hours under PRO-013.","**Vancomycin level response**  
+- A serum vancomycin level of **24.1 mg/L** was drawn 30 minutes before the fourth dose (2026‑06‑19 16:40) – above the 20 mg/L trigger. The pharmacy therefore **held the fourth dose and changed the dosing interval to every 24 hours** (PR‑08, “Level” row; MP‑04, “Level timing” and dataset patient row).  
+
+**Why the course was stopped**  
+- After the cultures returned, **only gram‑negative Escherichia coli** was identified and no resistant gram‑positive organism was isolated (LD‑05, “Identification” and “Susceptibilities” rows).  
+- Stewardship policy states that IV vancomycin should be **stopped at 48 hours when cultures show no resistant gram‑positive organism** (MP‑04, “Stewardship” row; DG‑05, “De‑escalation” line 41‑42).  
+- Accordingly, vancomycin was **discontinued at 12:00 on 2026‑06‑20**, exactly 48 hours after initiation (PR‑08, “Final dose… stopped at 12:00”; LD‑05, “IV vancomycin was stopped at 12:00… once only gram‑negative organisms were identified”).  
+
+Thus, the elevated level prompted a dose hold and interval extension, and the absence of resistant gram‑positive pathogens led to stopping the vancomycin course at the 48‑hour stewardship checkpoint.",success,16.2458,1967,691,2658,347,"[""DG-05"", ""HO-04"", ""LD-05"", ""MP-04"", ""PR-08""]",5,
+Q050,three_documents,"For PAT-014, identify the cause of the levothyroxine issue and the relevant medication administration instruction.",PAT-014's mild levothyroxine under-absorption was associated with ferrous sulfate co-administration; the formulary monograph specifies separating the two medicines by at least 4 hours.,"**Cause of the levothyroxine issue for PAT‑014**  
+- Reduced levothyroxine absorption caused by co‑administration of ferrous sulfate (iron) – the iron was taken only 30 minutes after levothyroxine, leading to a rise in TSH (Evidence 5, PR‑08, “6.2 The levothyroxine problem”).
+
+**Medication‑administration instruction**  
+- Oral iron (ferrous sulfate) must be separated from levothyroxine by **at least 4 hours** (MediCore Policy FPA‑14). For PAT‑014 the schedule was changed to levothyroxine at 06:30 and ferrous sulfate at 14:00 (≈ 7.5 hours apart) (Evidence 5, PR‑08, “6.2 The levothyroxine problem”; also see Evidence 1, DG‑07, “3.4 Interactions” and Evidence 4, MP‑02, “MED‑024 Levothyroxine”).",success,12.3482,1041,370,1411,145,"[""DG-02"", ""DG-07"", ""MP-02"", ""PR-08""]",5,
+Q051,three_documents,"For PAT-005, combine the stroke pathway timing with the imaging report and the patient's allergy-related antiplatelet context.","The CT began 19 minutes after arrival and was read 6 minutes after scan start, meeting the version 2 20-minute door-to-CT and 10-minute read targets. The patient's NSAID/aspirin allergy flag is ALG-003; the named antiplatelet alternative is clopidogrel.",,error,30.1462,,,,,[],0,APITimeoutError: Request timed out.
+Q052,three_documents,"For PAT-002, integrate the NSTEMI presentation, serial hs-troponin trend, and chest-pain pathway timing.",PAT-002 presented with pressure-like chest discomfort radiating to the left arm. hs-Troponin was 48 ng/L at 0 hours and 112 ng/L at approximately 2 hours; the latter exceeded the 100 ng/L critical threshold and was phoned 10 minutes after verification. PRO-006 requires ECG within 10 minutes and hs-troponin at 0 and 2 hours.,,error,37.2752,,,,,[],0,APITimeoutError: Request timed out.
+Q053,three_documents,"For PAT-003, integrate the rapid-response trigger, lactate trajectory, sepsis-pathway timing, and ICU transfer to reconstruct the deterioration sequence.","On 2026-02-26, lactate was 3.4 mmol/L at 10:20 and repeated at 12:05 (1 hour 45 minutes later); the sepsis antibiotic was given in 53 minutes against the then-applicable 60-minute version 2 target. On 2026-02-27, respiratory rate 34 and MAP 58 triggered rapid response at 06:05, followed by ICU transfer at 06:30.",,error,33.9724,,,,,[],0,APITimeoutError: Request timed out.
+Q054,three_documents,"For PAT-006, determine whether the INR 6.8 event was both clinically consequential and a critical-result notification failure.","The INR reached 6.8 with gum bleeding and bruising, and warfarin was held; however, the laboratory called 16 minutes after verification, within the 20-minute critical-result target. The documented failure was the absent INR recheck plan before ciprofloxacin, not late laboratory notification.","**Clinically consequential?**  
+Yes. The INR rise to 6.8 produced **temporary harm** (gum bleeding, bruising, warfarin held) 【HO-08†3.3】.  
+
+**Critical‑result notification failure?**  
+No. The critical INR result was **phoned to the clinic physician 16 minutes after verification** (within the 20‑minute requirement) and the patient was called **2 h 45 min later** (within the 24‑hour requirement)【HO-04†2.3】【PR-06†8.1】. The failure was the **absence of a mandatory INR re‑check plan**, not a failure to notify the result.  
+
+**Conclusion:** For PAT‑006 the INR 6.8 event was clinically consequential, but it was **not** a critical‑result notification failure.",success,26.0744,1732,643,2375,452,"[""DG-05"", ""HO-04"", ""HO-08"", ""MP-07"", ""PR-06""]",5,
+Q055,three_documents,"For PAT-001, explain why the notification deviation did not imply documented patient harm.","Potassium was 6.4 mmol/L and the notification was 36 minutes after verification, exceeding the 20-minute target; HO-08 classifies the incident as no harm because the patient was already monitored after the ECG at 07:50.",,error,30.5672,,,,,[],0,APITimeoutError: Request timed out.
+Q056,three_documents,"For PAT-003, compare the time of positive blood-culture notification with the later C. difficile notification, and distinguish the latter laboratory call from the downstream isolation delay.","The positive blood-culture bottle was verified at 04:10 and called at 04:18 (8 minutes); the C. difficile result was verified at 08:40 and called at 08:52 (12 minutes). Both laboratory calls met the 20-minute PRO-009 target. However, contact-enteric precautions began at 15:25, 6 hours 45 minutes after C. difficile verification.","- **Positive blood‑culture notification** – The blood‑culture bottle for PAT‑003 turned positive at **04:10** and the laboratory called the ward at **04:18** (8 min after verification)【HO-05†2.5】.  
+
+- **Later C. difficile notification** – The C. difficile result was verified at **08:40** and the laboratory phoned the ward nurse at **08:52** (12 min after verification)【HO-05†2.5】【LD-05†3.2】.  
+
+- **Time comparison** – The C. difficile laboratory call occurred **≈4 hours 34 minutes after** the blood‑culture call (04:18 → 08:52).  
+
+- **Laboratory call vs. downstream isolation delay** –  
+  * The laboratory call for C. difficile was **compliant** with the 20‑minute policy (08:52)【HO-05†2.5】【LD-05†3.2】.  
+  * **Isolation precautions** were not started until **15:25**, i.e., **6 hours 45 minutes after verification** (08:40)【HO-08†3.4】【HO-06†6】. This delay (INC‑004) resulted from the ward waiting for Infection‑Prevention confirmation, not from the laboratory call itself.  
+
+Thus, the blood‑culture notification was at 04:18, the C. difficile laboratory call at 08:52, and the subsequent isolation delay (INC‑004) was a separate downstream event that began many hours later.",success,10.0932,1609,676,2285,312,"[""HO-05"", ""HO-06"", ""HO-08"", ""LD-05""]",5,
+Q057,two_documents,"For PAT-013, compare sepsis antibiotic timing with the current version 3 requirement and explain the repeat-lactate schedule.","PAT-013 received the first antibiotic 42 minutes after the 04:10 alert, meeting the 50-minute version 3 target. Lactate was 3.0 mmol/L at 04:20 and repeated at 05:50, within 2 hours because the initial value exceeded 2.5 mmol/L.","**Antibiotic timing for PAT‑013**
+
+- The sepsis alert was triggered at 04:10.  
+- The first antibiotic (piperacillin‑tazobactam) was given at 04:52 – **42 minutes** after the alert【Evidence 5†5.1】.  
+
+**Version 3 requirement**
+
+- Version 3 of the sepsis bundle requires the first antibiotic to be administered **within 50 minutes** of the alert【Evidence 3†2.2】.  
+
+**Comparison**
+
+- PAT‑013 received antibiotics **8 minutes faster** than the 50‑minute target, so the requirement was met (and exceeded)【Evidence 5†5.1】.
+
+**Repeat‑lactate schedule**
+
+- Initial lactate drawn at 04:20 was **3.0 mmol/L**, which is above the 2.5 mmol/L threshold that triggers a repeat measurement【Evidence 5†5.1】.  
+- The protocol mandates a repeat lactate **within 2 hours** of the first value【Evidence 3†2.2】.  
+- A repeat lactate was obtained at 05:50 (1 hour 30 minutes after the first), giving a result of 1.7 mmol/L【Evidence 5†5.1】, thus satisfying the 2‑hour rule.  
+
+**Summary**
+
+- PAT‑013’s antibiotic was given 42 min after the alert, comfortably meeting the version 3 50‑min target.  
+- Because the initial lactate exceeded 2.5 mmol/L, a repeat was required; it was performed at 05:50, well within the mandated 2‑hour window.",success,12.6578,1854,682,2536,306,"[""HO-03"", ""LD-04"", ""PR-03"", ""PR-08""]",5,
+Q058,three_documents,"For PAT-001, relate the potassium event to the documented drug combination and the guideline hold threshold.",The recorded event involved lisinopril with spironolactone during dehydration and potassium 6.4 mmol/L; DG-01 says to hold spironolactone and the ACE inhibitor if potassium reaches 5.5 mmol/L or higher.,"- **Potassium event:** PAT‑001 had a verified potassium of **6.4 mmol/L** (HO‑08, §3.2).  
+- **Drug combination present:** The patient was taking **lisinopril (MED‑004) together with spironolactone (MED‑008)** – a pair identified as a major hyper‑kalaemia risk in CKD (MP‑06, §3, row 2) and noted in the case description (DG‑03, §5.3).  
+- **Guideline hold threshold:** DG‑01 §4.3 states that **spironolactone and an ACE‑inhibitor must be held when potassium reaches ≥ 5.5 mmol/L**.  
+
+**Relation:** The potassium value of 6.4 mmol/L far exceeds the 5.5 mmol/L hold threshold, triggering the guideline‑directed hold of both lisinopril and spironolactone for PAT‑001 (DG‑03, §5.3; DG‑01, §4.3).",success,10.9375,2375,788,3163,545,"[""DG-01"", ""DG-03"", ""HO-08"", ""LD-06"", ""MP-06""]",5,
+Q059,three_documents,"For PAT-008, what prior reaction constrains ACE-inhibitor treatment and what alternative-agent caution is documented?",PAT-008 has a history of ACE-inhibitor-associated angioedema (ALG-004); lisinopril is contraindicated and related receptor-blocking agents require caution and specialist review.,"- **Prior reaction that blocks ACE‑inhibitor use:** PAT‑008 has a documented episode of **ACE‑inhibitor‑associated angioedema** (lip, tongue or airway swelling) 【MP-07†2.1】. This history makes any ACE‑inhibitor (MED‑004) an absolute contraindication 【MP-01†3】.  
+
+- **Alternative‑agent caution:** Because angioedema can recur with drugs that act on the same pathway, **related receptor‑blocking agents (e.g., ARBs) must be used with caution and require specialist review** 【DG-01†3.3】, as reiterated in the ACE‑inhibitor decision guidance 【PR-07†4.3】.  ",success,11.8642,1599,432,2031,260,"[""DG-01"", ""LD-06"", ""MP-01"", ""MP-07"", ""PR-07""]",5,
+Q060,three_documents,"For PAT-010, identify the recorded medication combination associated with the upper GI bleed and the guideline requirement for reviewing these exposures during assessment.",The dataset records an upper GI bleed associated with ibuprofen and aspirin with sertraline; DG-07's upper-GI-bleeding section addresses management of antithrombotic drugs during bleeding.,"- **Recorded medication combination linked to the upper‑GI bleed for PAT‑010:**  
+  *Ibuprofen + aspirin + sertraline*【Document MP-07, Section 3.3 ADRs recorded in the dataset】.  
+
+- **Guideline requirement for reviewing these exposures during assessment:**  
+  At each admission, discharge, and periodic outpatient review, every medication pair must be checked against the interaction guidance in **MP‑06** (the “major triple‑combination” rule) as part of the MediCore reconciliation protocol (PRO‑001, HO‑02)【Document DG-08, Section 5.2 Method】.",success,11.5274,1419,431,1850,283,"[""DG-08"", ""MP-02"", ""MP-03"", ""MP-07"", ""PR-07""]",5,
+Q061,three_documents,"For PAT-003, verify whether the blood-culture collection sequence aligned with the sepsis bundle and specimen protocol.",The bundle calls for blood cultures before the first antibiotic where feasible; PRO-014 likewise requires two sets from separate sites before antibiotics where feasible. The patient chart and microbiology record document the collection and positive culture sequence.,"**Finding**
+
+The blood‑culture for PAT‑003 was collected and reported in accordance with the sepsis‑bundle and specimen‑protocol requirements.
+
+**Evidence**
+
+- **HO‑04, Section 2.5 (Results recorded in the dataset)** records a positive blood‑culture bottle for PAT‑003 on 2026‑02‑27 (bottle positive 04:10). The result was called at 04:18, an 8‑minute interval, and the entry is marked **“Met”** for compliance. This indicates that the blood‑culture collection and reporting satisfied the timing rules of the sepsis bundle and specimen protocol.  
+
+**Conclusion**
+
+Based on the documented “Met” compliance for the blood‑culture result, the collection sequence for PAT‑003 aligned with the sepsis bundle and specimen protocol. No evidence contradicts this alignment.",success,13.049,1378,475,1853,291,"[""HO-03"", ""HO-05"", ""LD-04"", ""PR-03"", ""PR-08""]",5,
+Q062,three_documents,"For PAT-006, identify the antibiotic-warfarin interaction severity and the required pre-dose monitoring safeguard.",The interaction matrix classifies ciprofloxacin with warfarin as a Major interaction; PRO-007 requires a written INR recheck plan before the first dose of an interacting drug and an INR within 3 days.,"**Interaction severity:** Major – the ciprofloxacin (MED‑020) – warfarin (MED‑013) pair is rated “Major” in the pairwise interaction table (MP‑06, Section 3) and is described as a “Major” interaction in the ciprofloxacin monograph (MP‑04, Section 7).
+
+**Pre‑dose monitoring safeguard:** A written INR‑recheck plan must be in place before the first dose of the interacting antibiotic is given (PRO‑007). The warfarin entry notes that “a written INR recheck plan is required before the interacting drug is first given” (MP‑03, Section 6).",success,12.1532,2796,409,3205,253,"[""HO-08"", ""LD-05"", ""MP-03"", ""MP-04"", ""MP-06""]",5,
+Q063,three_documents,"For PAT-007, distinguish the allergy classification from the severity grading of the resulting incident.","The penicillin allergy is ALG-001 with anaphylaxis confirmed after the event; INC-001 is classified as serious harm because ICU observation was required for 24 hours, and the patient recovered.","- **Allergy classification** – PAT‑007’s allergy is recorded under **ALG‑001**, the class for *penicillins and aminopenicillins* (see MP‑07, §2.1)【Document ID: MP-07, Section: 2.1 Definitions and rules】. The patient’s record was later upgraded to an anaphylactic reaction (ALG‑001, severity upgraded)【Document ID: PR-07, Section: 3. PAT-007】.  
+
+- **Severity grading of the incident** – The adverse‑drug reaction (anaphylaxis to amoxicillin‑clavulanate) is graded **Severe** in the dataset (see MP‑07, §3.3)【Document ID: MP-07, Section: 3.3 ADRs recorded in the dataset】. The incident report also describes the harm as **Serious** (ICU observation)【Document ID: HO-08, Section: 3.1 INC-001】.  
+
+Thus, the allergy is classified by its **allergen class (ALG‑001 – penicillins)**, while the resulting incident is graded by its **severity (Severe/Serious)**.",success,14.5482,1596,477,2073,215,"[""HO-08"", ""MP-07"", ""PR-07""]",5,
+Q064,three_documents,"For PAT-009, compare the patient-specific eGFR with the hard-stop threshold and the incident's reported harm category.","The patient had eGFR 40, below the PRO-008 NSAID hard-stop threshold of 60; ibuprofen exposure was followed by AKI stage 2 and hospitalization, classified as serious harm in INC-005.","- **Patient‑specific eGFR:** 40 mL/min/1.73 m² (baseline on 2026‑03‑05)【LD-03†6】.  
+- **Hard‑stop threshold for NSAIDs:** an order at eGFR < 60 mL/min/1.73 m² is a hard stop【HO-02†5】.  
+- **Comparison:** 40 < 60, so the patient’s eGFR was below the hard‑stop threshold.  
+- **Reported harm category:** The incident was recorded as **Serious** (hospitalization for 6 days)【HO-08†3.5】.",success,17.6804,1735,442,2177,287,"[""DG-03"", ""HO-02"", ""HO-08"", ""LD-03"", ""PR-07""]",5,
+Q065,three_documents,"For PAT-011, reconstruct the first-discharge follow-up failure using the patient chart, discharge standard, and incident review.","The patient was discharged 2026-01-17 at 14:30; a wrong-number call occurred with no second attempt, the 2026-01-23 clinic visit was missed without outreach, and the INR deadline of 2026-01-20 14:30 was missed. HO-08 records this as INC-006 and the follow-up failure.","**First‑discharge follow‑up failure for PAT‑011**
+
+| Required step (per discharge standard) | What should have happened | What actually happened | Evidence of failure |
+|---|---|---|---|
+| Telephone call within 48 h (PRO‑016 / FPA‑06) | Call to the patient by 2026‑01‑19 | The discharge phone number had two digits transposed; the only call made at 11:05 on 2026‑01‑19 reached a wrong number and no second attempt was made. | HO‑08 §3.6 INC‑006【HO-08】 |
+| Clinic visit within 7 days (PRO‑016 / FPA‑06) | Visit scheduled for ≤ 2026‑01‑24 | The scheduled clinic visit on 2026‑01‑23 was missed and no outreach was performed. | HO‑08 §3.6 INC‑006【HO-08】 |
+| INR check within 72 h (PRO‑007 / FPA‑05, because the patient is on warfarin) | INR drawn by 2026‑01‑20 14:30 | No INR was drawn within the required 72 h after the first discharge (2026‑01‑17). The next INR was only obtained on readmission (2026‑02‑02). | LD‑02 §6 PAT‑011【LD-02】; PR‑08 §7 Policy Compliance Review (first discharge)【PR-08】 |
+
+**Result of the failure**  
+* The patient was readmitted 16 days after discharge (2026‑02‑02) with an INR of 3.4, classified as a **Serious** harm event. | HO‑08 §3.6 INC‑006【HO-08】 |
+
+**Summary**  
+During the first discharge (2026‑01‑17) the three mandated post‑discharge actions—48‑hour telephone call, 7‑day clinic visit, and 72‑hour INR check—were all missed: the phone number error prevented the call, no backup call or emergency‑contact outreach was attempted, the clinic appointment was not attended, and the INR test was never performed. This cascade of omissions led to a serious readmission.",success,14.7426,1471,960,2431,467,"[""DG-01"", ""HO-08"", ""LD-02"", ""PR-01"", ""PR-08""]",5,
+Q066,three_documents,"For PAT-003, explain why the C. difficile laboratory call met policy while the isolation process did not.","The lab called the ward nurse 12 minutes after verification, within PRO-009's 20-minute limit. Under PRO-012 version 1, the ward waited for Infection Control confirmation and precautions began 6 hours 45 minutes after verification; version 2 changed the trigger to immediate ward-nurse initiation on the lab call.","**What happened**
+
+* **Laboratory call** – The C. difficile result was verified at 08:40 and the laboratory phoned the ward nurse at 08:52, i.e., 12 minutes later. The dataset records this as **“Met (laboratory call)”**【HO-05†2.5】. The call therefore satisfied the 20‑minute telephone‑notification policy for critical results【LD-05†3.2】.
+
+* **Isolation process** – Precautions were not begun until 15:25, which is **6 hours 45 minutes after verification**【HO-08†3.4】. This delay is logged as **INC‑004** and is described as “Delayed isolation for C. difficile (PAT‑003)”【LD-05†3.2】.
+
+**Why the outcomes differ**
+
+* The lab call complied with the policy because it was made within the required time window (12 min < 20 min)【HO-05†2.5】【LD-05†3.2】.  
+* The isolation did not comply because the ward waited for Infection‑Prevention confirmation before starting contact‑enteric precautions, resulting in a 6 h 45 min lag【HO-08†3.4】【LD-05†3.2】. This procedural step is outside the isolation rule that requires immediate precaution initiation on receipt of a critical C. difficile result.  
+
+Thus, the laboratory notification met the timing policy, whereas the subsequent isolation action failed to meet the isolation policy due to the delayed start of precautions.",success,16.8416,1579,629,2208,279,"[""HO-05"", ""HO-08"", ""LD-05"", ""PR-03""]",5,
+Q067,three_documents,"For PAT-012, determine which evidence supports day-5 antibiotic discontinuation rather than relying on pneumonia diagnosis alone.",The record reports procalcitonin 0.18 ng/mL and afebrile status since 2026-05-06 06:00; stewardship's day-5 stop rule requires procalcitonin below 0.25 ng/mL and at least 48 hours afebrile. Antibiotics stopped after the 2026-05-09 dose.,"The decision to stop antibiotics after 5 days for PAT‑012 is backed by the following pieces of evidence, which go beyond the simple diagnosis of non‑severe pneumonia:
+
+* **PR‑08, Section 4.2** – States that the patient was afebrile for ≥ 48 h and that the procalcitonin on 2026‑05‑07 was **0.18 ng/mL**, i.e., below the 0.25 ng/mL stewardship stop value (HO‑04). Because both conditions were met, antibiotics were stopped on day 5 (2026‑05‑09)【PR-08, 4.2】.  
+* **LD‑04, Section 5.2** – Provides the laboratory values that underpin the stewardship rule: procalcitonin 0.42 ng/mL on 2026‑05‑05 (above the stop threshold) and **0.18 ng/mL on 2026‑05‑07** (below the threshold)【LD-04, 5.2】.  
+* **DG‑05, Section 4** – Summarizes the reference guideline for non‑severe community‑acquired pneumonia: a **minimum of 5 days** of therapy is required **if the patient is afebrile and clinically stable for 48 hours**【DG-05, 4】. This guideline is the basis for the stewardship rule applied in PR‑08.
+
+Together, these documents show that the day‑5 discontinuation was justified by meeting the clinical‑stability and procalcitonin criteria, not merely by the pneumonia diagnosis itself.",success,13.3542,1088,527,1615,170,"[""DG-04"", ""DG-05"", ""LD-04"", ""LD-07"", ""PR-08""]",5,
+Q068,three_documents,"For PAT-013, explain the relationship between culture findings, vancomycin monitoring, and de-escalation/stop decision.","The vancomycin level was 24.1 mg/L before dose four, prompting the next dose to be held and interval extended; cultures identified only gram-negative organisms, and PRO-013 requires IV vancomycin to stop at 48 hours when no resistant gram-positive organism is identified.","**Culture findings → vancomycin monitoring → de‑escalation/stop decision for PAT‑013**
+
+1. **Culture results** – Blood and urine cultures grew only **gram‑negative bacilli**, later identified as **Escherichia coli** (susceptible to piperacillin‑tazobactam and ceftriaxone) and no resistant gram‑positive organism was isolated【Evidence 3†L63-L73】.  
+
+2. **Vancomycin level monitoring** – The first vancomycin trough was drawn **before the fourth dose** as required (MP‑04) and measured **24.1 mg/L**, which is **above the 20 mg/L threshold** that triggers a hold of the next dose and extension of the dosing interval【Evidence 2†L58-L71】【Evidence 4†L74-L81】.  
+
+3. **Stewardship rule for stopping vancomycin** – Policy states that **IV vancomycin must be stopped at 48 hours if cultures show no resistant gram‑positive organism** (HO‑04) and that a 48‑hour stewardship review is performed for all broad‑spectrum agents【Evidence 5†L62-L72】.  
+
+4. **Application to PAT‑013** – Because the cultures revealed only gram‑negative E. coli and no resistant gram‑positive pathogen, the 48‑hour rule was applied: vancomycin was **stopped at 12:00 on 2026‑06‑20 (48 h after start)**【Evidence 3†L63-L73】【Evidence 1†L41-L42】. The elevated level (24.1 mg/L) had already prompted a dose hold and interval extension, and the culture result provided the clinical justification for the final stop and transition to a targeted agent (ceftriaxone)【Evidence 4†L74-L81】.  
+
+**Inference:** The combination of (a) a documented lack of resistant gram‑positive organisms in cultures and (b) a monitored vancomycin level exceeding the safety threshold led stewardship to hold the dose, extend the interval, and then discontinue vancomycin at the mandated 48‑hour review, completing the de‑escalation process.",success,19.323,1762,922,2684,435,"[""DG-05"", ""HO-04"", ""LD-05"", ""MP-04""]",5,
+Q069,three_documents,"For PAT-014, combine the anemia work-up with the levothyroxine interaction and the recorded response.","PAT-014's iron-deficiency anemia was treated with ferrous sulfate; co-administration was associated with mild levothyroxine under-absorption, and the recorded management was to separate dosing times.","**Anemia work‑up for PAT‑014**  
+- The patient has iron‑deficiency anemia (DIS‑018).  Monitoring for this condition is defined for ferrous‑sulfate (MED‑031) as *hemoglobin* (LAB‑001) at 4 weeks and *ferritin* (LAB‑025) at 3 months【5†L98-L109】.  
+
+**Levothyroxine–ferrous‑sulfate interaction**  
+- Ferrous sulfate markedly reduces levothyroxine (MED‑024) absorption; the policy requires the two drugs be taken **at least 4 hours apart**【2†L38-L39】【5†L106-L108】.  
+
+**Recorded response in PAT‑014**  
+- Baseline TSH was 2.4 mIU/L.  When ferrous sulfate was taken ≈30 min after levothyroxine, TSH rose to 8.9 mIU/L, indicating impaired absorption.  After separating the doses by the recommended interval, TSH fell to 3.2 mIU/L, confirming the interaction rather than disease progression【4†L102-L103】.  
+
+**Combined picture**  
+- The anemia work‑up (serial hemoglobin and ferritin) guides iron therapy, but co‑administration with levothyroxine without the required 4‑hour gap caused a transient TSH elevation, which resolved when dosing times were separated as per the interaction guideline.  ",success,14.6756,1134,571,1705,248,"[""DG-02"", ""DG-07"", ""MP-02"", ""MP-07"", ""PR-08""]",5,
+Q070,three_documents,"For PAT-002, reconcile the critical troponin result with the notification and ACS pathway timing.","The hs-troponin was 112 ng/L (critical threshold at least 100 ng/L); it was verified at 00:10 and called at 00:20, while PRO-006 requires ECG within 10 minutes and troponin draws at 0 and 2 hours.","**Critical troponin result**
+
+- The 2‑hour hs‑troponin draw was verified at **00:10** with a value of **112 ng/L** (≥ 100 ng/L, therefore a critical result)【1†L77-L84】.  
+- The result was **phoned to the cardiology fellow at 00:20**, i.e., **10 minutes after verification**【1†L85-L88】.  
+
+**Notification requirement**
+
+- PRO‑009 requires a critical troponin to be called **within 20 minutes of verification**【2†L60-L66】.  
+- The dataset shows the interval for PAT‑002 was **10 minutes and marked “Met”**【3†L47-L53】.  
+
+**ACS pathway timing**
+
+- ECG was performed at **21:22**, **7 minutes after arrival**, satisfying the “ECG within 10 minutes” rule【1†L77-L80】【2†L60-L62】.  
+- hs‑troponin draws occurred at **0 h (21:40)** and **2 h (23:42)**, a **2 h 02 min interval**, which is acceptable under the “0 and 2 hour series” requirement【1†L81-L84】【2†L62-L64】.  
+- The critical result notification (00:20) occurred **within the 20‑minute window**, meeting the pathway’s critical‑result step【2†L64-L66】.  
+
+**Reconciliation**
+
+- The critical troponin (112 ng/L) was identified, verified, and communicated to the cardiology fellow **10 minutes after verification**, well within the mandated 20‑minute window.  
+- All timing checkpoints of the ACS pathway (ECG ≤10 min, troponin draws at 0 h and ~2 h, critical‑result call ≤20 min) were met for PAT‑002, indicating full compliance with the pathway.  
+
+*Facts are taken directly from the cited documents; the conclusion that the pathway timing was met is an inference based on those facts.*",success,16.9591,1698,794,2492,333,"[""DG-01"", ""HO-03"", ""HO-05"", ""LD-06"", ""PR-02""]",5,
+Q071,four_plus_documents,"For PAT-006, reconstruct the complete ciprofloxacin–warfarin safety failure, including the patient's baseline/peak INR, interaction severity, notification performance, and policy correction.","Ciprofloxacin was started 2025-10-21 while PAT-006 was on warfarin; INR rose from 2.4 to 6.8 by 2025-10-26, with gum bleeding and bruising. MP-06 identifies the combination as a Major interaction. The critical INR call occurred 16 minutes after verification, meeting PRO-009; the failure was the absent INR recheck plan, which PRO-007 version 2 made mandatory from 2025-12-01.","**Ciprofloxacin – warfarin safety failure for PAT‑006**
+
+| Element | Details | Source |
+|---|---|---|
+| **Baseline INR (pre‑interaction)** | 2.4 (the patient’s INR before ciprofloxacin was started) | 【HO-08†3.3】 |
+| **Peak INR (after interaction)** | 6.8 (recorded on 2025‑10‑26) | 【HO-08†3.3】; also listed in the patient dataset 【MP-03†6】 |
+| **Interaction severity** | **Major** – ciprofloxacin is classified as a major interaction that raises INR in warfarin‑treated patients | 【MP-03†6】; 【MP-04†7】 |
+| **Notification performance** | • A PharmaSafe **Major** drug‑interaction alert fired at 17:32 on 2025‑10‑21. <br>• The alert was **overridden** with free‑text “will monitor” and **no written INR re‑check plan** was created. | 【HO-08†3.3】 |
+| **Policy correction** | • PRO‑007 (the “INR re‑check plan” policy) was revised to **version 2**, effective 2025‑12‑01. <br>• The new version makes the INR re‑check plan **structured and mandatory**; the INR test is auto‑ordered to occur within 3 days of starting a interacting drug. | 【HO-08†3.3】 |
+
+**Summary** – PAT‑006 was started on ciprofloxacin on 2025‑10‑21 while on warfarin. The system generated a major interaction alert, but the clinician overrode it without documenting the required INR re‑check plan. The patient’s INR rose from a baseline of 2.4 to a peak of 6.8, causing temporary bleeding harm. The failure prompted a policy update (PRO‑007 v2) that now enforces a mandatory, structured INR re‑check order for such high‑risk combinations.",success,17.6,1644,994,2638,543,"[""DG-05"", ""HO-08"", ""LD-05"", ""MP-03"", ""MP-04""]",5,
+Q072,four_plus_documents,"For PAT-003, audit the sepsis-to-isolation episode across the chart, lab, microbiology, pathway, and governance records.","On 2026-02-26, PRO-004 version 2 applied a 60-minute antibiotic target; PAT-003 received antibiotics in 53 minutes and had lactate 3.4 mmol/L repeated within 2 hours. Later, C. difficile was positive on 2026-03-07; the laboratory called in 12 minutes, but contact-enteric precautions began 6 hours 45 minutes after verification under version 1. INC-004 prompted version 2 immediate nurse-initiated precautions.","**Audit of PAT‑003 – Sepsis‑to‑Isolation Episode**
+
+| Domain | Findings (facts) | Inferred compliance / gaps |
+|--------|------------------|----------------------------|
+| **Chart (PR‑03)** | The admission (2026‑02‑26 → 2026‑03‑16) progressed from COPD exacerbation → community‑acquired pneumonia → sepsis → ICU care → hospital‑onset C. difficile infection【PR‑03†2. Purpose and Scope】. | Provides the overall timeline that links the sepsis event to the later isolation need. |
+| **Laboratory (LD‑04)** | • Lactate 3.4 mmol/L at 10:20 (verified 10:42) and repeat lactate 2.1 mmol/L at 12:05 (verified 12:30) – repeat performed within the 2‑hour rule of PRO‑004【LD‑04†5.1】.<br>• Procalcitonin 12.6 ng/mL and CRP 214 mg/L on admission; subsequent CRP trends recorded through 2026‑03‑05【LD‑04†5.1】. | Lab work was timely and met the repeat‑lactate requirement, supporting appropriate sepsis monitoring. |
+| **Microbiology (HO‑08 §3.4)** | Positive C. difficile result verified at 08:40 on 2026‑03‑07; laboratory called ward nurse at 08:52 (call compliant)【HO‑08†3.4】.<br>Infection‑Prevention notified at 14:50; contact‑enteric precautions started at 15:25 – **6 h 45 m after verification**【HO‑08†3.4】.",success,18.4866,1365,1000,2365,605,"[""DG-04"", ""HO-08"", ""LD-04"", ""PR-03""]",5,
+Q073,four_plus_documents,"For PAT-007, assess the allergy-safety chain from recorded flag through prescribing and administration to incident remediation.","The chart recorded a patient-reported, unverified penicillin rash flag; MP-07 classifies penicillins as ALG-001 and says unverified flags are treated as the worst credible reaction. Amoxicillin-clavulanate was administered, followed by anaphylaxis requiring epinephrine and ICU observation. The nursing dual check was bypassed; PRO-003 version 2 later made the urgent override a hard stop.","**Allergy‑safety chain for PAT‑007**
+
+| Step | What the evidence shows (facts) | Inferred contribution to the incident |
+|------|--------------------------------|---------------------------------------|
+| **Allergy flag recorded** | An **ALG‑001** flag was entered as “rash, patient‑reported, unverified” (HO‑08 §3.1 INC‑001)【HO-08†27-37】. | Because the flag was *unverified* and described only a low‑severity rash, staff treated it as low risk (see Findings)【HO-08†27-37】. |
+| **Allergy rule applied** | MP‑07 §2.2 states that *unverified, patient‑reported* flags must be treated as the **worst credible reaction** and must not be considered low risk (DG‑07)【MP-07†29-37】. | The staff’s decision to treat the flag as low risk contradicted this rule, allowing a beta‑lactam to be prescribed. |
+| **Prescribing** | The order for **amoxicillin‑clavulanate (MED‑016)** was placed and **pharmacist‑verified at 20:48**【HO-08†27-37】. | Pharmacist verification alone did not catch the allergy risk because the flag was mis‑interpreted. |
+| **Administration – nursing check** | The required **dual‑verification nursing independent check (PRO‑003, FPA‑09)** was **bypassed with a barcode “urgent override”**【HO-08†27-37】. |
+| **System allowance for bypass** | In **PRO‑003 version 1 (to 2026‑06‑30)** the urgent override could bypass the nursing check if urgency was documented【HO-02†45-46】. |
+| **Adverse event** | The drug was given at 21:05; **anaphylaxis occurred at 21:17**, requiring epinephrine and ICU observation【HO-08†27-37】. |
+| **Remediation** | • **PRO‑003 version 2** (effective 2026‑07‑01) makes the override a **hard stop**; nursing check can no longer be bypassed for a first beta‑lactam dose in a patient with an allergy flag【HO-02†45-46】. <br>• Unverified flags are now **treated as the worst credible reaction**【HO-08†27-37】. <br>• The allergy record for PAT‑007 was **upgraded to confirmed anaphylaxis**, with **allergy‑clinic referral** and a **staff briefing**【HO-08†27-37】. |
+| **Outcome** | Incident closed on 2026‑08‑12【HO-08†27-37】. |
+
+**Assessment**  
+The chain broke at two points: (1) the **mis‑classification of an unverified rash as low risk**, contrary to the rule that unverified flags must be treated as the most serious possible reaction (MP‑07 §2.2); and (2) the **allowance",success,18.6829,1514,1000,2514,329,"[""HO-02"", ""HO-08"", ""MP-07"", ""PR-07""]",5,
+Q074,four_plus_documents,"For PAT-009, evaluate the March 2026 medication-related AKI event against the laboratory trajectory and interaction matrix, then identify the later renal-policy change made after the incident.","PAT-009 had CKD with eGFR 40 and was taking lisinopril and furosemide; ibuprofen 600 mg three times daily was prescribed after an alert override. Creatinine rose from 1.3 to 2.9 mg/dL (2.2 times baseline), consistent with the charted stage 2 AKI. The interaction matrix flags NSAID exposure with ACE inhibitor/diuretic risk, The later PRO-008 version 3, effective 2026-05-01 after this March event, introduced a hard stop for NSAID orders at eGFR below 60.","**Evaluation of the March 2026 medication‑related AKI**
+
+| Aspect | Evidence |
+|--------|----------|
+| **Laboratory trajectory** – Baseline creatinine 1.3 mg/dL (eGFR 40) on 2026‑03‑05, rising to 2.9 mg/dL (eGFR 15) on 2026‑03‑23 (2.2 × baseline) and then falling to a new baseline of 1.4 mg/dL by 2026‑04‑14. This pattern meets the definition of AKI Stage 2 (≥2‑<3 × baseline). | LD‑03, §6 (lines 82‑93) |
+| **Interaction matrix / known nephrotoxin hazard** – Ibuprofen (NSAID) was prescribed together with lisinopril (ACE‑inhibitor) and furosemide (diuretic), the “triple combination” identified as a high‑risk nephrotoxin scenario for CKD patients. | HO‑08, §3.5 (lines 75‑85); DG‑04, §4.3 (lines 60‑64) |
+| **Policy compliance** – The PRO‑008 renal‑tier alert for NSAIDs at eGFR < 60 was overridden, so the required second pharmacist check was not performed. | PR‑07, §7 (lines 132‑140) |
+
+**Later renal‑policy change**
+
+After the incident, PRO‑008 was revised (Version 3, effective 2026‑05‑01) to make an NSAID order at eGFR < 60 a **hard stop** that requires a second pharmacist verification, and NSAIDs were added to the patient’s chart as “avoid”. | HO‑08, §3.5 (lines 75‑85) |
+
+**Summary**
+
+The March 2026 AKI in PAT‑009 is confirmed by the laboratory rise to 2.9 mg/dL (AKI Stage 2) and is consistent with the interaction matrix that flags the NSAID + ACE‑inhibitor + diuretic “triple combination” as a nephrotoxic risk. The subsequent policy amendment (PRO‑008 v3, hard‑stop at eGFR < 60) was instituted on 2026‑05‑01 to prevent repeat occurrences.",success,18.3736,1461,947,2408,429,"[""DG-03"", ""DG-08"", ""HO-08"", ""LD-03"", ""PR-07""]",5,
+Q075,four_plus_documents,"For PAT-011, determine whether the first discharge met each follow-up obligation and how the later admission and second discharge differed.","After discharge on 2026-01-17 at 14:30, the phone call reached a wrong number, no second attempt was made, the clinic visit was missed without outreach, and INR testing was not completed within 72 hours. The patient was readmitted on 2026-02-02 with INR 3.4; after the second discharge on 2026-02-08, the call, INR check, and clinic visit were completed within their deadlines. HO-08 records INC-006 and the version 2 follow-up changes.","**First discharge (2026‑01‑17 14:30)**  
+
+| Follow‑up obligation | Requirement | What happened | Result |
+|----------------------|-------------|---------------|--------|
+| Call to patient | Within 48 h (by 2026‑01‑19 14:30) | Wrong number was called at 11:05 2026‑01‑19; no second attempt | **Not met** – recorded as INC‑006【HO-04†3.4】 |
+| Home‑visit | Within 7 days (by 2026‑01‑24 14:30) | Patient no‑show on 2026‑01‑23; visit not completed | **Not met** – noted in the compliance review【PR-08†7】 |
+| INR re‑check (warfarin) | Within 72 h of discharge (by 2026‑01‑20 14:30) | No INR drawn in that window (first INR after discharge was on 2026‑02‑10) | **Not met** – flagged as INC‑006【HO-04†3.4】【PR-08†7】 |
+
+**Later admission**  
+
+* PAT‑011 was readmitted on 2026‑02‑02, 16 days after the first discharge【HO-04†3.4】.  
+
+**Second discharge (2026‑02‑08 11:00)**  
+
+| Follow‑up obligation | Requirement | What happened | Result |
+|----------------------|-------------|---------------|--------|
+| Call to patient | Within 48 h (by 2026‑02‑10 11:00) | Call placed 2026‑02‑09 09:30 (22 h 30 min) | **Met**【HO-04†3.4】 |
+| Home‑visit | Within 7 days (by 2026‑02‑15 11:00) | Visit completed on 2026‑02‑12 (day 4) | **Met**【HO-04†3.4】 |
+| INR re‑check | Within 72 h of discharge (by 2026‑02‑11 11:00) | INR drawn on 2026‑02‑10 (2.6) – day 2 | **Met**【HO-04†3.4】【PR-08†7】 |
+
+**How the second discharge differed from the first**
+
+* All three follow‑up obligations (call, visit, INR) were completed on time after the second discharge, whereas none were met after the first discharge.  
+* The readmission on 2026‑02‑02 occurred between the two discharges, prompting a second discharge on 2026‑02‑08 that triggered the corrected follow‑up actions.  
+
+These conclusions are drawn directly from the cited sections of HO‑04, HO‑07, and PR‑08.",success,20.2335,1767,821,2588,198,"[""HO-04"", ""HO-07"", ""LD-02"", ""PR-08""]",5,
+Q076,four_plus_documents,"For PAT-012, validate the stewardship discontinuation decision using the patient chart, biomarker report, pneumonia guideline, and stewardship policy.","PAT-012 had non-severe pneumonia; procalcitonin was 0.18 ng/mL and the patient had been afebrile for at least 48 hours before antibiotics stopped after the day-5 dose. DG-04 describes non-severe CAP treatment duration, while PRO-013 permits day-5 stopping when procalcitonin is below 0.25 ng/mL and afebrile status is at least 48 hours.","**Validation**
+
+* **Patient chart (PR‑08, §2)** – PAT‑012 is described as a “non‑severe pneumonia treated with a short, stewardship‑guided course.” This establishes that the case is intended to follow a stewardship‑driven, abbreviated therapy.  
+
+* **Biomarker report (LD‑04, §5.2)** – Procalcitonin fell from **0.42 ng/mL** (above the 0.25 ng/mL stop value) on 2026‑05‑05 to **0.18 ng/mL** on 2026‑05‑07, which is **below the stewardship stop value (HO‑04)**. The drop meets the biomarker criterion for stopping antibiotics.  
+
+* **Pneumonia guideline (DG‑05, §4)** – For non‑severe community‑acquired pneumonia the guideline recommends a **minimum of 5 days** of therapy, provided the patient is afebrile and clinically stable for 48 h. The guideline notes that **PAT‑012 received 5 days** (applied in PR‑08).  
+
+* **Stewardship policy (implicit in LD‑04, HO‑04 stop value)** – The stop value of 0.25 ng/mL is the predefined threshold for discontinuation; the patient’s procalcitonin of 0.18 ng/mL satisfies this policy.
+
+**Conclusion**  
+The stewardship discontinuation decision for PAT‑012 is supported by:  
+
+1. The patient chart’s intent for a short, stewardship‑guided course (PR‑08).  
+2. Biomarker evidence that procalcitonin dropped below the stewardship stop threshold (LD‑04).  
+3. Compliance with the guideline‑mandated minimum 5‑day duration (DG‑05).  
+
+Therefore, the decision to discontinue antibiotics after 5 days is validated by the combined evidence.",success,13.8431,1105,711,1816,299,"[""DG-02"", ""DG-05"", ""LD-04"", ""PR-04"", ""PR-08""]",5,
+Q077,four_plus_documents,"For PAT-013, audit the urosepsis treatment sequence, admission renal impairment, vancomycin level response, culture findings, and stewardship stop decision.","PAT-013 was admitted with urosepsis and creatinine 1.9 mg/dL/eGFR 38. The first antibiotic was given 42 minutes after the alert, meeting version 3's 50-minute target. The vancomycin level was 24.1 mg/L before dose four, so the dose was held and interval extended; cultures showed gram-negative organisms only, and IV vancomycin was stopped at 48 hours.","**Audit of PAT‑013 (urosepsis)**  
+
+| Item | Findings | Evidence |
+|------|----------|----------|
+| **Admission renal status** | The case is described as “urosepsis with acute kidney injury,” indicating renal impairment on admission. | PR‑08, § 2 “Purpose and Scope”【5†L18-L20】 |
+| **Initial treatment sequence** | 1. Blood and urine cultures were drawn **before** the first dose of piperacillin‑tazobactam (04:52 06‑18).  <br>2. IV vancomycin was started (first dose 05:10 06‑18) and given every 12 h (05:10, 17:10, 05:10 06‑19).  <br>3. Piperacillin‑tazobactam was administered after cultures (04:52 06‑18).  <br>4. A vancomycin level was drawn before the fourth dose (16:40 06‑19) and was 24.1 mg/L.  <br>5. Because the level exceeded 20 mg/L, the next dose was held and the interval was extended to every 24 h.  <br>6. Blood and urine cultures grew **Escherichia coli** (gram‑negative only).  <br>7. IV vancomycin was stopped at 12:00 06‑20 (≈48 h after start).  <br>8. Ceftriaxone was started on 06‑21 after susceptibilities were available. | LD‑05, § 6 “PAT‑013 …”【2†L63-L73】; MP‑04, § 6 “MED‑019 Vancomycin” (dose timing, level rule)【1†L58-L71】 |
+| **Vancomycin level response** | Level **24.1 mg/L** (drawn 30 min before dose 4) was **> 20 mg/L**; per policy the next dose was",success,20.6939,1827,1000,2827,543,"[""HO-04"", ""LD-05"", ""MP-04"", ""PR-08""]",5,
+Q078,four_plus_documents,"For PAT-014, connect the anemia diagnosis and iron therapy to the thyroid medication issue and the source-grounded dosing instruction.","PAT-014 had iron-deficiency anemia (hemoglobin 9.8 g/dL and ferritin 7 ng/mL, meeting the DG-07 criteria) and received ferrous sulfate while taking levothyroxine. The chart attributes mild levothyroxine under-absorption to co-administration; MP-06 and MP-02 specify separating the medicines by at least 4 hours.","**PAT‑014** has two documented problems:  
+
+* **Iron‑deficiency anemia (DIS‑018)** – listed in the patient problem list (PR‑08, §6)【Evidence 2】.  
+* **Hypothyroidism (DIS‑016)** – treated with levothyroxine 100 µg daily (PR‑08, §6; MP‑02, §6 dataset patients)【Evidence 2】【Evidence 1】.  
+
+**Iron therapy**  
+* She was started on ferrous sulfate 325 mg daily on 2026‑04‑07 (PR‑08, §6)【Evidence 2】.  
+* The drug’s adult dosing is “325 mg once daily, with vitamin C if tolerated; continue 3 months after hemoglobin normalizes” (MP‑02, §9)【Evidence 3】.  
+
+**Thyroid medication issue**  
+* Levothyroxine’s adult dosing instruction is “1.6 µg/kg/day; start 25–50 µg in older adults or those with heart disease; take once daily, fasting, 30–60 min before breakfast” (MP‑02, §6)【Evidence 1】.  
+* A documented interaction requires oral iron (and calcium/antacids) to be taken **at least 4 hours apart** from levothyroxine (MP‑02, §6 interaction; MP‑02, §9 interaction)【Evidence 1】【Evidence 3】.  
+
+**Observed effect**  
+* When iron was taken 30 min after levothyroxine, PAT‑014’s TSH rose from 2.4 → 8.9 mIU/L; after separating the doses by ≥4 h, TSH fell to 3.2 mIU/L (DG‑04, §6.4)【Evidence 4】.  
+
+**Connection**  
+The anemia diagnosis led to ferrous sulfate therapy. Because oral iron interferes with levothyroxine absorption, taking the two drugs too close together caused a transient elevation in TSH, mimicking inadequate thyroid replacement. Following the source‑grounded dosing instructions—levothyroxine taken fasting 30–60 min before breakfast and iron taken ≥4 h later—prevents this interaction and stabilizes thyroid function.",success,15.1498,1130,994,2124,486,"[""DG-02"", ""DG-07"", ""MP-02"", ""PR-08""]",5,
+Q079,four_plus_documents,"For PAT-003, determine whether the positive blood culture was notified on time, whether the antibiotic course was narrowed promptly, and whether the later C. difficile process was compliant.","The positive blood-culture bottle was called 8 minutes after verification, and susceptibility results were followed by de-escalation within 24 hours. The later C. difficile positive result was called in 12 minutes, but isolation started 6 hours 45 minutes after verification; the lab notification was timely while the isolation response was delayed.","**Positive blood‑culture notification** – Met.  
+The blood‑culture result for PAT‑003 was verified at 04:10 and the laboratory called the ward at 04:18, an 8‑minute interval, which satisfies the 20‑minute critical‑result rule (Evidence 1, HO‑05 §2.5).
+
+**Antibiotic‑course narrowing** – Insufficient evidence.  
+None of the supplied documents mention when or whether the patient’s antimicrobial regimen was de‑escalated after the positive blood culture (no reference to antibiotics for PAT‑003).
+
+**C. difficile process** – Partially compliant.  
+The C. difficile result was verified at 08:40 and the laboratory phoned the ward nurse at 08:52 (12 min), which is compliant with the critical‑result call requirement (Evidence 1, HO‑05 §2.5; Evidence 2, HO‑08 §3.4).  
+However, isolation precautions were not started until 15:25, 6 h 45 min after verification, constituting the delayed‑isolation incident INC‑004 (Evidence 2, HO‑08 §3.4; Evidence 4, HO‑06 §6). Thus the downstream isolation step was non‑compliant.",success,20.0499,1656,677,2333,387,"[""HO-05"", ""HO-06"", ""HO-08"", ""LD-05""]",5,
+Q080,four_plus_documents,"For PAT-002, reconcile the NSTEMI presentation with the serial troponin results, ECG findings, critical-result workflow, and ACS pathway.","PAT-002's hs-troponin reached 112 ng/L, exceeding the 100 ng/L critical threshold; it was called 10 minutes after verification. The ECG report documents ST depression in V4 to V6, recorded 7 minutes after arrival, and PRO-006 requires ECG within 10 minutes plus troponin at 0 and 2 hours; the chart documents NSTEMI management.","**Presentation** – PAT‑002 arrived at 21:15 on 2025‑03‑03 with two hours of pressure‑like chest discomfort radiating to the left arm (PR‑02 §7.1).  
+
+**ECG** – A 12‑lead ECG was performed at 21:22 (7 min after arrival) and showed sinus rhythm 84 bpm with 1 mm ST‑depression in leads V4‑V6 (LD‑06 §4; PR‑02 §7.1). This meets the pathway requirement of a 12‑lead ECG **within 10 min** (HO‑03 §4).  
+
+**Serial hs‑troponin** –  
+* 0‑hour draw at 21:40; result verified at 22:08 = **48 ng/L** (below the 100 ng/L critical threshold) (LD‑04 §3.1).  
+* 2‑hour draw at 23:42; result verified at 00:10 = **112 ng/L** (≥100 ng/L, flagged critical) (LD‑04 §3.1).  
+
+The rise of **64 ng/L** between 0 and 2 h satisfies the definition of NSTEMI: a rise/fall of hs‑troponin above the 99th percentile together with ischemic symptoms or ECG change (DG‑01 §6.1).  
+
+**Critical‑result workflow** – Because the 2‑hour result exceeded 100 ng/L, it was classified **C** (critical) and the cardiology fellow was telephoned at 00:20, i.e., **10 min after verification**, fulfilling the PRO‑009 20‑minute window (PR‑02 §7.1; HO‑03 §4).  
+
+**ACS pathway compliance** –  
+* ECG within 10 min (met) – PR‑02 §7.1, LD‑06 §4.  
+* hs‑troponin draws at 0 h and 2 h (met) – PR‑02 §7.1, HO‑03 §4.  
+* Critical troponin ≥100 ng/L phoned within 20 min (met) – LD‑04 §3.1, HO‑03 §4.  
+* Aspirin 300 mg given at 22:15 (met) – PR‑02 §7.1.  
+* Apixaban withheld pending angiography (met) – PR‑02 §7.1.  
+
+**Reconciliation** – The patient’s ischemic chest pain, early ST‑depression, and a significant troponin rise from 48 ng/L to 112 ng/L within the mandated 2‑hour interval together confirm an NSTEMI per the diagnostic criteria (DG‑01 §6.1). All required pathway steps—timely ECG, 0/2‑hour troponin sampling, critical‑result notification, antiplatelet administration, and medication hold—were completed within the stipulated timeframes, demonstrating full compliance with the PRO‑006 / FPA‑08 ACS pathway.",success,16.9532,1523,883,2406,198,"[""DG-01"", ""HO-03"", ""LD-04"", ""LD-06"", ""PR-02""]",5,
+Q081,four_plus_documents,"For PAT-005, evaluate stroke imaging timeliness and antiplatelet selection in the context of the patient's allergy, using the pathway and drug reference.","CT began 19 minutes after arrival and was read 6 minutes after scan start, meeting PRO-005 version 2 timing. PAT-005 has an ALG-003 NSAID/aspirin allergy flag; MP-07 identifies clopidogrel as the antiplatelet alternative, and the stroke guideline specifies antiplatelet secondary prevention subject to allergy constraints.","**Stroke‑imaging timeliness**
+
+- The PRO‑005 Stroke Code Pathway requires the CT scan to start **within 20 min of arrival** and the radiology read to be completed **within 10 min of scan start** (HO‑03, §3).  
+- For PAT‑005 the recorded times were: door 18:55 → CT start 19:14 (19 min) and CT read 19:20 (6 min after start) (HO‑03, §3, “Worked example”).  
+- **Fact:** Both intervals are within the pathway limits, therefore the imaging timeliness for PAT‑005 meets the required standards.  
+
+**Antiplatelet selection in the context of the allergy**
+
+- The allergy reference lists **ALG‑003 (NSAIDs including aspirin)** as a contraindication for aspirin (MED‑010) and ibuprofen (MED‑026); it designates **clopidogrel (MED‑011) as the antiplatelet alternative** (MP‑07, §2.1).  
+- PAT‑005 has a documented hypersensitivity to aspirin and other NSAIDs (ALG‑003) (PR‑05, §2).  
+- The patient’s chart shows deliberate avoidance of aspirin and ibuprofen and the use of clopidogrel as the initial antiplatelet (PR‑05, §2).  
+
+- **Fact:** The antiplatelet prescribed (clopidogrel) follows the allergy rule that contraindicates aspirin/ibuprofen and recommends clopidogrel as the alternative.  
+
+**Conclusion**
+
+- Imaging was performed within the pathway’s door‑to‑CT (19 min < 20 min) and CT‑read (6 min < 10 min) targets, satisfying the timeliness requirement.  
+- Antiplatelet therapy was appropriately selected (clopidogrel) given the patient’s ALG‑003 NSAID/aspirin allergy, in line with the drug‑selection rule.  
+
+*Sources: MP‑07 §2.1; PR‑05 §2; HO‑03 §3 (worked example).*",success,17.3724,1624,758,2382,310,"[""DG-06"", ""HO-03"", ""MP-07"", ""PR-05""]",5,
+Q082,four_plus_documents,"For PAT-008, explain why an ACE inhibitor was contraindicated and how the record's cardiac findings relate to the cardiovascular guideline.","PAT-008 has prior ACE-inhibitor-associated angioedema, classified as ALG-004; MP-07 and DG-01 contraindicate lisinopril after this reaction and caution with related receptor-blocking agents. The ECG/echo report documents the patient's cardiac findings, which should not override the allergy contraindication.","**Why an ACE‑inhibitor was contraindicated**
+
+- PAT‑008 has a documented allergy **ALG‑004 (ACE‑inhibitor angioedema)** – lip and tongue swelling after lisinopril in 2019【Evidence 4†Section 4】.  
+- DG‑01 states that an ACE‑inhibitor is **contraindicated after a previous episode of ACE‑inhibitor‑associated angioedema**【Evidence 2†Section 3.3】.  
+- Consequently, the ACE‑inhibitor decision in PR‑07 notes that the standard choice (e.g., lisinopril) is “contraindicated by ALG‑004”【Evidence 1†Section 4.3】.
+
+**How the cardiac findings relate to the cardiovascular guideline**
+
+- The echo shows **LVEF 48 %** (mildly reduced) and the ECG shows **ST‑depression 1.5 mm in V2‑V5**, supporting an NSTEMI after ACS【Evidence 3†Section 6】.  
+- DG‑01 (and the ACE‑inhibitor decision) recommends a renin‑angiotensin system blocker **when LVEF is below 50 % or hypertension persists** after ACS【Evidence 1†Section 4.3】.  
+- Therefore, PAT‑008’s reduced LVEF and NSTEMI meet the guideline’s criteria for a renin‑angiotensin blocker, but the ACE‑inhibitor cannot be used because of the documented angioedema allergy.  
+
+*Inference*: The guideline would normally call for an ACE‑inhibitor (or other RAS blocker) in this patient, but the allergy (ALG‑004) forces clinicians to avoid it and manage blood pressure with metoprolol instead.",success,14.2358,1085,702,1787,311,"[""DG-01"", ""LD-06"", ""PR-07""]",5,
+Q083,four_plus_documents,"For PAT-001, reconstruct the hyperkalemia episode and distinguish the drug-related clinical event from the critical-result notification incident.","PAT-001 developed potassium 6.4 mmol/L during dehydration while taking lisinopril and spironolactone; treatment included holding the relevant medicines and subsequent lower-dose restart. The potassium result was called 36 minutes after verification, exceeding the 20-minute target, but the incident review classified the event as no harm because the patient was already monitored.","**Hyperkalemia episode (clinical event)**  
+
+- On 2025‑09‑17 the patient’s potassium was **6.4 mmol/L** (LD‑03) and an ECG at 07:50 showed **peaked T waves, PR 224 ms, QRS 112 ms** – changes interpreted as hyperkalemia【Evidence 1†LD-06†3. PAT-001】.  
+- The chart notes that this admission (2025‑09‑17 to 2025‑09‑20) was the **hyperkalemia admission**【Evidence 3†PR-01†2. Purpose and Scope】.  
+- The ADR dataset records the hyperkalemia as **“Lisinopril with spironolactone, during dehydration”**, classified as **severe**; the drugs were held and later restarted at lower doses【Evidence 4†MP-07†3.3 ADRs】.  
+
+*Thus, the drug‑related clinical event was a severe hyperkalemia (K 6.4 mmol/L) precipitated by the combination of lisinopril and spironolactone in the setting of dehydration.*
+
+**Critical‑result notification incident (process failure)**  
+
+- The same potassium result was **verified at 08:05** but the **telephone notification to the ED physician occurred at 08:41**, a **36‑minute delay** against the 20‑minute policy (FPA‑13)【Evidence 2†HO-08†3.2 INC-002】.  
+- The incident is logged as **INC‑002: Delayed critical potassium call**; no patient harm occurred because the patient was already being monitored after the ECG【Evidence 2†HO-08†3.2 INC-002】.  
+- The incident prompted corrective action (automatic escalation after two unanswered attempts)【Evidence 2†HO-08†3.2 INC-002】.  
+
+*Therefore, the critical‑result notification incident was the delayed communication of the verified potassium value, not the hyperkalemia itself.*",success,16.8114,1346,903,2249,459,"[""DG-03"", ""HO-08"", ""LD-06"", ""MP-07"", ""PR-01""]",5,
+Q084,four_plus_documents,"For PAT-006, determine how allergy status affected antibiotic selection and how the alternative antibiotic created a separate anticoagulation risk.","PAT-006 had a non-severe penicillin-associated urticaria history; MP-07 permits ceftriaxone with dual verification for non-severe reaction, but the chart records ciprofloxacin use. Ciprofloxacin with warfarin is a Major interaction; INR rose to 6.8 after the interaction alert was overridden without a recheck plan.","- **Allergy‑driven antibiotic choice** – PAT‑006 carried a penicillin‑allergy flag (ALG‑001). Because of that flag, amoxicillin‑clavulanate was not used even though the repeat urine culture showed it was susceptible; instead ciprofloxacin was selected (Evidence 1, LD‑05 §4, lines 44‑52). The allergy rule also allowed ceftriaxone for a non‑severe urticative reaction, but the clinician still chose ciprofloxacin (Evidence 2, MP‑07 §2.2, lines 29‑37).
+
+- **Anticoagulation risk from the alternative** – Ciprofloxacin was later stopped because it interacts with the patient’s warfarin therapy, creating a separate anticoagulation safety issue (Evidence 1, LD‑05 §4, lines 44‑52).",success,14.9076,1338,551,1889,360,"[""DG-06"", ""HO-08"", ""LD-05"", ""MP-07"", ""PR-07""]",5,
+Q085,four_plus_documents,"For PAT-003, combine the sepsis antibiotic and lactate timeline with the rapid-response deterioration, and determine whether the initial lactate met the critical-call threshold.","On 2026-02-26, lactate was 3.4 mmol/L and repeated at 2.1 mmol/L 1 hour 45 minutes later; the first antibiotic was given 53 minutes after the alert, meeting the then-applicable 60-minute version 2 target. The initial lactate was below the 4.0 mmol/L critical-call threshold, so it was not a critical-call event. On 2026-02-27, respiratory rate 34 and MAP 58 triggered rapid response at 06:05, with ICU transfer at 06:30.","**Lactate → critical‑call threshold**  
+- The first lactate measured for PAT‑003 was **3.4 mmol/L** (recorded 10:20 on 2026‑02‑26) and is flagged as “H (below critical 4.0)”【LD-04†5.1 PAT-003, sepsis from pneumonia, 2026-02-26 to 2026-03-05】.  
+- Evidence 2 notes that results **below the critical value** (including PAT‑003’s lactate 3.4 mmol/L) were **not telephoned**【HO-05†2.5 Results recorded in the dataset】.  
+
+**Conclusion:** The initial lactate **did not meet** the critical‑call threshold (threshold = 4.0 mmol/L).
+
+**Antibiotic timeline (sepsis from pneumonia)**  
+- For severe sepsis from pneumonia the guideline specifies **ceftriaxone (MED‑017) as the starting agent**; escalation to **piperacillin‑tazobactam (MED‑018) + vancomycin (MED‑019)** is required **if deterioration occurs**【DG-05†3.3 Choice of antibiotics】.  
+
+**Rapid‑response deterioration**  
+- The provided documents do not contain a specific rapid‑response or deterioration timestamp for PAT‑003; only the rule that escalation is triggered by deterioration is stated. Therefore the exact timing of the rapid‑response event cannot be determined from the available evidence.  
+
+**Combined view**  
+- At 10:20 on 2026‑02‑26 PAT‑003 had a lactate of 3.4 mmol/L (below the 4.0 mmol/L critical‑call level).  
+- The repeat lactate at 12:05 (2 h 15 min later) was 2.1 mmol/L, satisfying the 2‑hour repeat rule【LD-04†5.1 PAT-003…】.  
+- The sepsis protocol would have started ceftriaxone at the time of sepsis recognition, with escalation to piperacillin‑tazobactam + vancomycin only if a deterioration (rapid‑response) were documented—such a timestamp is not present in the supplied evidence.  
+
+**Answer:** The initial lactate of 3.4 mmol/L **did not meet** the critical‑call threshold. The antibiotic plan began with ceftriaxone, with escalation pending a documented deterioration, but the rapid‑response deterioration timeline is not provided in the evidence.",success,15.728,1473,934,2407,369,"[""DG-04"", ""DG-05"", ""HO-03"", ""HO-05"", ""LD-04""]",5,
+Q086,four_plus_documents,"For PAT-007, distinguish the allergy event from an adverse drug reaction report and identify the governance harm classification.","The penicillin allergy flag was unverified before exposure; amoxicillin-clavulanate administration was followed by anaphylaxis, recorded in MP-07 as a severe ADR. HO-08 classifies INC-001 as serious harm because ICU observation was required for 24 hours; the event also caused the PRO-003 hard-stop change.","**Allergy event (pre‑existing allergy record)**  
+- The patient’s allergy profile lists **ALG‑001 (penicillins)** with severity upgraded to **anaphylaxis** on 2026‑05‑17【PR-07, Section 3】.  
+
+**Adverse drug reaction (ADR) report)**  
+- On 2026‑05‑17 the patient received **amoxicillin‑clavulanate (MED‑016)** despite the allergy flag; an **anaphylactic reaction** occurred 12 minutes later, requiring epinephrine administration【HO-08, Section 3.1 INC‑001】.  
+
+**Governance harm classification**  
+- The incident is classified as **Serious** (ICU observation for 24 hours, patient recovered)【HO-08, Section 3.1 INC‑001】.",success,18.3659,1549,528,2077,338,"[""HO-08"", ""MP-07"", ""PR-07""]",5,
+Q087,four_plus_documents,"For PAT-009, assess the medication incident by integrating baseline renal function, medication list, drug interaction risk, creatinine trajectory, and revised protocol.","The patient had eGFR 40 and took lisinopril and furosemide; ibuprofen was prescribed despite the interaction risk. Creatinine increased from 1.3 to 2.9 mg/dL, and the incident was classified as serious harm. PRO-008 version 3 subsequently made NSAID orders below eGFR 60 a hard stop with a second-pharmacist override requirement.","**Baseline renal function** – PAT‑009 entered the admission with chronic kidney disease (baseline creatinine 1.3 mg/dL, eGFR ≈ 40 mL/min/1.73 m²)【HO-08, 3.5】.  
+
+**Medication list at the time of the error** – The patient was already receiving lisinopril (ACE‑inhibitor) and furosemide (loop diuretic). An ibuprofen prescription (600 mg TID) was added on 2026‑03‑05【HO-08, 3.5】.  
+
+**Drug‑interaction / renal‑risk assessment** – The MediCore reconciliation protocol (PRO‑001) requires that each drug pair be checked against the interaction database (MP‑06) and that every drug be checked against kidney function (MP‑07)【DG-08, 5.2】. An NSAID in a patient with eGFR < 60 mL/min/1.73 m², especially when combined with an ACE‑inhibitor, is a known precipitant of AKI;",success,13.8681,1239,1000,2239,752,"[""DG-01"", ""DG-03"", ""DG-08"", ""HO-08"", ""PR-07""]",5,
+Q088,four_plus_documents,"For PAT-011, evaluate the first-discharge heart-failure readmission risk score against its age-band NT-proBNP criterion and the documented follow-up failures; why was the home-visit offer missed?","PAT-011 scored 3 at first discharge from atrial fibrillation, NT-proBNP 4,820 pg/mL, and a recent heart-failure admission; the score threshold of 3 or more triggers a nurse home-visit offer. For a patient over 75, DG-01's NT-proBNP support threshold is above 1,800 pg/mL. The score field was not completed, and the first-discharge phone call, clinic outreach, and INR check were missed; HO-08 records the uncompleted risk-score field as a finding.","**Risk‑score evaluation**
+
+* The MediCore HF readmission risk score gives one point for NT‑proBNP above the age‑band threshold at discharge.  
+* PAT‑011’s first‑discharge NT‑proBNP was **4,820 pg/mL** (HO‑07 §4.1).  
+* The only age‑band threshold shown in the dataset is 900 pg/mL for the 50‑to‑75 band (LD‑04 §4). Because 4,820 pg/mL far exceeds that value, the NT‑proBNP criterion is satisfied for PAT‑011 (who is 78 y, i.e., above the 75‑year cut‑off).  
+
+**Score outcome**
+
+* PAT‑011 accumulated **3 points** (atrial fibrillation, NT‑proBNP > threshold, recent HF admission) – the threshold for a nurse home‑visit (HO‑07 §4.1).  
+
+**Why the home‑visit was missed**
+
+* The score field was **not completed** in the record, so the trigger was never activated (HO‑07 §4.1).  
+* Follow‑up failures compounded the problem: the discharge telephone number had two digits transposed, the only call reached the wrong number, the scheduled clinic visit on 2026‑01‑23 was missed, the INR check due 2026‑01‑20 was not done, and no second call or outreach was attempted (HO‑08 §3.6).  
+* Additionally, no INR was drawn within 72 h of the first discharge (LD‑02 §6), confirming a gap in post‑discharge monitoring.  
+
+**Conclusion**
+
+PAT‑011’s first‑discharge risk score met the NT‑proBNP age‑band criterion and reached the 3‑point threshold that should have generated a nurse home‑visit, but the visit was missed because the risk‑score field was left blank and because multiple follow‑up actions (telephone verification, clinic visit, INR check) failed, leaving no opportunity for outreach.  
+
+*Sources: HO‑07 §4.1; LD‑04 §4; HO‑08 §3.6; LD‑02 §6.*",success,18.6344,1507,895,2402,412,"[""HO-07"", ""HO-08"", ""LD-02"", ""LD-04"", ""PR-08""]",5,
+Q089,four_plus_documents,"For PAT-012, determine whether the pneumonia course was eligible for a day-5 stop and distinguish that policy from the general minimum duration statement.","The patient had non-severe pneumonia, procalcitonin 0.18 ng/mL, and had been afebrile for at least 48 hours; antibiotics stopped after the day-5 dose. DG-04's non-severe CAP treatment guidance and HO-04's specific procalcitonin stop rule jointly support this decision; the policy requires procalcitonin below 0.25 ng/mL and at least 48 hours afebrile.","**Eligibility for a day‑5 stop**
+
+- The patient’s procalcitonin fell to **0.18 ng/mL** (below the 0.25 ng/mL threshold) and the patient had been afebrile for ≥48 h (LD‑04 §5.2 lines 70‑77).  
+- The retrospective review records that the **PRO‑013 stop rule was met** for PAT‑012 (PR‑08 §7 lines 138‑144).
+
+**Therefore, PAT‑012’s non‑severe pneumonia course was eligible for a day‑5 stop.**
+
+**How this differs from the general minimum‑duration statement**
+
+- The guideline (DG‑04 §4.4 lines 73‑74; HO‑04 §3.2 “Duration”) sets a **minimum of 5 days** for non‑severe community‑acquired pneumonia (CAP). This is a baseline duration requirement, not an early‑stop rule.  
+- The **day‑5 stop rule** is a separate stewardship policy (MediCore Policy PRO‑013, cited in HO‑04 §3.2 “Procalcitonin stop rule”) that allows antibiotics to be discontinued **at day 5** *only if* procalcitonin <0.25 ng/mL **and** the patient has been afebrile for ≥48 h.
+
+Thus, PAT‑012 met the **specific stop‑rule criteria**, which is distinct from merely satisfying the **minimum‑duration guideline**.",success,16.544,1324,710,2034,382,"[""DG-04"", ""HO-04"", ""LD-04"", ""PR-08""]",5,
+Q090,four_plus_documents,"For PAT-013, determine whether the sepsis bundle and antibiotic stewardship decisions complied with the applicable version and the patient's microbiology results.","The 2026-06-18 event occurred under PRO-004 version 3; first antibiotic was administered 42 minutes after alert against a 50-minute target. The blood culture showed gram-negative organisms only; vancomycin level was 24.1 mg/L, prompting a held dose, and IV vancomycin was stopped at 48 hours because no resistant gram-positive organism was identified.","**Sepsis‑bundle compliance**
+
+- The sepsis bundle that was in force on 2026‑06‑18 for PAT‑013 was **PRO‑004 version 3** (first antibiotic required within 50 minutes of the sepsis alert)【Evidence 4†5.1 Sepsis bundle, 2026-06-18 (PRO-004 version 3)】.  
+- PAT‑013 received the first antibiotic (piperacillin‑tazobactam) **42 minutes** after the alert, which is **within the 50‑minute target**【Evidence 4†5.1】.  
+- The worked‑example table also records that PAT‑013 “Met” the version‑3 target【Evidence 3†2.3】.  
+
+**Conclusion:** The sepsis‑bundle requirement was met; the decision complied with the applicable version.
+
+**Antibiotic‑stewardship compliance and microbiology results**
+
+- The only reference to antimicrobial stewardship is the heading of PRO‑013 in document HO‑04, which provides no detail on the stewardship decision for PAT‑013【Evidence 1†HO-04】.  
+- The record shows that blood and urine cultures were drawn at 04:25, but **no culture results are reported** in the supplied evidence【Evidence 4†5.1】.  
+
+**Conclusion:** Because the microbiology outcomes and the specific stewardship criteria for the antibiotic choice are not provided, we cannot determine whether the antibiotic‑stewardship decision complied with the applicable version. The evidence is insufficient for that assessment.",success,13.7571,1213,536,1749,198,"[""HO-03"", ""HO-04"", ""HO-08"", ""PR-03"", ""PR-08""]",5,
+Q091,four_plus_documents,"For PAT-014, connect iron-deficiency anemia treatment to the levothyroxine absorption issue, identify the source-grounded timing instruction, and state how the event is classified in the ADR reference.","PAT-014 received ferrous sulfate for iron-deficiency anemia while taking levothyroxine; co-administration was associated with mild levothyroxine under-absorption. The interaction references say iron binds levothyroxine and reduces absorption, so the doses should be separated by at least 4 hours. MP-07 records levothyroxine under-absorption associated with ferrous sulfate co-administration as a mild ADR.","- **Connection:** PAT‑014’s iron‑deficiency anemia is treated with ferrous sulfate (MED‑031), which is known to interfere with levothyroxine absorption when taken together【Evidence 3†L98-L104】.  
+
+- **Timing instruction:** The interaction note specifies that levothyroxine and ferrous sulfate must be taken **separate by at least 4 hours** (FPA‑14)【Evidence 3†L104-L106】.  
+
+- **ADR classification:** In the adverse‑drug‑reaction dataset this co‑administration is recorded as **“Levothyroxine under‑absorption”** for PAT‑014, classified as a **mild** ADR with the outcome “Dosing times separated”【Evidence 4†L60-L66】.",success,13.4803,1233,568,1801,393,"[""DG-02"", ""MP-02"", ""MP-07"", ""PR-08""]",5,
+Q092,four_plus_documents,"For PAT-003, compare the lab's critical-result handling with the ward's isolation handling and identify which process caused the recorded delay.","The lab called the positive C. difficile result 12 minutes after verification, within PRO-009's 20-minute target. The delay arose after notification: version 1 required waiting for Infection Control confirmation, so precautions began 6 hours 45 minutes after verification. INC-004 prompted version 2 immediate nurse initiation.","**Comparison**
+
+* **Laboratory critical‑result handling** – The laboratory verified the C. difficile result at 08:40 and phoned the ward nurse at 08:52. This 12‑minute interval is recorded as **compliant** (PRO‑009) and is noted as “Met (laboratory call)” in the dataset [HO‑05 § 2.5]【Evidence 1】.  
+
+* **Ward isolation handling** – After the laboratory call, the ward waited for Infection‑Prevention confirmation before starting contact‑enteric precautions. Precautions were not started until 15:25, **6 h 45 min after verification** [HO‑08 § 3.4]【Evidence 2】. The delay is documented as incident INC‑004 and is explained in the worked example as the ward’s waiting for Infection Control under PRO‑012 version 1 [HO‑06 § 6]【Evidence 3】.
+
+**Which process caused the recorded delay?**  
+
+The delay was caused by the **ward’s isolation handling** (the waiting period before initiating precautions), not by the laboratory’s critical‑result call, which met the required timeframe. The incident is recorded as **INC‑004**.",success,17.1339,1680,545,2225,270,"[""HO-05"", ""HO-06"", ""HO-08""]",5,
+Q093,four_plus_documents,"For PAT-001, explain the relation between the critical potassium threshold, observed value, call timing, and policy escalation revision.","The recorded potassium was 6.4 mmol/L, above the PRO-009 critical threshold of 6.2 mmol/L; it was verified at 08:05 and called at 08:41 (36 minutes). After two failed calls, version 1 had no automatic escalation; version 2 introduced pager escalation after two failed attempts.","**Critical potassium threshold → observed value**  
+The hyper‑kalaemia algorithm in the kidney‑function guideline (DG‑03 §2. Purpose and Scope) defines a potassium result of 6.4 mmol/L as a critical value that must be called (the result recorded for PAT‑001 is 6.4 mmol/L — HO‑05 §2.5 and HO‑08 §3.2).
+
+**Observed value → call timing**  
+The potassium result was verified at 08:05.  The first telephone call was placed at 08:08, a second at 08:20, and the successful call to the ED physician occurred at 08:41.  This makes the total interval **36 minutes**, which exceeds the 20‑minute requirement of policy FPA‑13 (HO‑08 §3.2; HO‑05 §2.5).  The incident is recorded as “Not met: INC‑002”.
+
+**Call timing → policy escalation revision**  
+During the incident the first two attempts reached a busy ED triage line and, because **PRO‑009 version 1 had no automatic escalation route**, the call was delayed (HO‑08 §3.2; HO‑05 §2.6).  The root‑cause analysis led to a corrective action: **PRO‑009 version 2**, effective 2025‑11‑01, adds automatic escalation to the clinician’s pager after two unanswered or busy attempts (HO‑08 §3.2; HO‑05 §2.6).
+
+**Summary**  
+- The critical potassium threshold (per DG‑03) was exceeded by the observed 6.4 mmol/L result.  
+- The result was verified at 08:05 but the required call was not completed until 08:41, a 36‑minute delay that violated the 20‑minute policy.  
+- The delay exposed a gap in the escalation process, prompting the revision of PRO‑009 (version 2) to automatically route the call after two failed attempts.  
+
+*Sources: DG‑03 §2; HO‑08 §3.2; HO‑05 §2.5; HO‑05 §2.6.*",success,14.8082,1426,767,2193,285,"[""DG-03"", ""HO-05"", ""HO-08"", ""LD-06""]",5,
+Q094,four_plus_documents,"For PAT-005, determine the appropriate antiplatelet choice given the allergy flag, identify the near-miss order correction, and relate this to the stroke pathway's allergy check.",Aspirin was contraindicated for PAT-005 because of ALG-003; clopidogrel was selected as the alternative. HO-02 records that a default aspirin order was cancelled before administration and logged as a near-miss. The stroke pathway requires checking the allergy flag before an antiplatelet order.,"- **Antiplatelet choice for PAT‑005:** Because the patient carries the aspirin‑allergy flag **ALG‑003**, aspirin is contraindicated and the documented alternative antiplatelet is **clopidogrel**【PR-05†7.3】.  
+
+- **Near‑miss order correction:** The stroke‑code order set automatically populated an aspirin 300 mg dose at 19:40, but the pharmacist cancelled the order after the PRO‑003 allergy alert identified ALG‑003. The cancellation was logged as a near‑miss (the default aspirin order was cancelled before administration)【PR-05†7.1】【HO-02†4.4】.  
+
+- **Relation to the stroke pathway’s allergy check:** The Stroke Code Pathway (PRO‑005) requires that the antithrombotic (aspirin or clopidogrel) be selected **after checking the allergy flag** (PRO‑003) before any order set is placed【HO-03†3】. The allergy‑flag check triggered the cancellation of the default aspirin order, ensuring the pathway’s safety step was followed and the appropriate antiplatelet (clopidogrel) was used.",success,15.6444,1340,581,1921,326,"[""HO-02"", ""HO-03"", ""PR-05""]",5,
+Q095,four_plus_documents,"For PAT-002, compare the 0-hour and 2-hour hs-troponin results with the critical threshold, and verify whether the laboratory notification and ACS pathway timing were compliant.","PAT-002's hs-troponin was 48 ng/L at 0 hours and 112 ng/L at approximately 2 hours; 112 ng/L exceeds the 100 ng/L critical threshold. The result was verified at 00:10 and called at 00:20 (10 minutes), within the 20-minute notification target. PRO-006 version 2 requires 0- and 2-hour troponin sampling.","**hs‑troponin values vs. critical threshold (100 ng/L)**  
+
+| Time point | Result | Relation to threshold |
+|------------|--------|-----------------------|
+| 0 hour (draw 21:40) | 48 ng/L – **below** 100 ng/L (not a critical result)【LD-04†3.1】 |
+| 2 hour (draw 23:42) | 112 ng/L – **above** 100 ng/L (critical result)【LD-04†3.1】 |
+
+**Laboratory notification**  
+
+* The critical 2‑hour result (112 ng/L) was verified at 00:10 and telephoned to the cardiology fellow at 00:20 – 10 minutes after verification【PR-02†7.1】.  
+* HO‑03 states that a critical troponin must be phoned **within 20 minutes** of verification【HO-03†4. PRO‑006】.  
+* The 10‑minute interval therefore meets the requirement (also recorded as “Met” in HO‑05)【HO-05†2.5】.
+
+**ACS pathway timing**  
+
+* ECG performed at 21:22, 7 minutes after arrival – within the **10‑minute** requirement【PR-02†7.1】.  
+* hs‑troponin draws were at 0 hour and 2 hour 02 minutes later, matching the pathway’s “draws at 0 and 2 hours” rule【HO-03†4. PRO‑006】.  
+* All subsequent steps (aspirin load, result verification, notification) occurred within the stipulated windows, so the pathway timing is compliant.
+
+**Conclusion**  
+- 0‑hour troponin (48 ng/L) was below the critical threshold; 2‑hour troponin (112 ng/L) exceeded it.  
+- The laboratory notified the critical result within 10 minutes, satisfying the ≤20‑minute requirement.  
+- The overall ACS pathway (ECG, serial draws, and notification) adhered to the timing requirements.  ",success,17.2441,1699,900,2599,435,"[""DG-01"", ""HO-03"", ""HO-05"", ""LD-04"", ""PR-02""]",5,
+Q096,four_plus_documents,"For PAT-006, determine whether the patient met the anticoagulation overlap rule before transition and how the later antibiotic interaction differed.","During parenteral therapy from 2025-08-29 to 2025-09-07, INR was 2.3 and 2.6 on consecutive days after 10 days of overlap, meeting the minimum 5-day and two-INR rule. Later ciprofloxacin initiation was followed by INR 6.8 after an interaction alert override with no recheck plan.","**Anticoagulation‑overlap rule**
+
+- The worked‑example for PAT‑006 shows that during the parenteral‑therapy period (2025‑08‑29 to 2025‑09‑07) the patient had INR 2.3 and 2.6 on consecutive days and received at least five days of overlap. The rule “overlap at least 5 days and INR ≥ 2.0 on two consecutive checks” was therefore **met**【HO-04, 2.3 Worked examples】.
+
+**Later antibiotic interaction**
+
+- After the urine‑culture result, ciprofloxacin was started (2025‑10‑21) but was later stopped because of a warfarin interaction that produced a critical INR of 6.8 (INC‑003)【LD-05, 4. PAT‑006】.  
+- The interaction prompted a stewardship decision to **reduce the ciprofloxacin course to five days** following the INR event and a negative repeat culture (2025‑11‑04)【HO-04, 3.3 Worked examples】.  
+
+**Difference**
+
+- The initial overlap satisfied the anticoagulation rule, whereas the subsequent ciprofloxacin‑warfarin interaction caused an unplanned INR spike (INR 6.8) and required an immediate response (phone call, plan missing) and then a **shortened antibiotic course**, contrasting with the earlier compliant overlap.【DG-05, 5.3 Interaction with anticoagulants】.",success,21.4857,1842,689,2531,364,"[""DG-05"", ""HO-04"", ""LD-05"", ""MP-03""]",5,
+Q097,four_plus_documents,"For PAT-003, determine whether isolation precautions were discontinued at the documented time and what manual rule governs discontinuation.","Diarrhea resolved at 06:00 on 2026-03-12 and precautions ended at 06:00 on 2026-03-15, exactly 72 hours later. The isolation manual specifies continuation until 72 hours after diarrhea has resolved, with formed stool or return to baseline defining resolution.","The supplied documents describe when isolation precautions for **PAT‑003** were **started** (HO‑08, 3.4) and give details about antibiotic de‑escalation (DG‑05, 3.5; HO‑04, 3.3), but none provide a time at which the isolation precautions were **discontinued**, nor do they identify a manual rule that governs that discontinuation.
+
+**Conclusion:** The evidence does not contain information on the discontinuation time of isolation precautions for PAT‑003, nor on the manual rule that would control that discontinuation.  
+
+*Sources: HO‑08 § 3.4 (isolation start); DG‑05 § 3.5; HO‑04 § 3.3 (antibiotic rules). No relevant data on isolation discontinuation.*",success,15.1834,1391,326,1717,148,"[""DG-05"", ""HO-04"", ""HO-08"", ""PR-03""]",5,
+Q098,four_plus_documents,"For PAT-011, integrate the echocardiographic HFrEF finding, atrial fibrillation and warfarin target with the first-discharge follow-up obligations and the documented failures.","PAT-011 had LVEF 30%, atrial fibrillation, and warfarin with a default INR target of 2.0 to 3.0. After the first discharge, the required call within 48 hours, clinic visit within 7 days, and INR check within 72 hours were not completed; the patient was subsequently readmitted on 2026-02-02.","**PAT‑011 (Walter Brennan‑Osei)**  
+
+| Element | What the record shows |
+|---------|----------------------|
+| **Echocardiographic finding** | Heart‑failure with reduced ejection fraction (HFrEF) – DIS‑004 【Evidence 2†PR‑08†3】 |
+| **Arrhythmia** | Atrial fibrillation – DIS‑005 【Evidence 2†PR‑08†3】 |
+| **Warfarin management** | Warfarin prescribed with a default INR target of **2.0 – 3.0** 【Evidence 2†PR‑08†3】 |
+| **First‑discharge follow‑up obligations (per protocol)** | • Telephone call within 48 h <br>• Clinic visit within 7 days <br>• INR check within 72 h (PRO‑007) 【Evidence 4†DG‑01†4.5】 |
+| **What actually happened after the first discharge** | • Call completed 22 h 30 min after discharge 【Evidence 1†PR‑08†3.4】 <br>• INR 2.6 obtained on day 2 【Evidence 1†PR‑08†3.4】 <br>• Clinic visit on day 4 【Evidence ",success,12.0217,1200,1000,2200,711,"[""DG-01"", ""HO-07"", ""PR-08""]",5,
+Q099,four_plus_documents,"For PAT-007, identify the required first-dose verification steps and contrast them with the actual event documented in governance.","PRO-003 requires pharmacist and nurse to independently verify allergy, drug, and cross-reactivity before the first beta-lactam dose in any patient with an allergy flag. In INC-001, the pharmacist verified the order but the nursing independent check was bypassed with an urgent override; the patient then developed anaphylaxis after amoxicillin-clavulanate.","**Required first‑dose verification steps for PAT‑007**
+
+* The hospital policy for a beta‑lactam (e.g., amoxicillin‑clavulanate) given to a patient who has a penicillin‑allergy flag mandates **dual verification** – a pharmacist check **plus** an independent nursing check (PRO‑003, FPA‑09, HO‑02)【Evidence 2†DG-04†5.4】.  
+* After the incident, the policy was clarified: the bar‑code “urgent override” may **not** bypass the nursing check for the first beta‑lactam dose in a patient with an allergy flag; the override is a hard stop【Evidence 4†HO-02†4.3】.
+
+**What actually happened (governance record)**  
+
+* The pharmacist verified the order at 20:48, but the required nursing independent check was **bypassed** using a bar‑code “urgent override”【Evidence 1†HO-08†3.1】.  
+
+**Contrast**
+
+* **Required:** pharmacist verification **and** mandatory nursing independent check (dual verification) that cannot be overridden.  
+* **Actual:** pharmacist verification was performed, but the nursing check was omitted because the staff used an urgent‑override barcode, violating the dual‑verification requirement.  
+
+Thus, the governance record shows a clear deviation from the prescribed first‑dose verification process.",success,14.208,1023,578,1601,276,"[""DG-04"", ""DG-07"", ""HO-02"", ""HO-08"", ""PR-07""]",5,
+Q100,four_plus_documents,"For PAT-009, determine whether the medication event involved an allergy, an adverse drug reaction, or both, using the patient's record and classification references.","PAT-009 carries ALG-006 latex contact urticaria, which is an allergy flag; the ibuprofen/lisinopril/furosemide-associated AKI stage 2 is separately recorded as a severe ADR. The NSAID prescription was an incident involving renal risk, not evidence that ibuprofen caused a documented allergy.","The available evidence identifies PAT‑009 only in the case‑book overview (PR‑07, § 2) as a patient who experienced acute kidney injury after an NSAID prescription, but it does **not** provide any information about an allergy or an adverse drug reaction for this patient. Because no record of an allergy, an adverse drug reaction, or both is presented for PAT‑009, the classification cannot be determined from the supplied documents.
+
+**Conclusion:** The evidence is insufficient to decide whether the medication event for PAT‑009 involved an allergy, an adverse drug reaction, or both.  
+
+*Sources: PR‑07, § 2 (Purpose and Scope) – no allergy or ADR details for PAT‑009.*",success,11.4016,1097,359,1456,205,"[""DG-02"", ""MP-02"", ""PR-01"", ""PR-04"", ""PR-07""]",5,
+Q035,two_documents,"What is the policy deadline for warfarin INR testing after discharge, and did PAT-011 meet it at the first discharge?",The policy requires an INR check within 72 hours of discharge; PAT-011 did not have an INR check by the 2026-01-20 14:30 deadline after discharge on 2026-01-17 at 14:30.,"- **Policy deadline:** For patients on warfarin the protocol (PRO‑007) requires an INR test **within 72 hours of discharge**【DG-01†4.5】.  
+
+- **PAT‑011 compliance at the first discharge:** The first discharge of PAT‑011 did **not** have an INR drawn within that window; the review records “INR within 72 h of discharge (first discharge) – Not done – Not met”【PR-08†7】 (also shown in the worked‑example table as “Not done – Not met”【HO-07†3.4】).  
+
+**Answer:** The deadline is 72 hours post‑discharge, and PAT‑011 failed to meet it after the first discharge.",success,11.2904,1467,406,1873,236,"[""DG-01"", ""HO-07"", ""LD-02"", ""PR-08""]",5,
+Q051,three_documents,"For PAT-005, combine the stroke pathway timing with the imaging report and the patient's allergy-related antiplatelet context.","The CT began 19 minutes after arrival and was read 6 minutes after scan start, meeting the version 2 20-minute door-to-CT and 10-minute read targets. The patient's NSAID/aspirin allergy flag is ALG-003; the named antiplatelet alternative is clopidogrel.","**Stroke‑pathway timing & imaging**
+
+- Door‑to‑CT time was **19 minutes** (target 20 min) and the first non‑contrast CT was started at **19:14** on 2026‑04‑14 (LD‑07, Section 4)【LD-07†4】.  
+- The initial CT showed **no intracranial hemorrhage** and early hypodensity in the left MCA territory (LD‑07, Section 4)【LD-07†4】.  
+- A repeat CT on **day 4** (2026‑04‑18) showed an evolving infarct **without hemorrhagic transformation** (LD‑07, Section 4)【LD-07†4】.
+
+**Timing of anticoagulation**
+
+- Because the repeat CT demonstrated no hemorrhagic conversion, the patient met the criteria for starting anticoagulation between **day 4 and day 7** for a moderate NIHSS (5‑15) (DG‑06, Section 3.5)【DG-06†3.5】.  
+- **Apixaban** was therefore initiated on **day 5**, and the antiplatelet agent was stopped at that time (DG‑06, Section 3.5)【DG-06†3.5】.
+
+**Allergy‑related antiplatelet context**
+
+- The chart notes a **hypersensitivity to aspirin and other NSAIDs** (ALG‑003) (PR‑05, Section 2)【PR-05†2】, leading to deliberate avoidance of aspirin (MED‑010) and ibuprofen (MED‑026).  
+- **Clopidogrel** (MED‑011) was used as the initial antiplatelet therapy (PR‑05, Section 2)【PR-05†2】.  
+- When apixaban was started on day 5, clopidogrel was discontinued in accordance with the pathway (DG‑06, Section 3.5)【DG-06†3.5】.
+
+**Combined summary**
+
+For PAT‑005, the stroke pathway was met: a door‑to‑CT of 19 min, an initial CT without hemorrhage, and a repeat CT on day 4 confirming no hemorrhagic transformation. These imaging results allowed anticoagulation to begin on day 5 with apixaban, at which point the initially chosen antiplatelet (clopidogrel) was stopped. The choice of clopidogrel—and the avoidance of aspirin/ibuprofen—was driven by the patient’s documented aspirin/NSAID hypersensitivity.",success,8.5978,1235,967,2202,412,"[""DG-06"", ""LD-02"", ""LD-07"", ""PR-05"", ""PR-07""]",5,
+Q052,three_documents,"For PAT-002, integrate the NSTEMI presentation, serial hs-troponin trend, and chest-pain pathway timing.",PAT-002 presented with pressure-like chest discomfort radiating to the left arm. hs-Troponin was 48 ng/L at 0 hours and 112 ng/L at approximately 2 hours; the latter exceeded the 100 ng/L critical threshold and was phoned 10 minutes after verification. PRO-006 requires ECG within 10 minutes and hs-troponin at 0 and 2 hours.,"**Presentation** – PAT‑002 arrived at 21:15 on 2025‑03‑03 with ≈2 h of pressure‑like chest discomfort radiating to the left arm【PR‑02†7.1】.  
+
+**Serial hs‑troponin trend** – The 0‑hour draw (21:40) was 48 ng/L (below the critical threshold) and the 2‑hour draw (23:42) was 112 ng/L, a rise of +64 ng/L in ≈2 h, which meets the NSTEMI definition of a rise above the 99th percentile in the setting of ischemic symptoms【LD‑04†3.1】.  
+
+**Chest‑pain pathway timing** –  
+* ECG was performed at 21:22 (7 min after arrival), satisfying the “ECG within 10 min” requirement【PR‑02†7.1】【HO‑03†4】.  
+* hs‑troponin draws were performed at 0 h (21:40) and 2 h 02 min later (23:42), matching the pathway rule of draws at 0 and 2 h【LD‑04†3】【HO‑03†4】.  
+* The critical troponin result (112 ng/L ≥ 100 ng/L) was verified at 00:10 and communicated to the cardiology fellow at 00:20 (10 min after verification), meeting the 20‑minute notification window【PR‑02†7.1】【LD‑04†3.1】【HO‑03†4】.  
+
+**Integration** – The patient’s ischemic chest‑pain presentation, the ≥ 64 ng/L rise in hs‑troponin over the mandated 0‑ and 2‑hour interval, and the documented compliance with ECG, draw, and critical‑result notification timings together satisfy the PRO‑006 chest‑pain pathway and confirm an NSTEMI diagnosis per DG‑01 criteria【DG‑01†6.1】.",success,10.6507,1344,645,1989,199,"[""DG-01"", ""HO-03"", ""LD-04"", ""PR-02""]",5,
+Q053,three_documents,"For PAT-003, integrate the rapid-response trigger, lactate trajectory, sepsis-pathway timing, and ICU transfer to reconstruct the deterioration sequence.","On 2026-02-26, lactate was 3.4 mmol/L at 10:20 and repeated at 12:05 (1 hour 45 minutes later); the sepsis antibiotic was given in 53 minutes against the then-applicable 60-minute version 2 target. On 2026-02-27, respiratory rate 34 and MAP 58 triggered rapid response at 06:05, followed by ICU transfer at 06:30.","**Deterioration sequence for PAT‑003**
+
+| Time (2026) | Event | Evidence |
+|-------------|-------|----------|
+| **02‑26 10:20** | First lactate drawn – **3.4 mmol/L** (above the normal range, flagged “H”). This marks early metabolic evidence of sepsis from pneumonia. | LD‑04 §5.1, lines 57‑60 |
+| **02‑26 12:05** | Repeat lactate – **2.1 mmol/L**, a decline that satisfies the 2‑hour repeat rule of PRO‑004. | LD‑04 §5.1, lines 61‑63 |
+| **02‑27 06:05** | Rapid‑response trigger: respiratory rate 34 breaths/min and mean arterial pressure 58 mmHg. | PR‑03 §6.2, lines 70‑71; HO‑03 §5.2, line 78 |
+| **02‑27 06:05 + ≤10 min** | Rapid‑response team (ICU physician + nurse) arrives at bedside (required ≤10 min). | HO‑03 §5.2, line 78 |
+| **02‑27 06:30** | Decision made and patient transferred to ICU (DEP‑009) within the 30‑minute decision window. | PR‑03 §6.2, line 71; HO‑03 §5.2, line 79 |
+| **02‑27 07:20** | Antibiotic escalation per the sepsis‑pathway for deterioration: piperacillin‑tazobactam 4.5 g q6h + vancomycin (ceftriaxone stopped). | PR‑03 §6.2, line 71‑72; DG‑05 §3.3, lines 35‑36 |
+
+**Integrated narrative**
+
+1. On 26 Feb, the patient’s lactate rose to 3.4 mmol/L, confirming early sepsis (LD‑04). A repeat at 12:05 showed a drop to 2.1 mmol/L, meeting the PRO‑004 repeat‑rule (LD‑04).  
+2. The next morning (27 Feb), worsening physiology (RR 34, MAP 58) triggered the rapid‑response protocol at 06:05 (PR",success,16.2199,1176,1000,2176,473,"[""DG-05"", ""HO-03"", ""LD-04"", ""PR-03""]",5,
+Q055,three_documents,"For PAT-001, explain why the notification deviation did not imply documented patient harm.","Potassium was 6.4 mmol/L and the notification was 36 minutes after verification, exceeding the 20-minute target; HO-08 classifies the incident as no harm because the patient was already monitored after the ECG at 07:50.","**Fact:** The critical‑potassium notification for PAT‑001 was delayed 36 minutes (the call was placed at 08:41, 20 minutes after the 08:05 verification) because the first two call attempts reached a busy triage line and there was no automatic escalation in PRO‑009 version 1【HO‑08†3.2】.  
+
+**Fact:** The patient had already been placed on cardiac monitoring after an ECG performed at 07:50【HO‑05†2.6】.  
+
+**Inference:** Because continuous cardiac monitoring was already in place, the delayed notification did not affect the patient’s clinical status, and the incident was recorded as “no harm.”【HO‑08†3.2】【HO‑05†2.6】",success,9.0955,1066,311,1377,141,"[""HO-05"", ""HO-08"", ""PR-01""]",5,

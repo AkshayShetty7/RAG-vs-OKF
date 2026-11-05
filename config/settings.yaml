@@ -1,0 +1,28 @@
+project:
+  name: rag_vs_okf
+  source_dir: data/source_documents
+
+llm:
+  provider: groq
+  model: openai/gpt-oss-120b
+  temperature: 0
+
+embedding:
+  provider: sentence-transformers
+  model: BAAI/bge-base-en-v1.5
+  normalize_embeddings: true
+
+reranker:
+  provider: sentence-transformers
+  model: BAAI/bge-reranker-base
+
+rag:
+  chunk_size: 700
+  chunk_overlap: 120
+  dense_top_k: 20
+  bm25_top_k: 20
+  hybrid_top_k: 20
+  reranker_top_k: 5
+
+evaluation:
+  evidence_top_k: 5

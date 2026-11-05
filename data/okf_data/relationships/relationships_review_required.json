@@ -1,0 +1,2866 @@
+[
+  {
+    "id": "REL-046d",
+    "seed_row_id": "REL-046",
+    "source": "MED-015",
+    "relationship_type": "INDICATED_FOR",
+    "target": "DIS-006",
+    "qualifier": null,
+    "primary_evidence_document": "MP-03",
+    "corroborating_documents": [
+      "DG-06",
+      "DG-01"
+    ],
+    "registry_expansion_note": "cross-product of the row's sources and targets",
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "review_flags": [
+      "cartesian_expansion_pairing_review",
+      "no_source_passage"
+    ],
+    "relationship_id": "REL-046d",
+    "source_entity_id": "MED-015",
+    "target_entity_id": "DIS-006",
+    "relation_type": "INDICATED_FOR"
+  },
+  {
+    "id": "REL-052d",
+    "seed_row_id": "REL-052",
+    "source": "MED-022",
+    "relationship_type": "INDICATED_FOR",
+    "target": "DIS-015",
+    "qualifier": null,
+    "primary_evidence_document": "MP-05",
+    "corroborating_documents": [
+      "DG-04"
+    ],
+    "registry_expansion_note": "cross-product of the row's sources and targets",
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "review_flags": [
+      "cartesian_expansion_pairing_review",
+      "no_source_passage"
+    ],
+    "relationship_id": "REL-052d",
+    "source_entity_id": "MED-022",
+    "target_entity_id": "DIS-015",
+    "relation_type": "INDICATED_FOR"
+  },
+  {
+    "id": "REL-058",
+    "seed_row_id": "REL-058",
+    "source": "MED-027",
+    "relationship_type": "INDICATED_FOR",
+    "target": "DIS-021",
+    "qualifier": "preferred analgesic",
+    "primary_evidence_document": "MP-05",
+    "corroborating_documents": [
+      "DG-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "DG-08",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "4.2",
+        "section_title": "4.2 Treatment ladder",
+        "heading_path": [
+          "DG-08: Chronic Disease and Multimorbidity Guidelines (Fictional Reference)",
+          "4. Osteoarthritis (DIS-021)",
+          "4.2 Treatment ladder"
+        ],
+        "page": null,
+        "line": 55,
+        "char_start": 3290,
+        "char_end": 3343,
+        "evidence_text": "| 2 | **Acetaminophen** (MED-027) up to 3 g per day |",
+        "table_header": [
+          "Step",
+          "Intervention"
+        ],
+        "passage_entity_ids": [
+          "MED-027"
+        ],
+        "passage_id_count": 1,
+        "section": "4.2 Treatment ladder"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-08"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-058",
+    "source_entity_id": "MED-027",
+    "target_entity_id": "DIS-021",
+    "relation_type": "INDICATED_FOR"
+  },
+  {
+    "id": "REL-060a",
+    "seed_row_id": "REL-060",
+    "source": "ALG-002",
+    "relationship_type": "CONTRAINDICATED_WITH",
+    "target": "sulfonamide antibiotics (none in formulary)",
+    "qualifier": null,
+    "primary_evidence_document": "MP-07",
+    "corroborating_documents": [
+      "MP-01"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "non_entity_text"
+    },
+    "evidence": [],
+    "verification": {
+      "status": "unresolved_endpoint",
+      "primary_evidence_found": false,
+      "reason": "endpoint is not a registry entity ID"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_unresolved_endpoint",
+    "review_reason": "Target is descriptive free text rather than a registered entity ID; retain as a scope/constraint statement outside the entity graph until modeled explicitly.",
+    "relationship_id": "REL-060a",
+    "source_entity_id": "ALG-002",
+    "target_entity_id": "sulfonamide antibiotics (none in formulary)",
+    "relation_type": "CONTRAINDICATED_WITH"
+  },
+  {
+    "id": "REL-063",
+    "seed_row_id": "REL-063",
+    "source": "ALG-006",
+    "relationship_type": "AFFECTS",
+    "target": "latex-containing supplies (no drug)",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "PR-07"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "non_entity_text"
+    },
+    "evidence": [],
+    "verification": {
+      "status": "unresolved_endpoint",
+      "primary_evidence_found": false,
+      "reason": "endpoint is not a registry entity ID"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_unresolved_endpoint",
+    "review_reason": "Target is descriptive free text rather than a registered entity ID; retain as a scope/constraint statement outside the entity graph until modeled explicitly.",
+    "relationship_id": "REL-063",
+    "source_entity_id": "ALG-006",
+    "target_entity_id": "latex-containing supplies (no drug)",
+    "relation_type": "AFFECTS"
+  },
+  {
+    "id": "REL-070",
+    "seed_row_id": "REL-070",
+    "source": "MED-001",
+    "relationship_type": "CONTRAINDICATED_WITH",
+    "target": "DIS-003",
+    "qualifier": "when eGFR below 30 (dose cap 30-44; FPA-03)",
+    "primary_evidence_document": "MP-02",
+    "corroborating_documents": [
+      "MP-07",
+      "HO-02",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "DG-03",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "3.2",
+        "section_title": "3.2 Drug and dose consequences",
+        "heading_path": [
+          "DG-03: Renal and Electrolyte Guidelines (Fictional Reference)",
+          "3. Chronic Kidney Disease (DIS-003)",
+          "3.2 Drug and dose consequences"
+        ],
+        "page": null,
+        "line": 48,
+        "char_start": 2257,
+        "char_end": 2378,
+        "evidence_text": "- **Metformin (MED-001):** maximum 1,000 mg/day at eGFR 30 to 44; stop below 30 (also in DG-02, MP-02; protocol PRO-008).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "MED-001",
+          "PRO-008"
+        ],
+        "passage_id_count": 2,
+        "section": "3.2 Drug and dose consequences"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-03"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-070",
+    "source_entity_id": "MED-001",
+    "target_entity_id": "DIS-003",
+    "relation_type": "CONTRAINDICATED_WITH"
+  },
+  {
+    "id": "REL-072",
+    "seed_row_id": "REL-072",
+    "source": "MED-030",
+    "relationship_type": "CONTRAINDICATED_WITH",
+    "target": "DIS-013",
+    "qualifier": "and acute febrile illness (hold)",
+    "primary_evidence_document": "MP-02",
+    "corroborating_documents": [
+      "DG-02"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "PR-04",
+        "role": "fallback_other_document",
+        "evidence_level": "direct_same_passage",
+        "section_number": "2",
+        "section_title": "2. Purpose and Scope",
+        "heading_path": [
+          "PR-04: Longitudinal Chart, PAT-004 (Elena Voss)",
+          "2. Purpose and Scope"
+        ],
+        "page": null,
+        "line": 32,
+        "char_start": 1458,
+        "char_end": 1953,
+        "evidence_text": "This chart records the care of PAT-004, who has type 2 diabetes (DIS-001) and hypothyroidism (DIS-016). It centers on an admission on 2025-12-09 for **diabetic ketoacidosis with near-normal glucose** (DIS-013) associated with the SGLT2 inhibitor empagliflozin (MED-030) during an acute febrile illness. The chart documents the ketone series, the insulin infusion and its transition criterion (FPA-12), a hypoglycemia alert during the infusion, and the permanent discontinuation of empagliflozin.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "DIS-001",
+          "DIS-013",
+          "DIS-016",
+          "FPA-12",
+          "MED-030",
+          "PAT-004"
+        ],
+        "passage_id_count": 6,
+        "section": "2. Purpose and Scope"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-072",
+    "source_entity_id": "MED-030",
+    "target_entity_id": "DIS-013",
+    "relation_type": "CONTRAINDICATED_WITH"
+  },
+  {
+    "id": "REL-073a",
+    "seed_row_id": "REL-073",
+    "source": "MED-004",
+    "relationship_type": "CONTRAINDICATED_WITH",
+    "target": "DIS-019",
+    "qualifier": "hold and review",
+    "primary_evidence_document": "MP-01",
+    "corroborating_documents": [
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "DG-03",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "5.2",
+        "section_title": "5.2 Algorithm",
+        "heading_path": [
+          "DG-03: Renal and Electrolyte Guidelines (Fictional Reference)",
+          "5. Hyperkalemia (DIS-019)",
+          "5.2 Algorithm"
+        ],
+        "page": null,
+        "line": 96,
+        "char_start": 5538,
+        "char_end": 5754,
+        "evidence_text": "4. Remove the cause: stop or hold spironolactone (MED-008) and the ACE inhibitor (MED-004); stop potassium supplements and salt substitutes; continue the loop diuretic (MED-007) if the patient is not volume-depleted.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "MED-004",
+          "MED-007",
+          "MED-008"
+        ],
+        "passage_id_count": 3,
+        "section": "5.2 Algorithm"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-03"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-073a",
+    "source_entity_id": "MED-004",
+    "target_entity_id": "DIS-019",
+    "relation_type": "CONTRAINDICATED_WITH"
+  },
+  {
+    "id": "REL-073b",
+    "seed_row_id": "REL-073",
+    "source": "MED-008",
+    "relationship_type": "CONTRAINDICATED_WITH",
+    "target": "DIS-019",
+    "qualifier": "hold and review",
+    "primary_evidence_document": "MP-01",
+    "corroborating_documents": [
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "DG-03",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "5.2",
+        "section_title": "5.2 Algorithm",
+        "heading_path": [
+          "DG-03: Renal and Electrolyte Guidelines (Fictional Reference)",
+          "5. Hyperkalemia (DIS-019)",
+          "5.2 Algorithm"
+        ],
+        "page": null,
+        "line": 96,
+        "char_start": 5538,
+        "char_end": 5754,
+        "evidence_text": "4. Remove the cause: stop or hold spironolactone (MED-008) and the ACE inhibitor (MED-004); stop potassium supplements and salt substitutes; continue the loop diuretic (MED-007) if the patient is not volume-depleted.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "MED-004",
+          "MED-007",
+          "MED-008"
+        ],
+        "passage_id_count": 3,
+        "section": "5.2 Algorithm"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-03"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-073b",
+    "source_entity_id": "MED-008",
+    "target_entity_id": "DIS-019",
+    "relation_type": "CONTRAINDICATED_WITH"
+  },
+  {
+    "id": "REL-075b",
+    "seed_row_id": "REL-075",
+    "source": "DIS-001",
+    "relationship_type": "CONFIRMED_BY_OR_SUPPORTED_BY",
+    "target": "LAB-028",
+    "qualifier": null,
+    "primary_evidence_document": "DG-02",
+    "corroborating_documents": [
+      "LD-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "LD-08",
+        "role": "corroborating",
+        "evidence_level": "direct_same_passage",
+        "section_number": "4",
+        "section_title": "4. Part B: Diagnostic Criteria Crosswalk",
+        "heading_path": [
+          "LD-08: Pulmonary Function Reports and Diagnostic Criteria Crosswalk",
+          "4. Part B: Diagnostic Criteria Crosswalk"
+        ],
+        "page": null,
+        "line": 59,
+        "char_start": 3104,
+        "char_end": 3222,
+        "evidence_text": "| DIS-001 Type 2 diabetes | LAB-003, LAB-028 | HbA1c 6.5% or higher, or fasting glucose 7.0 mmol/L or higher | DG-02 |",
+        "table_header": [
+          "Disease",
+          "Tests (LAB)",
+          "Criterion (mirrors the guideline)",
+          "Guideline"
+        ],
+        "passage_entity_ids": [
+          "DIS-001",
+          "LAB-003",
+          "LAB-028"
+        ],
+        "passage_id_count": 3,
+        "section": "4. Part B: Diagnostic Criteria Crosswalk"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "LD-08"
+      ],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-075b",
+    "source_entity_id": "DIS-001",
+    "target_entity_id": "LAB-028",
+    "relation_type": "CONFIRMED_BY_OR_SUPPORTED_BY"
+  },
+  {
+    "id": "REL-077",
+    "seed_row_id": "REL-077",
+    "source": "DIS-017",
+    "relationship_type": "CONFIRMED_BY_OR_SUPPORTED_BY",
+    "target": "LAB-004",
+    "qualifier": null,
+    "primary_evidence_document": "DG-03",
+    "corroborating_documents": [
+      "LD-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "LD-08",
+        "role": "corroborating",
+        "evidence_level": "direct_same_passage",
+        "section_number": "4",
+        "section_title": "4. Part B: Diagnostic Criteria Crosswalk",
+        "heading_path": [
+          "LD-08: Pulmonary Function Reports and Diagnostic Criteria Crosswalk",
+          "4. Part B: Diagnostic Criteria Crosswalk"
+        ],
+        "page": null,
+        "line": 75,
+        "char_start": 5280,
+        "char_end": 5421,
+        "evidence_text": "| DIS-017 AKI | LAB-004 | Creatinine rise of 26.5 umol/L within 48 hours or 1.5 times baseline; stage 2 = 2.0 to 2.9 times baseline | DG-03 |",
+        "table_header": [
+          "Disease",
+          "Tests (LAB)",
+          "Criterion (mirrors the guideline)",
+          "Guideline"
+        ],
+        "passage_entity_ids": [
+          "DIS-017",
+          "LAB-004"
+        ],
+        "passage_id_count": 2,
+        "section": "4. Part B: Diagnostic Criteria Crosswalk"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "LD-08"
+      ],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-077",
+    "source_entity_id": "DIS-017",
+    "target_entity_id": "LAB-004",
+    "relation_type": "CONFIRMED_BY_OR_SUPPORTED_BY"
+  },
+  {
+    "id": "REL-078a",
+    "seed_row_id": "REL-078",
+    "source": "DIS-019",
+    "relationship_type": "CONFIRMED_BY_OR_SUPPORTED_BY",
+    "target": "LAB-005",
+    "qualifier": null,
+    "primary_evidence_document": "DG-03",
+    "corroborating_documents": [
+      "LD-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "LD-08",
+        "role": "fallback_other_document",
+        "evidence_level": "direct_same_passage",
+        "section_number": "4",
+        "section_title": "4. Part B: Diagnostic Criteria Crosswalk",
+        "heading_path": [
+          "LD-08: Pulmonary Function Reports and Diagnostic Criteria Crosswalk",
+          "4. Part B: Diagnostic Criteria Crosswalk"
+        ],
+        "page": null,
+        "line": 77,
+        "char_start": 5563,
+        "char_end": 5724,
+        "evidence_text": "| DIS-019 Hyperkalemia | LAB-005, LAB-021 | Mild 5.5 to 5.9, moderate 6.0 to 6.4, severe 6.5 mmol/L or higher; MediCore critical 6.2 or higher (FPA-01) | DG-03 |",
+        "table_header": [
+          "Disease",
+          "Tests (LAB)",
+          "Criterion (mirrors the guideline)",
+          "Guideline"
+        ],
+        "passage_entity_ids": [
+          "DIS-019",
+          "FPA-01",
+          "LAB-005",
+          "LAB-021"
+        ],
+        "passage_id_count": 4,
+        "section": "4. Part B: Diagnostic Criteria Crosswalk"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-078a",
+    "source_entity_id": "DIS-019",
+    "target_entity_id": "LAB-005",
+    "relation_type": "CONFIRMED_BY_OR_SUPPORTED_BY"
+  },
+  {
+    "id": "REL-091a",
+    "seed_row_id": "REL-091",
+    "source": "DIS-018",
+    "relationship_type": "CONFIRMED_BY_OR_SUPPORTED_BY",
+    "target": "LAB-001",
+    "qualifier": null,
+    "primary_evidence_document": "DG-07",
+    "corroborating_documents": [
+      "LD-02"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "LD-08",
+        "role": "fallback_other_document",
+        "evidence_level": "direct_same_passage",
+        "section_number": "4",
+        "section_title": "4. Part B: Diagnostic Criteria Crosswalk",
+        "heading_path": [
+          "LD-08: Pulmonary Function Reports and Diagnostic Criteria Crosswalk",
+          "4. Part B: Diagnostic Criteria Crosswalk"
+        ],
+        "page": null,
+        "line": 76,
+        "char_start": 5422,
+        "char_end": 5562,
+        "evidence_text": "| DIS-018 Iron-deficiency anemia | LAB-001, LAB-025 | Hemoglobin below 12.0 g/dL (women) or 13.0 (men) and ferritin below 15 ng/mL | DG-07 |",
+        "table_header": [
+          "Disease",
+          "Tests (LAB)",
+          "Criterion (mirrors the guideline)",
+          "Guideline"
+        ],
+        "passage_entity_ids": [
+          "DIS-018",
+          "LAB-001",
+          "LAB-025"
+        ],
+        "passage_id_count": 3,
+        "section": "4. Part B: Diagnostic Criteria Crosswalk"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-091a",
+    "source_entity_id": "DIS-018",
+    "target_entity_id": "LAB-001",
+    "relation_type": "CONFIRMED_BY_OR_SUPPORTED_BY"
+  },
+  {
+    "id": "REL-091b",
+    "seed_row_id": "REL-091",
+    "source": "DIS-018",
+    "relationship_type": "CONFIRMED_BY_OR_SUPPORTED_BY",
+    "target": "LAB-025",
+    "qualifier": null,
+    "primary_evidence_document": "DG-07",
+    "corroborating_documents": [
+      "LD-02"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "PR-02",
+        "role": "fallback_other_document",
+        "evidence_level": "direct_same_passage",
+        "section_number": "8.2",
+        "section_title": "8.2 Course",
+        "heading_path": [
+          "PR-02: Longitudinal Chart, PAT-002 (Priya Nandakumar)",
+          "8. Upper GI Bleed Admission, 2025-05-19 to 2025-05-24 (ENC-002-05)",
+          "8.2 Course"
+        ],
+        "page": null,
+        "line": 126,
+        "char_start": 9171,
+        "char_end": 9344,
+        "evidence_text": "| 2025-05-21 | Hb 9.1 g/dL after transfusion. Ferritin (LAB-025) 9 ng/mL, transferrin saturation 6%: iron-deficiency anemia (DIS-018) confirmed against the DG-07 criteria. |",
+        "table_header": [
+          "Date",
+          "Events"
+        ],
+        "passage_entity_ids": [
+          "DIS-018",
+          "LAB-025"
+        ],
+        "passage_id_count": 2,
+        "section": "8.2 Course"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-091b",
+    "source_entity_id": "DIS-018",
+    "target_entity_id": "LAB-025",
+    "relation_type": "CONFIRMED_BY_OR_SUPPORTED_BY"
+  },
+  {
+    "id": "REL-094c",
+    "seed_row_id": "REL-094",
+    "source": "MED-008",
+    "relationship_type": "MONITORED_BY",
+    "target": "LAB-005",
+    "qualifier": null,
+    "primary_evidence_document": "MP-01",
+    "corroborating_documents": [
+      "DG-03"
+    ],
+    "registry_expansion_note": "cross-product of the row's sources and targets",
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "DG-01",
+        "role": "fallback_other_document",
+        "evidence_level": "direct_same_passage",
+        "section_number": "4.3",
+        "section_title": "4.3 Potassium safety for mineralocorticoid antagonists",
+        "heading_path": [
+          "DG-01: Cardiovascular Guidelines (Fictional Reference)",
+          "4. Heart Failure with Reduced Ejection Fraction (DIS-004)",
+          "4.3 Potassium safety for mineralocorticoid antagonists"
+        ],
+        "page": null,
+        "line": 63,
+        "char_start": 4480,
+        "char_end": 4942,
+        "evidence_text": "Check potassium (LAB-005) and creatinine/eGFR (LAB-004) at **1 week and 4 weeks** after starting or increasing spironolactone. Do not increase the dose when potassium is above 5.0 mmol/L. Hold spironolactone and the ACE inhibitor if potassium reaches 5.5 mmol/L or higher; the management algorithm is in DG-03. The combination of MED-004 with MED-008 in CKD is a recognized hyperkalemia hazard (MP-06, MP-01); PAT-001 (PR-01) illustrates the monitoring schedule.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "LAB-004",
+          "LAB-005",
+          "MED-004",
+          "MED-008",
+          "PAT-001"
+        ],
+        "passage_id_count": 5,
+        "section": "4.3 Potassium safety for mineralocorticoid antagonists"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "manual_pairing_review_required",
+    "review_reason": "Generated by Cartesian expansion of a multi-source/multi-target seed row. Pairing requires confirmation from the original seed specification and source evidence.",
+    "review_flags": [
+      "cartesian_expansion_pairing_review"
+    ],
+    "relationship_id": "REL-094c",
+    "source_entity_id": "MED-008",
+    "target_entity_id": "LAB-005",
+    "relation_type": "MONITORED_BY"
+  },
+  {
+    "id": "REL-094d",
+    "seed_row_id": "REL-094",
+    "source": "MED-008",
+    "relationship_type": "MONITORED_BY",
+    "target": "LAB-004",
+    "qualifier": null,
+    "primary_evidence_document": "MP-01",
+    "corroborating_documents": [
+      "DG-03"
+    ],
+    "registry_expansion_note": "cross-product of the row's sources and targets",
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "DG-01",
+        "role": "fallback_other_document",
+        "evidence_level": "direct_same_passage",
+        "section_number": "4.3",
+        "section_title": "4.3 Potassium safety for mineralocorticoid antagonists",
+        "heading_path": [
+          "DG-01: Cardiovascular Guidelines (Fictional Reference)",
+          "4. Heart Failure with Reduced Ejection Fraction (DIS-004)",
+          "4.3 Potassium safety for mineralocorticoid antagonists"
+        ],
+        "page": null,
+        "line": 63,
+        "char_start": 4480,
+        "char_end": 4942,
+        "evidence_text": "Check potassium (LAB-005) and creatinine/eGFR (LAB-004) at **1 week and 4 weeks** after starting or increasing spironolactone. Do not increase the dose when potassium is above 5.0 mmol/L. Hold spironolactone and the ACE inhibitor if potassium reaches 5.5 mmol/L or higher; the management algorithm is in DG-03. The combination of MED-004 with MED-008 in CKD is a recognized hyperkalemia hazard (MP-06, MP-01); PAT-001 (PR-01) illustrates the monitoring schedule.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "LAB-004",
+          "LAB-005",
+          "MED-004",
+          "MED-008",
+          "PAT-001"
+        ],
+        "passage_id_count": 5,
+        "section": "4.3 Potassium safety for mineralocorticoid antagonists"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "manual_pairing_review_required",
+    "review_reason": "Generated by Cartesian expansion of a multi-source/multi-target seed row. Pairing requires confirmation from the original seed specification and source evidence.",
+    "review_flags": [
+      "cartesian_expansion_pairing_review"
+    ],
+    "relationship_id": "REL-094d",
+    "source_entity_id": "MED-008",
+    "target_entity_id": "LAB-004",
+    "relation_type": "MONITORED_BY"
+  },
+  {
+    "id": "REL-103",
+    "seed_row_id": "REL-103",
+    "source": "PRO-001",
+    "relationship_type": "GOVERNS",
+    "target": "Medication reconciliation on admission and discharge (all MED)",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "DG-08",
+      "PR-07"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "non_entity_text"
+    },
+    "evidence": [],
+    "verification": {
+      "status": "unresolved_endpoint",
+      "primary_evidence_found": false,
+      "reason": "endpoint is not a registry entity ID"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_unresolved_endpoint",
+    "review_reason": "Target is descriptive free text rather than a registered entity ID; retain as a scope/constraint statement outside the entity graph until modeled explicitly.",
+    "relationship_id": "REL-103",
+    "source_entity_id": "PRO-001",
+    "target_entity_id": "Medication reconciliation on admission and discharge (all MED)",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-106a",
+    "seed_row_id": "REL-106",
+    "source": "PRO-004",
+    "relationship_type": "GOVERNS",
+    "target": "DIS-009",
+    "qualifier": null,
+    "primary_evidence_document": "HO-03",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "DG-05",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "3.2",
+        "section_title": "3.2 Initial management",
+        "heading_path": [
+          "DG-05: Infection and Sepsis Guidelines (Fictional Reference)",
+          "3. Sepsis (DIS-009)",
+          "3.2 Initial management"
+        ],
+        "page": null,
+        "line": 42,
+        "char_start": 2651,
+        "char_end": 2752,
+        "evidence_text": "| Lactate | Measure at recognition and repeat when elevated; the MediCore repeat rule is in PRO-004 |",
+        "table_header": [
+          "Step",
+          "Reference guideline statement"
+        ],
+        "passage_entity_ids": [
+          "PRO-004"
+        ],
+        "passage_id_count": 1,
+        "section": "3.2 Initial management"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-05"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-106a",
+    "source_entity_id": "PRO-004",
+    "target_entity_id": "DIS-009",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-106c",
+    "seed_row_id": "REL-106",
+    "source": "PRO-004",
+    "relationship_type": "GOVERNS",
+    "target": "MED-017",
+    "qualifier": null,
+    "primary_evidence_document": "HO-03",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "PR-03",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "6.1",
+        "section_title": "6.1 Emergency Department and sepsis bundle (PRO-004 version 2)",
+        "heading_path": [
+          "PR-03: Longitudinal Chart, PAT-003 (Thomas Okonkwo-Reyes)",
+          "6. Admission Timeline, 2026-02-26 to 2026-03-16 (ENC-003-01)",
+          "6.1 Emergency Department and sepsis bundle (PRO-004 version 2)"
+        ],
+        "page": null,
+        "line": 74,
+        "char_start": 4393,
+        "char_end": 4483,
+        "evidence_text": "| 10:58 | **First antibiotic: ceftriaxone 2 g IV (MED-017)**, 53 minutes after the alert |",
+        "table_header": [
+          "Clock time (2026-02-26)",
+          "Event"
+        ],
+        "passage_entity_ids": [
+          "MED-017"
+        ],
+        "passage_id_count": 1,
+        "section": "6.1 Emergency Department and sepsis bundle (PRO-004 version 2)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-03"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-106c",
+    "source_entity_id": "PRO-004",
+    "target_entity_id": "MED-017",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-106d",
+    "seed_row_id": "REL-106",
+    "source": "PRO-004",
+    "relationship_type": "GOVERNS",
+    "target": "MED-018",
+    "qualifier": null,
+    "primary_evidence_document": "HO-03",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "PR-08",
+        "role": "fallback_other_document",
+        "evidence_level": "section_scoped",
+        "section_number": "5.1",
+        "section_title": "5.1 Sepsis bundle, 2026-06-18 (PRO-004 version 3)",
+        "heading_path": [
+          "PR-08: Admission Casebook B (PAT-011, PAT-012, PAT-013, PAT-014)",
+          "5. PAT-013: Daniel Oyelaran-Whitfield",
+          "5.1 Sepsis bundle, 2026-06-18 (PRO-004 version 3)"
+        ],
+        "page": null,
+        "line": 99,
+        "char_start": 7645,
+        "char_end": 7749,
+        "evidence_text": "| 04:52 | First antibiotic: piperacillin-tazobactam 4.5 g IV (MED-018), **42 minutes** after the alert |",
+        "table_header": [
+          "Clock time",
+          "Event"
+        ],
+        "passage_entity_ids": [
+          "MED-018"
+        ],
+        "passage_id_count": 1,
+        "section": "5.1 Sepsis bundle, 2026-06-18 (PRO-004 version 3)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-106d",
+    "source_entity_id": "PRO-004",
+    "target_entity_id": "MED-018",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-106e",
+    "seed_row_id": "REL-106",
+    "source": "PRO-004",
+    "relationship_type": "GOVERNS",
+    "target": "MED-019",
+    "qualifier": null,
+    "primary_evidence_document": "HO-03",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-106e",
+    "source_entity_id": "PRO-004",
+    "target_entity_id": "MED-019",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-107a",
+    "seed_row_id": "REL-107",
+    "source": "PRO-005",
+    "relationship_type": "GOVERNS",
+    "target": "DIS-011",
+    "qualifier": null,
+    "primary_evidence_document": "HO-03",
+    "corroborating_documents": [
+      "DG-06",
+      "PR-05"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "DG-06",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "3.1",
+        "section_title": "3.1 Initial assessment",
+        "heading_path": [
+          "DG-06: Neurovascular and Thromboembolic Guidelines (Fictional Reference)",
+          "3. Acute Ischemic Stroke (DIS-011)",
+          "3.1 Initial assessment"
+        ],
+        "page": null,
+        "line": 34,
+        "char_start": 1960,
+        "char_end": 2289,
+        "evidence_text": "Establish last known well time. Score severity with the NIH Stroke Scale (NIHSS). Obtain non-contrast CT head (LAB-022) to exclude hemorrhage before any antithrombotic treatment. Record a 12-lead ECG (LAB-021) and complete blood count (LAB-001), PT/INR (LAB-010) and glucose. The time target for CT is in PRO-005 (HO-03, FPA-07).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "FPA-07",
+          "LAB-001",
+          "LAB-010",
+          "LAB-021",
+          "LAB-022",
+          "PRO-005"
+        ],
+        "passage_id_count": 6,
+        "section": "3.1 Initial assessment"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-06"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-107a",
+    "source_entity_id": "PRO-005",
+    "target_entity_id": "DIS-011",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-107b",
+    "seed_row_id": "REL-107",
+    "source": "PRO-005",
+    "relationship_type": "GOVERNS",
+    "target": "LAB-022",
+    "qualifier": null,
+    "primary_evidence_document": "HO-03",
+    "corroborating_documents": [
+      "DG-06",
+      "PR-05"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "DG-06",
+        "role": "corroborating",
+        "evidence_level": "direct_same_passage",
+        "section_number": "3.1",
+        "section_title": "3.1 Initial assessment",
+        "heading_path": [
+          "DG-06: Neurovascular and Thromboembolic Guidelines (Fictional Reference)",
+          "3. Acute Ischemic Stroke (DIS-011)",
+          "3.1 Initial assessment"
+        ],
+        "page": null,
+        "line": 34,
+        "char_start": 1960,
+        "char_end": 2289,
+        "evidence_text": "Establish last known well time. Score severity with the NIH Stroke Scale (NIHSS). Obtain non-contrast CT head (LAB-022) to exclude hemorrhage before any antithrombotic treatment. Record a 12-lead ECG (LAB-021) and complete blood count (LAB-001), PT/INR (LAB-010) and glucose. The time target for CT is in PRO-005 (HO-03, FPA-07).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "FPA-07",
+          "LAB-001",
+          "LAB-010",
+          "LAB-021",
+          "LAB-022",
+          "PRO-005"
+        ],
+        "passage_id_count": 6,
+        "section": "3.1 Initial assessment"
+      },
+      {
+        "relation_cue_matched": false,
+        "document_id": "PR-05",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "7.1",
+        "section_title": "7.1 Stroke code timing (PRO-005, FPA-07)",
+        "heading_path": [
+          "PR-05: Longitudinal Chart, PAT-005 (Samuel Adeyemi-Clarke)",
+          "7. Stroke Admission, 2026-04-14 to 2026-04-22 (ENC-005-03)",
+          "7.1 Stroke code timing (PRO-005, FPA-07)"
+        ],
+        "page": null,
+        "line": 88,
+        "char_start": 4821,
+        "char_end": 4902,
+        "evidence_text": "| 19:14 | CT head non-contrast (LAB-022) begins: **19 minutes** after door time |",
+        "table_header": [
+          "Clock time",
+          "Event"
+        ],
+        "passage_entity_ids": [
+          "LAB-022"
+        ],
+        "passage_id_count": 1,
+        "section": "7.1 Stroke code timing (PRO-005, FPA-07)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-06",
+        "PR-05"
+      ],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-107b",
+    "source_entity_id": "PRO-005",
+    "target_entity_id": "LAB-022",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-108a",
+    "seed_row_id": "REL-108",
+    "source": "PRO-006",
+    "relationship_type": "GOVERNS",
+    "target": "DIS-006",
+    "qualifier": null,
+    "primary_evidence_document": "HO-03",
+    "corroborating_documents": [
+      "DG-01",
+      "PR-07"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "DG-01",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "6.6",
+        "section_title": "6.6 Pathway timing",
+        "heading_path": [
+          "DG-01: Cardiovascular Guidelines (Fictional Reference)",
+          "6. Acute Coronary Syndrome (DIS-006)",
+          "6.6 Pathway timing"
+        ],
+        "page": null,
+        "line": 113,
+        "char_start": 8769,
+        "char_end": 8946,
+        "evidence_text": "Time-critical steps (ECG within 10 minutes of arrival; 0 and 2 hour hs-troponin; critical-result calling) are MediCore protocols owned by PRO-006 and PRO-009 in HO-03 and HO-05.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "PRO-006",
+          "PRO-009"
+        ],
+        "passage_id_count": 2,
+        "section": "6.6 Pathway timing"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-01"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-108a",
+    "source_entity_id": "PRO-006",
+    "target_entity_id": "DIS-006",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-109a",
+    "seed_row_id": "REL-109",
+    "source": "PRO-007",
+    "relationship_type": "GOVERNS",
+    "target": "MED-012",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "MP-03",
+      "PR-06"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "MP-03",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "5",
+        "section_title": "5. MED-012 Apixaban",
+        "heading_path": [
+          "MP-03: Antithrombotic Monographs",
+          "5. MED-012 Apixaban"
+        ],
+        "page": null,
+        "line": 68,
+        "char_start": 3971,
+        "char_end": 4110,
+        "evidence_text": "| **Order verification (MediCore Policy FPA-04)** | Pharmacist verification of any new apixaban order **within 4 hours** (PRO-007, HO-04) |",
+        "table_header": [
+          "Item",
+          "Detail"
+        ],
+        "passage_entity_ids": [
+          "FPA-04",
+          "PRO-007"
+        ],
+        "passage_id_count": 2,
+        "section": "5. MED-012 Apixaban"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "MP-03"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-109a",
+    "source_entity_id": "PRO-007",
+    "target_entity_id": "MED-012",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-109b",
+    "seed_row_id": "REL-109",
+    "source": "PRO-007",
+    "relationship_type": "GOVERNS",
+    "target": "MED-013",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "MP-03",
+      "PR-06"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "MP-03",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "6",
+        "section_title": "6. MED-013 Warfarin",
+        "heading_path": [
+          "MP-03: Antithrombotic Monographs",
+          "6. MED-013 Warfarin"
+        ],
+        "page": null,
+        "line": 83,
+        "char_start": 4935,
+        "char_end": 5248,
+        "evidence_text": "| INR-guided dose rules (MediCore Policy, PRO-007) | **Below 2.0:** increase weekly dose by 10 to 15%. **Above range up to 4.5:** reduce weekly dose by about 10% and **recheck within 3 days**. **Above 4.5:** hold 1 to 2 doses, **anticoagulation-clinic telephone call within 24 hours** (FPA-05), recheck next day |",
+        "table_header": [
+          "Item",
+          "Detail"
+        ],
+        "passage_entity_ids": [
+          "FPA-05",
+          "PRO-007"
+        ],
+        "passage_id_count": 2,
+        "section": "6. MED-013 Warfarin"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "MP-03"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-109b",
+    "source_entity_id": "PRO-007",
+    "target_entity_id": "MED-013",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-109c",
+    "seed_row_id": "REL-109",
+    "source": "PRO-007",
+    "relationship_type": "GOVERNS",
+    "target": "MED-014",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "MP-03",
+      "PR-06"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-109c",
+    "source_entity_id": "PRO-007",
+    "target_entity_id": "MED-014",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-109d",
+    "seed_row_id": "REL-109",
+    "source": "PRO-007",
+    "relationship_type": "GOVERNS",
+    "target": "MED-015",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "MP-03",
+      "PR-06"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-109d",
+    "source_entity_id": "PRO-007",
+    "target_entity_id": "MED-015",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-109e",
+    "seed_row_id": "REL-109",
+    "source": "PRO-007",
+    "relationship_type": "GOVERNS",
+    "target": "LAB-010",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "MP-03",
+      "PR-06"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-109e",
+    "source_entity_id": "PRO-007",
+    "target_entity_id": "LAB-010",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-109f",
+    "seed_row_id": "REL-109",
+    "source": "PRO-007",
+    "relationship_type": "GOVERNS",
+    "target": "LAB-011",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "MP-03",
+      "PR-06"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-109f",
+    "source_entity_id": "PRO-007",
+    "target_entity_id": "LAB-011",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110a",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-001",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "DG-03",
+        "role": "corroborating",
+        "evidence_level": "direct_same_passage",
+        "section_number": "3.2",
+        "section_title": "3.2 Drug and dose consequences",
+        "heading_path": [
+          "DG-03: Renal and Electrolyte Guidelines (Fictional Reference)",
+          "3. Chronic Kidney Disease (DIS-003)",
+          "3.2 Drug and dose consequences"
+        ],
+        "page": null,
+        "line": 48,
+        "char_start": 2257,
+        "char_end": 2378,
+        "evidence_text": "- **Metformin (MED-001):** maximum 1,000 mg/day at eGFR 30 to 44; stop below 30 (also in DG-02, MP-02; protocol PRO-008).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "MED-001",
+          "PRO-008"
+        ],
+        "passage_id_count": 2,
+        "section": "3.2 Drug and dose consequences"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-03"
+      ],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-110a",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-001",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110b",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-004",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-110b",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-004",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110c",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-007",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-110c",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-007",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110d",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-008",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-110d",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-008",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110e",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-012",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-110e",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-012",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110f",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-015",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "DG-06",
+        "role": "fallback_other_document",
+        "evidence_level": "direct_same_passage",
+        "section_number": "4.2",
+        "section_title": "4.2 Parenteral anticoagulation",
+        "heading_path": [
+          "DG-06: Neurovascular and Thromboembolic Guidelines (Fictional Reference)",
+          "4. Venous Thromboembolism (DIS-012)",
+          "4.2 Parenteral anticoagulation"
+        ],
+        "page": null,
+        "line": 70,
+        "char_start": 4766,
+        "char_end": 4914,
+        "evidence_text": "- Enoxaparin (MED-015) 1 mg per kg subcutaneously every 12 hours when the patient is stable; reduce or avoid when eGFR is below 30 (MP-07, PRO-008).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "MED-015",
+          "PRO-008"
+        ],
+        "passage_id_count": 2,
+        "section": "4.2 Parenteral anticoagulation"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-110f",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-015",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110g",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-018",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "MP-04",
+        "role": "fallback_other_document",
+        "evidence_level": "section_scoped",
+        "section_number": "5",
+        "section_title": "5. MED-018 Piperacillin-Tazobactam",
+        "heading_path": [
+          "MP-04: Anti-Infective Monographs",
+          "5. MED-018 Piperacillin-Tazobactam"
+        ],
+        "page": null,
+        "line": 63,
+        "char_start": 3528,
+        "char_end": 3644,
+        "evidence_text": "| **Renal adjustment** | **eGFR above 30: 4.5 g every 6 hours. eGFR 30 or below: 3.375 g every 6 hours** (PRO-008) |",
+        "table_header": [
+          "Item",
+          "Detail"
+        ],
+        "passage_entity_ids": [
+          "PRO-008"
+        ],
+        "passage_id_count": 1,
+        "section": "5. MED-018 Piperacillin-Tazobactam"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-110g",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-018",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110h",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-019",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "PR-08",
+        "role": "fallback_other_document",
+        "evidence_level": "section_scoped",
+        "section_number": "5.2",
+        "section_title": "5.2 Vancomycin and renal function (PRO-013, PRO-008, FPA-11)",
+        "heading_path": [
+          "PR-08: Admission Casebook B (PAT-011, PAT-012, PAT-013, PAT-014)",
+          "5. PAT-013: Daniel Oyelaran-Whitfield",
+          "5.2 Vancomycin and renal function (PRO-013, PRO-008, FPA-11)"
+        ],
+        "page": null,
+        "line": 105,
+        "char_start": 7996,
+        "char_end": 8235,
+        "evidence_text": "Vancomycin IV (MED-019) was started for early gram-positive cover, pharmacy-managed (DEP-010). Creatinine and eGFR (LAB-004) rose after admission, with piperacillin-tazobactam plus vancomycin as a recognized nephrotoxicity pairing (MP-06).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "DEP-010",
+          "LAB-004",
+          "MED-019"
+        ],
+        "passage_id_count": 3,
+        "section": "5.2 Vancomycin and renal function (PRO-013, PRO-008, FPA-11)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-110h",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-019",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110i",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-020",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-110i",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-020",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-110j",
+    "seed_row_id": "REL-110",
+    "source": "PRO-008",
+    "relationship_type": "GOVERNS",
+    "target": "MED-030",
+    "qualifier": null,
+    "primary_evidence_document": "HO-02",
+    "corroborating_documents": [
+      "MP-07",
+      "DG-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-110j",
+    "source_entity_id": "PRO-008",
+    "target_entity_id": "MED-030",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-113",
+    "seed_row_id": "REL-113",
+    "source": "PRO-011",
+    "relationship_type": "GOVERNS",
+    "target": "Discharge planning for all inpatients",
+    "qualifier": null,
+    "primary_evidence_document": "HO-07",
+    "corroborating_documents": [
+      "PR-01",
+      "PR-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "non_entity_text"
+    },
+    "evidence": [],
+    "verification": {
+      "status": "unresolved_endpoint",
+      "primary_evidence_found": false,
+      "reason": "endpoint is not a registry entity ID"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_unresolved_endpoint",
+    "review_reason": "Target is descriptive free text rather than a registered entity ID; retain as a scope/constraint statement outside the entity graph until modeled explicitly.",
+    "relationship_id": "REL-113",
+    "source_entity_id": "PRO-011",
+    "target_entity_id": "Discharge planning for all inpatients",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-114a",
+    "seed_row_id": "REL-114",
+    "source": "PRO-012",
+    "relationship_type": "GOVERNS",
+    "target": "DIS-023",
+    "qualifier": null,
+    "primary_evidence_document": "HO-06",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "DG-05",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "6.4",
+        "section_title": "6.4 Infection prevention",
+        "heading_path": [
+          "DG-05: Infection and Sepsis Guidelines (Fictional Reference)",
+          "6. Clostridioides difficile Infection (DIS-023)",
+          "6.4 Infection prevention"
+        ],
+        "page": null,
+        "line": 100,
+        "char_start": 6743,
+        "char_end": 6974,
+        "evidence_text": "Contact-enteric precautions and dedicated equipment. The MediCore isolation duration (72 hours after diarrhea resolves) is policy FPA-10 in PRO-012 (HO-06). Delay in starting precautions is reported as an incident (INC-004, HO-08).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "FPA-10",
+          "INC-004",
+          "PRO-012"
+        ],
+        "passage_id_count": 3,
+        "section": "6.4 Infection prevention"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "DG-05"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-114a",
+    "source_entity_id": "PRO-012",
+    "target_entity_id": "DIS-023",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-114b",
+    "seed_row_id": "REL-114",
+    "source": "PRO-012",
+    "relationship_type": "GOVERNS",
+    "target": "LAB-024",
+    "qualifier": null,
+    "primary_evidence_document": "HO-06",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "PR-03",
+        "role": "corroborating",
+        "evidence_level": "direct_same_passage",
+        "section_number": "6.5",
+        "section_title": "6.5 Hospital-onset C. difficile infection (INC-004)",
+        "heading_path": [
+          "PR-03: Longitudinal Chart, PAT-003 (Thomas Okonkwo-Reyes)",
+          "6. Admission Timeline, 2026-02-26 to 2026-03-16 (ENC-003-01)",
+          "6.5 Hospital-onset C. difficile infection (INC-004)"
+        ],
+        "page": null,
+        "line": 103,
+        "char_start": 6731,
+        "char_end": 7225,
+        "evidence_text": "Watery diarrhea began on the evening of 2026-03-06 (hospital day 9). A stool specimen for C. difficile toxin/PCR (LAB-024) was sent at 22:10. The positive result was verified at **08:40 on 2026-03-07**. Contact-enteric precautions (PRO-012) were not started until **15:25**, an interval of 6 hours 45 minutes. During this interval the patient used a shared bathroom with one other patient (no secondary case identified on screening). The delay was reported as **INC-004** and reviewed in HO-08.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "INC-004",
+          "LAB-024",
+          "PRO-012"
+        ],
+        "passage_id_count": 3,
+        "section": "6.5 Hospital-onset C. difficile infection (INC-004)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-03"
+      ],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-114b",
+    "source_entity_id": "PRO-012",
+    "target_entity_id": "LAB-024",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-115a",
+    "seed_row_id": "REL-115",
+    "source": "PRO-013",
+    "relationship_type": "GOVERNS",
+    "target": "MED-016",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-115a",
+    "source_entity_id": "PRO-013",
+    "target_entity_id": "MED-016",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-115b",
+    "seed_row_id": "REL-115",
+    "source": "PRO-013",
+    "relationship_type": "GOVERNS",
+    "target": "MED-017",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-115b",
+    "source_entity_id": "PRO-013",
+    "target_entity_id": "MED-017",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-115c",
+    "seed_row_id": "REL-115",
+    "source": "PRO-013",
+    "relationship_type": "GOVERNS",
+    "target": "MED-018",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-115c",
+    "source_entity_id": "PRO-013",
+    "target_entity_id": "MED-018",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-115d",
+    "seed_row_id": "REL-115",
+    "source": "PRO-013",
+    "relationship_type": "GOVERNS",
+    "target": "MED-019",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": false,
+        "document_id": "PR-08",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "5.2",
+        "section_title": "5.2 Vancomycin and renal function (PRO-013, PRO-008, FPA-11)",
+        "heading_path": [
+          "PR-08: Admission Casebook B (PAT-011, PAT-012, PAT-013, PAT-014)",
+          "5. PAT-013: Daniel Oyelaran-Whitfield",
+          "5.2 Vancomycin and renal function (PRO-013, PRO-008, FPA-11)"
+        ],
+        "page": null,
+        "line": 105,
+        "char_start": 7996,
+        "char_end": 8235,
+        "evidence_text": "Vancomycin IV (MED-019) was started for early gram-positive cover, pharmacy-managed (DEP-010). Creatinine and eGFR (LAB-004) rose after admission, with piperacillin-tazobactam plus vancomycin as a recognized nephrotoxicity pairing (MP-06).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "DEP-010",
+          "LAB-004",
+          "MED-019"
+        ],
+        "passage_id_count": 3,
+        "section": "5.2 Vancomycin and renal function (PRO-013, PRO-008, FPA-11)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-08"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-115d",
+    "source_entity_id": "PRO-013",
+    "target_entity_id": "MED-019",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-115e",
+    "seed_row_id": "REL-115",
+    "source": "PRO-013",
+    "relationship_type": "GOVERNS",
+    "target": "MED-020",
+    "qualifier": null,
+    "primary_evidence_document": "HO-04",
+    "corroborating_documents": [
+      "DG-05",
+      "PR-08"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-115e",
+    "source_entity_id": "PRO-013",
+    "target_entity_id": "MED-020",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-116",
+    "seed_row_id": "REL-116",
+    "source": "PRO-014",
+    "relationship_type": "GOVERNS",
+    "target": "Specimen labeling for all LAB tests",
+    "qualifier": null,
+    "primary_evidence_document": "HO-05",
+    "corroborating_documents": [
+      "LD-01"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "non_entity_text"
+    },
+    "evidence": [],
+    "verification": {
+      "status": "unresolved_endpoint",
+      "primary_evidence_found": false,
+      "reason": "endpoint is not a registry entity ID"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_unresolved_endpoint",
+    "review_reason": "Target is descriptive free text rather than a registered entity ID; retain as a scope/constraint statement outside the entity graph until modeled explicitly.",
+    "relationship_id": "REL-116",
+    "source_entity_id": "PRO-014",
+    "target_entity_id": "Specimen labeling for all LAB tests",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-117",
+    "seed_row_id": "REL-117",
+    "source": "PRO-015",
+    "relationship_type": "GOVERNS",
+    "target": "DIS-009",
+    "qualifier": "Escalation for deteriorating inpatients (including DIS-009)",
+    "primary_evidence_document": "HO-03",
+    "corroborating_documents": [
+      "PR-03"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "unverified_no_source_passage",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": null,
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "graph_eligible": false,
+    "review_status": "quarantined_no_source_passage",
+    "review_reason": "No source passage was located that links the registered endpoint IDs. Do not use as a supported graph edge until evidence is found or edge is removed.",
+    "relationship_id": "REL-117",
+    "source_entity_id": "PRO-015",
+    "target_entity_id": "DIS-009",
+    "relation_type": "GOVERNS"
+  },
+  {
+    "id": "REL-120b",
+    "seed_row_id": "REL-120",
+    "source": "INC-002",
+    "relationship_type": "INVOLVES",
+    "target": "DIS-019",
+    "qualifier": null,
+    "primary_evidence_document": "HO-08",
+    "corroborating_documents": [
+      "PR-01",
+      "HO-05"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "PR-01",
+        "role": "corroborating",
+        "evidence_level": "direct_same_passage",
+        "section_number": "2",
+        "section_title": "2. Purpose and Scope",
+        "heading_path": [
+          "PR-01: Longitudinal Chart, PAT-001 (Marcus E. Doyle)",
+          "2. Purpose and Scope"
+        ],
+        "page": null,
+        "line": 33,
+        "char_start": 1749,
+        "char_end": 2282,
+        "evidence_text": "This chart records three years of cardio-renal-metabolic care for PAT-001. It documents (a) the chronic management of type 2 diabetes (DIS-001), hypertension (DIS-002), chronic kidney disease (DIS-003), and heart failure with reduced ejection fraction (DIS-004); (b) the hyperkalemia admission of 2025-09-17 to 2025-09-20 (DIS-019, INC-002); and (c) the metformin renal-dose adjustment of 2025-03-13 under PRO-008. Policy values are cited, not defined, here; the authoritative text for each policy is in the HO documents named above.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "DIS-001",
+          "DIS-002",
+          "DIS-003",
+          "DIS-004",
+          "DIS-019",
+          "INC-002",
+          "PAT-001",
+          "PRO-008"
+        ],
+        "passage_id_count": 8,
+        "section": "2. Purpose and Scope"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-01"
+      ],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-120b",
+    "source_entity_id": "INC-002",
+    "target_entity_id": "DIS-019",
+    "relation_type": "INVOLVES"
+  },
+  {
+    "id": "REL-120c",
+    "seed_row_id": "REL-120",
+    "source": "INC-002",
+    "relationship_type": "INVOLVES",
+    "target": "LAB-005",
+    "qualifier": null,
+    "primary_evidence_document": "HO-08",
+    "corroborating_documents": [
+      "PR-01",
+      "HO-05"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "PR-01",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "9.2",
+        "section_title": "9.2 Timeline",
+        "heading_path": [
+          "PR-01: Longitudinal Chart, PAT-001 (Marcus E. Doyle)",
+          "9. Hyperkalemia Admission, 2025-09-17 to 2025-09-20 (ENC-001-10, INC-002)",
+          "9.2 Timeline"
+        ],
+        "page": null,
+        "line": 136,
+        "char_start": 10748,
+        "char_end": 10838,
+        "evidence_text": "| 07:42 | Blood drawn (BMP, LAB-002; potassium, LAB-005); specimen labeled under PRO-014 |",
+        "table_header": [
+          "Time (2025-09-17)",
+          "Event"
+        ],
+        "passage_entity_ids": [
+          "LAB-002",
+          "LAB-005",
+          "PRO-014"
+        ],
+        "passage_id_count": 3,
+        "section": "9.2 Timeline"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-01"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-120c",
+    "source_entity_id": "INC-002",
+    "target_entity_id": "LAB-005",
+    "relation_type": "INVOLVES"
+  },
+  {
+    "id": "REL-121b",
+    "seed_row_id": "REL-121",
+    "source": "INC-003",
+    "relationship_type": "INVOLVES",
+    "target": "MED-013",
+    "qualifier": null,
+    "primary_evidence_document": "HO-08",
+    "corroborating_documents": [
+      "PR-06",
+      "HO-04"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "PR-06",
+        "role": "corroborating",
+        "evidence_level": "direct_same_passage",
+        "section_number": "2",
+        "section_title": "2. Purpose and Scope",
+        "heading_path": [
+          "PR-06: Longitudinal Chart, PAT-006 (Grace Lindqvist-Obi)",
+          "2. Purpose and Scope"
+        ],
+        "page": null,
+        "line": 33,
+        "char_start": 1669,
+        "char_end": 2132,
+        "evidence_text": "This chart records a pulmonary embolism (DIS-012) 17 days after right total knee replacement for osteoarthritis (DIS-021), the transition from parenteral heparin to warfarin, and a later urinary tract infection (DIS-010) in a patient with a **penicillin allergy (ALG-001)**. The UTI was treated with ciprofloxacin (MED-020), which interacts with warfarin (MED-013); the interaction alert was overridden, leading to a supratherapeutic INR and incident **INC-003**.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "ALG-001",
+          "DIS-010",
+          "DIS-012",
+          "DIS-021",
+          "INC-003",
+          "MED-013",
+          "MED-020"
+        ],
+        "passage_id_count": 7,
+        "section": "2. Purpose and Scope"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-06"
+      ],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-121b",
+    "source_entity_id": "INC-003",
+    "target_entity_id": "MED-013",
+    "relation_type": "INVOLVES"
+  },
+  {
+    "id": "REL-122b",
+    "seed_row_id": "REL-122",
+    "source": "INC-004",
+    "relationship_type": "INVOLVES",
+    "target": "DIS-023",
+    "qualifier": null,
+    "primary_evidence_document": "HO-08",
+    "corroborating_documents": [
+      "PR-03",
+      "HO-06"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "DG-05",
+        "role": "fallback_other_document",
+        "evidence_level": "section_scoped",
+        "section_number": "6.4",
+        "section_title": "6.4 Infection prevention",
+        "heading_path": [
+          "DG-05: Infection and Sepsis Guidelines (Fictional Reference)",
+          "6. Clostridioides difficile Infection (DIS-023)",
+          "6.4 Infection prevention"
+        ],
+        "page": null,
+        "line": 100,
+        "char_start": 6743,
+        "char_end": 6974,
+        "evidence_text": "Contact-enteric precautions and dedicated equipment. The MediCore isolation duration (72 hours after diarrhea resolves) is policy FPA-10 in PRO-012 (HO-06). Delay in starting precautions is reported as an incident (INC-004, HO-08).",
+        "table_header": null,
+        "passage_entity_ids": [
+          "FPA-10",
+          "INC-004",
+          "PRO-012"
+        ],
+        "passage_id_count": 3,
+        "section": "6.4 Infection prevention"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_fallback_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-122b",
+    "source_entity_id": "INC-004",
+    "target_entity_id": "DIS-023",
+    "relation_type": "INVOLVES"
+  },
+  {
+    "id": "REL-122c",
+    "seed_row_id": "REL-122",
+    "source": "INC-004",
+    "relationship_type": "INVOLVES",
+    "target": "LAB-024",
+    "qualifier": null,
+    "primary_evidence_document": "HO-08",
+    "corroborating_documents": [
+      "PR-03",
+      "HO-06"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "PR-03",
+        "role": "corroborating",
+        "evidence_level": "direct_same_passage",
+        "section_number": "6.5",
+        "section_title": "6.5 Hospital-onset C. difficile infection (INC-004)",
+        "heading_path": [
+          "PR-03: Longitudinal Chart, PAT-003 (Thomas Okonkwo-Reyes)",
+          "6. Admission Timeline, 2026-02-26 to 2026-03-16 (ENC-003-01)",
+          "6.5 Hospital-onset C. difficile infection (INC-004)"
+        ],
+        "page": null,
+        "line": 103,
+        "char_start": 6731,
+        "char_end": 7225,
+        "evidence_text": "Watery diarrhea began on the evening of 2026-03-06 (hospital day 9). A stool specimen for C. difficile toxin/PCR (LAB-024) was sent at 22:10. The positive result was verified at **08:40 on 2026-03-07**. Contact-enteric precautions (PRO-012) were not started until **15:25**, an interval of 6 hours 45 minutes. During this interval the patient used a shared bathroom with one other patient (no secondary case identified on screening). The delay was reported as **INC-004** and reviewed in HO-08.",
+        "table_header": null,
+        "passage_entity_ids": [
+          "INC-004",
+          "LAB-024",
+          "PRO-012"
+        ],
+        "passage_id_count": 3,
+        "section": "6.5 Hospital-onset C. difficile infection (INC-004)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-03"
+      ],
+      "best_evidence_level": "direct_same_passage",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-122c",
+    "source_entity_id": "INC-004",
+    "target_entity_id": "LAB-024",
+    "relation_type": "INVOLVES"
+  },
+  {
+    "id": "REL-123c",
+    "seed_row_id": "REL-123",
+    "source": "INC-005",
+    "relationship_type": "INVOLVES",
+    "target": "DIS-017",
+    "qualifier": null,
+    "primary_evidence_document": "HO-08",
+    "corroborating_documents": [
+      "PR-07",
+      "HO-02"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "PR-07",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "5",
+        "section_title": "5. PAT-009: Lucia Fernandes-Adler (INC-005)",
+        "heading_path": [
+          "PR-07: Admission Casebook A (PAT-007, PAT-008, PAT-009, PAT-010)",
+          "5. PAT-009: Lucia Fernandes-Adler (INC-005)"
+        ],
+        "page": null,
+        "line": 100,
+        "char_start": 7291,
+        "char_end": 7446,
+        "evidence_text": "| Problems | Chronic kidney disease stage G3b (DIS-003); acute kidney injury (DIS-017); complicated UTI (DIS-010); osteoarthritis of both knees (DIS-021) |",
+        "table_header": [
+          "Item",
+          "Value"
+        ],
+        "passage_entity_ids": [
+          "DIS-003",
+          "DIS-010",
+          "DIS-017",
+          "DIS-021"
+        ],
+        "passage_id_count": 4,
+        "section": "5. PAT-009: Lucia Fernandes-Adler (INC-005)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-07"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-123c",
+    "source_entity_id": "INC-005",
+    "target_entity_id": "DIS-017",
+    "relation_type": "INVOLVES"
+  },
+  {
+    "id": "REL-124b",
+    "seed_row_id": "REL-124",
+    "source": "INC-006",
+    "relationship_type": "INVOLVES",
+    "target": "DIS-004",
+    "qualifier": null,
+    "primary_evidence_document": "HO-08",
+    "corroborating_documents": [
+      "PR-08",
+      "HO-07"
+    ],
+    "registry_expansion_note": null,
+    "endpoint_resolution": {
+      "source": "resolved",
+      "target": "resolved"
+    },
+    "evidence": [
+      {
+        "relation_cue_matched": true,
+        "document_id": "PR-08",
+        "role": "corroborating",
+        "evidence_level": "section_scoped",
+        "section_number": "3",
+        "section_title": "3. PAT-011: Walter Brennan-Osei (INC-006)",
+        "heading_path": [
+          "PR-08: Admission Casebook B (PAT-011, PAT-012, PAT-013, PAT-014)",
+          "3. PAT-011: Walter Brennan-Osei (INC-006)"
+        ],
+        "page": null,
+        "line": 39,
+        "char_start": 2644,
+        "char_end": 2744,
+        "evidence_text": "| Problems | Heart failure with reduced ejection fraction (DIS-004); atrial fibrillation (DIS-005) |",
+        "table_header": [
+          "Item",
+          "Value"
+        ],
+        "passage_entity_ids": [
+          "DIS-004",
+          "DIS-005"
+        ],
+        "passage_id_count": 2,
+        "section": "3. PAT-011: Walter Brennan-Osei (INC-006)"
+      }
+    ],
+    "invalid_document_references": [],
+    "verification": {
+      "status": "verified_corroborating_evidence_only",
+      "primary_evidence_found": false,
+      "corroborating_documents_with_evidence": [
+        "PR-08"
+      ],
+      "best_evidence_level": "section_scoped",
+      "method": "same-passage or section/document-scoped co-occurrence of both entity IDs in a verbatim source passage; semantic truth of the predicate is not machine-checked"
+    },
+    "relationship_id": "REL-124b",
+    "source_entity_id": "INC-006",
+    "target_entity_id": "DIS-004",
+    "relation_type": "INVOLVES"
+  }
+]

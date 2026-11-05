@@ -1,0 +1,23 @@
+{
+  "system": "rag",
+  "dataset_file": "data\\evaluation\\evaluation_dataset_FINAL.json",
+  "expected_questions": 100,
+  "successful_records": 100,
+  "failed_records": 5,
+  "token_usage": {
+    "llm_generation_count": 100,
+    "successful_questions_without_usage": 0,
+    "total_prompt_tokens": 150035,
+    "total_completion_tokens": 60146,
+    "total_tokens": 210181,
+    "total_reasoning_tokens": 32054,
+    "average_prompt_tokens": 1500.35,
+    "average_completion_tokens": 601.46,
+    "average_total_tokens": 2101.81,
+    "average_reasoning_tokens": 320.54,
+    "questions_with_reasoning_usage": 100
+  },
+  "results_jsonl": "outputs\\benchmark_with_usage\\rag_results.jsonl",
+  "results_csv": "outputs\\benchmark_with_usage\\rag_results.csv",
+  "generated_at_utc": "2026-11-05T04:22:20.892166+00:00"
+}

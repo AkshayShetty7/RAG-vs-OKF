@@ -1,0 +1,5343 @@
+[
+  {
+    "id": "PAT-001",
+    "type": "patient",
+    "name": "Marcus E. Doyle",
+    "attributes": {
+      "age_registry": 67,
+      "sex": "M",
+      "principal_problems_registry": "DIS-001, 002, 003 (stage G3b), 004, 019 (episode)",
+      "allergy_flags_registry": "None",
+      "key_medications_registry": "MED-001, 004, 006, 007, 008, 009",
+      "date_of_birth_source": "1959-03-14",
+      "age_stated_in_source": 67
+    },
+    "registry_home_document": "PR-01",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-02": 2,
+      "DG-03": 3,
+      "DG-08": 3,
+      "HO-02": 1,
+      "HO-05": 3,
+      "HO-07": 1,
+      "HO-08": 2,
+      "LD-03": 1,
+      "LD-04": 1,
+      "LD-06": 1,
+      "MP-01": 5,
+      "MP-02": 2,
+      "MP-06": 2,
+      "MP-07": 2,
+      "PR-01": 6,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 39,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "LD-03",
+      "LD-06"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-01",
+        "line": 40,
+        "evidence_text": "| Date of birth / age | 1959-03-14 / 67 years (at 2026-10-01) |",
+        "section_title": "3. Patient Summary",
+        "section_number": "3",
+        "char_start": 2396,
+        "char_end": 2459,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-001",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-002",
+    "type": "patient",
+    "name": "Priya Nandakumar",
+    "attributes": {
+      "age_registry": 72,
+      "sex": "F",
+      "principal_problems_registry": "DIS-005, 006 (NSTEMI), 002, 022, 018",
+      "allergy_flags_registry": "ALG-002",
+      "key_medications_registry": "MED-012, 011, 010, 006, 009, 028, 031",
+      "date_of_birth_source": "1954-07-22",
+      "age_stated_in_source": 72
+    },
+    "registry_home_document": "PR-02",
+    "source_mentions": {
+      "DG-01": 4,
+      "DG-06": 1,
+      "DG-07": 6,
+      "DG-08": 1,
+      "HO-03": 1,
+      "HO-04": 1,
+      "HO-05": 2,
+      "LD-02": 1,
+      "LD-04": 1,
+      "LD-06": 1,
+      "MP-01": 2,
+      "MP-02": 2,
+      "MP-03": 3,
+      "MP-06": 6,
+      "MP-07": 1,
+      "PR-02": 6,
+      "PR-07": 1
+    },
+    "source_mention_total": 40,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "LD-02",
+      "LD-06"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-02",
+        "line": 39,
+        "evidence_text": "| Date of birth / age | 1954-07-22 / 72 years (at 2026-10-01) |",
+        "section_title": "3. Patient Summary",
+        "section_number": "3",
+        "char_start": 2334,
+        "char_end": 2397,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-002",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-003",
+    "type": "patient",
+    "name": "Thomas Okonkwo-Reyes",
+    "attributes": {
+      "age_registry": 58,
+      "sex": "M",
+      "principal_problems_registry": "DIS-007, 008, 009, 023",
+      "allergy_flags_registry": "None",
+      "key_medications_registry": "MED-021, 022, 023, 016, 017, 018, 019",
+      "date_of_birth_source": "1968-01-30",
+      "age_stated_in_source": 58
+    },
+    "registry_home_document": "PR-03",
+    "source_mentions": {
+      "DG-04": 6,
+      "DG-05": 5,
+      "HO-03": 3,
+      "HO-04": 1,
+      "HO-05": 3,
+      "HO-06": 1,
+      "HO-08": 2,
+      "LD-04": 2,
+      "LD-05": 1,
+      "LD-07": 1,
+      "LD-08": 2,
+      "MP-04": 4,
+      "MP-05": 3,
+      "MP-06": 1,
+      "PR-03": 4,
+      "PR-08": 1
+    },
+    "source_mention_total": 40,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "LD-05",
+      "LD-07",
+      "LD-08"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-03",
+        "line": 40,
+        "evidence_text": "| Date of birth / age | 1968-01-30 / 58 years (at 2026-10-01) |",
+        "section_title": "3. Patient Summary",
+        "section_number": "3",
+        "char_start": 2410,
+        "char_end": 2473,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-003",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-004",
+    "type": "patient",
+    "name": "Elena Voss",
+    "attributes": {
+      "age_registry": 54,
+      "sex": "F",
+      "principal_problems_registry": "DIS-001, 013 (SGLT2-inhibitor-associated euglycemic), 016",
+      "allergy_flags_registry": "None",
+      "key_medications_registry": "MED-030, 001, 003, 002, 024",
+      "date_of_birth_source": "1972-05-09",
+      "age_stated_in_source": 54
+    },
+    "registry_home_document": "PR-04",
+    "source_mentions": {
+      "DG-02": 5,
+      "DG-08": 1,
+      "HO-02": 1,
+      "LD-03": 1,
+      "LD-04": 1,
+      "MP-02": 5,
+      "MP-06": 3,
+      "MP-07": 1,
+      "PR-04": 4
+    },
+    "source_mention_total": 22,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "LD-03"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-04",
+        "line": 39,
+        "evidence_text": "| Date of birth / age | 1972-05-09 / 54 years (at 2026-10-01) |",
+        "section_title": "3. Patient Summary",
+        "section_number": "3",
+        "char_start": 2062,
+        "char_end": 2125,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-004",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-005",
+    "type": "patient",
+    "name": "Samuel Adeyemi-Clarke",
+    "attributes": {
+      "age_registry": 76,
+      "sex": "M",
+      "principal_problems_registry": "DIS-011, 005, 015, 002",
+      "allergy_flags_registry": "ALG-003",
+      "key_medications_registry": "MED-011, 012, 005, 021 (MED-010 deliberately avoided)",
+      "date_of_birth_source": "1950-02-17",
+      "age_stated_in_source": 76
+    },
+    "registry_home_document": "PR-05",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-04": 3,
+      "DG-06": 2,
+      "DG-08": 1,
+      "HO-02": 1,
+      "HO-03": 1,
+      "HO-04": 1,
+      "HO-08": 1,
+      "LD-02": 1,
+      "LD-06": 1,
+      "LD-07": 1,
+      "MP-01": 1,
+      "MP-03": 3,
+      "MP-05": 2,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-05": 5
+    },
+    "source_mention_total": 27,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "LD-02",
+      "LD-06",
+      "LD-07"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-05",
+        "line": 39,
+        "evidence_text": "| Date of birth / age | 1950-02-17 / 76 years (at 2026-10-01) |",
+        "section_title": "3. Patient Summary",
+        "section_number": "3",
+        "char_start": 2252,
+        "char_end": 2315,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-005",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-006",
+    "type": "patient",
+    "name": "Grace Lindqvist-Obi",
+    "attributes": {
+      "age_registry": 63,
+      "sex": "F",
+      "principal_problems_registry": "DIS-012, 021, 010",
+      "allergy_flags_registry": "ALG-001",
+      "key_medications_registry": "MED-014, 015, 013, 020, 027",
+      "date_of_birth_source": "1963-04-25",
+      "age_stated_in_source": 63
+    },
+    "registry_home_document": "PR-06",
+    "source_mentions": {
+      "DG-05": 3,
+      "DG-06": 5,
+      "DG-08": 3,
+      "HO-04": 3,
+      "HO-05": 1,
+      "HO-08": 1,
+      "LD-02": 1,
+      "LD-03": 1,
+      "LD-05": 1,
+      "LD-07": 1,
+      "MP-03": 3,
+      "MP-04": 1,
+      "MP-05": 1,
+      "MP-06": 1,
+      "MP-07": 3,
+      "PR-06": 4
+    },
+    "source_mention_total": 33,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "LD-02",
+      "LD-03",
+      "LD-05",
+      "LD-07"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-06",
+        "line": 40,
+        "evidence_text": "| Date of birth / age | 1963-04-25 / 63 years (at 2026-10-01) |",
+        "section_title": "3. Patient Summary",
+        "section_number": "3",
+        "char_start": 2250,
+        "char_end": 2313,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-006",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-007",
+    "type": "patient",
+    "name": "Hannah Whitcombe-Rao",
+    "attributes": {
+      "age_registry": 34,
+      "sex": "F",
+      "principal_problems_registry": "DIS-015, 024",
+      "allergy_flags_registry": "ALG-001 (anaphylaxis, established by INC-001)",
+      "key_medications_registry": "MED-016 (given in error), 029, 021",
+      "date_of_birth_source": "1992-02-11",
+      "age_stated_in_source": 34
+    },
+    "registry_home_document": "PR-07",
+    "source_mentions": {
+      "DG-04": 4,
+      "DG-07": 3,
+      "DG-08": 1,
+      "HO-02": 1,
+      "HO-08": 1,
+      "LD-08": 2,
+      "MP-04": 1,
+      "MP-05": 3,
+      "MP-07": 3,
+      "PR-07": 5,
+      "PR-08": 1
+    },
+    "source_mention_total": 25,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "LD-08"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-07",
+        "line": 37,
+        "evidence_text": "| Date of birth / age | 1992-02-11 / 34 years; female |",
+        "section_title": "3. PAT-007: Hannah Whitcombe-Rao (INC-001)",
+        "section_number": "3",
+        "char_start": 2486,
+        "char_end": 2541,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-007",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-008",
+    "type": "patient",
+    "name": "Robert Chaudhary-Lowe",
+    "attributes": {
+      "age_registry": 69,
+      "sex": "M",
+      "principal_problems_registry": "DIS-006, 014, 002",
+      "allergy_flags_registry": "ALG-004",
+      "key_medications_registry": "MED-010, 011, 006, 009",
+      "date_of_birth_source": "1957-08-30",
+      "age_stated_in_source": 69
+    },
+    "registry_home_document": "PR-07",
+    "source_mentions": {
+      "DG-01": 4,
+      "DG-02": 2,
+      "DG-08": 1,
+      "HO-03": 1,
+      "HO-05": 2,
+      "LD-04": 1,
+      "LD-06": 1,
+      "MP-01": 3,
+      "MP-03": 2,
+      "MP-06": 2,
+      "MP-07": 1,
+      "PR-07": 7
+    },
+    "source_mention_total": 27,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "LD-06"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-07",
+        "line": 68,
+        "evidence_text": "| Date of birth / age | 1957-08-30 / 69 years; male |",
+        "section_title": "4. PAT-008: Robert Chaudhary-Lowe",
+        "section_number": "4",
+        "char_start": 5015,
+        "char_end": 5068,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-008",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-009",
+    "type": "patient",
+    "name": "Lucia Fernandes-Adler",
+    "attributes": {
+      "age_registry": 81,
+      "sex": "F",
+      "principal_problems_registry": "DIS-003, 017, 010, 021",
+      "allergy_flags_registry": "ALG-006",
+      "key_medications_registry": "MED-004, 007, 026, 017, 027",
+      "date_of_birth_source": "1945-06-03",
+      "age_stated_in_source": 81
+    },
+    "registry_home_document": "PR-07",
+    "source_mentions": {
+      "DG-03": 6,
+      "DG-05": 1,
+      "DG-08": 4,
+      "HO-02": 2,
+      "HO-08": 1,
+      "LD-03": 1,
+      "LD-05": 1,
+      "MP-01": 2,
+      "MP-04": 1,
+      "MP-05": 2,
+      "MP-06": 3,
+      "MP-07": 3,
+      "PR-07": 5
+    },
+    "source_mention_total": 32,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "LD-03",
+      "LD-05"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-07",
+        "line": 98,
+        "evidence_text": "| Date of birth / age | 1945-06-03 / 81 years; female |",
+        "section_title": "5. PAT-009: Lucia Fernandes-Adler (INC-005)",
+        "section_number": "5",
+        "char_start": 7216,
+        "char_end": 7271,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-009",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-010",
+    "type": "patient",
+    "name": "Victor Anselmo-Kaur",
+    "attributes": {
+      "age_registry": 49,
+      "sex": "M",
+      "principal_problems_registry": "DIS-020, 021, 022, 002, 014",
+      "allergy_flags_registry": "None",
+      "key_medications_registry": "MED-025, 026, 010, 028, 009",
+      "date_of_birth_source": "1977-09-12",
+      "age_stated_in_source": 49
+    },
+    "registry_home_document": "PR-07",
+    "source_mentions": {
+      "DG-07": 4,
+      "DG-08": 5,
+      "HO-02": 1,
+      "LD-02": 1,
+      "MP-01": 1,
+      "MP-02": 1,
+      "MP-03": 1,
+      "MP-05": 3,
+      "MP-06": 4,
+      "MP-07": 1,
+      "PR-07": 6
+    },
+    "source_mention_total": 28,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-07",
+        "line": 129,
+        "evidence_text": "| Date of birth / age | 1977-09-12 / 49 years; male |",
+        "section_title": "6. PAT-010: Victor Anselmo-Kaur",
+        "section_number": "6",
+        "char_start": 9738,
+        "char_end": 9791,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-010",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-011",
+    "type": "patient",
+    "name": "Walter Brennan-Osei",
+    "attributes": {
+      "age_registry": 78,
+      "sex": "M",
+      "principal_problems_registry": "DIS-004, 005",
+      "allergy_flags_registry": "None",
+      "key_medications_registry": "MED-007, 008, 006, 013",
+      "date_of_birth_source": "1948-04-02",
+      "age_stated_in_source": 78
+    },
+    "registry_home_document": "PR-08",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-03": 2,
+      "DG-06": 1,
+      "HO-04": 2,
+      "HO-05": 1,
+      "HO-07": 4,
+      "HO-08": 1,
+      "LD-02": 1,
+      "LD-04": 1,
+      "LD-06": 1,
+      "MP-01": 3,
+      "MP-03": 1,
+      "PR-08": 7
+    },
+    "source_mention_total": 27,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-08",
+      "LD-02",
+      "LD-06"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-08",
+        "line": 37,
+        "evidence_text": "| Date of birth / age | 1948-04-02 / 78 years; male |",
+        "section_title": "3. PAT-011: Walter Brennan-Osei (INC-006)",
+        "section_number": "3",
+        "char_start": 2534,
+        "char_end": 2587,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-011",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-012",
+    "type": "patient",
+    "name": "Mei-Ling Castellanos",
+    "attributes": {
+      "age_registry": 61,
+      "sex": "F",
+      "principal_problems_registry": "DIS-008, 001",
+      "allergy_flags_registry": "None (tolerates MED-016)",
+      "key_medications_registry": "MED-016, 001",
+      "date_of_birth_source": "1965-02-18",
+      "age_stated_in_source": 61
+    },
+    "registry_home_document": "PR-08",
+    "source_mentions": {
+      "DG-02": 1,
+      "DG-04": 4,
+      "DG-05": 2,
+      "HO-04": 1,
+      "LD-03": 1,
+      "LD-04": 1,
+      "LD-07": 1,
+      "MP-02": 1,
+      "MP-04": 1,
+      "PR-07": 1,
+      "PR-08": 6
+    },
+    "source_mention_total": 20,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-08",
+      "LD-07"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-08",
+        "line": 69,
+        "evidence_text": "| Date of birth / age | 1965-02-18 / 61 years; female |",
+        "section_title": "4. PAT-012: Mei-Ling Castellanos",
+        "section_number": "4",
+        "char_start": 5227,
+        "char_end": 5282,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-012",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-013",
+    "type": "patient",
+    "name": "Daniel Oyelaran-Whitfield",
+    "attributes": {
+      "age_registry": 66,
+      "sex": "M",
+      "principal_problems_registry": "DIS-009, 010, 017",
+      "allergy_flags_registry": "None",
+      "key_medications_registry": "MED-018, 019, 017",
+      "date_of_birth_source": "1960-09-04",
+      "age_stated_in_source": 66
+    },
+    "registry_home_document": "PR-08",
+    "source_mentions": {
+      "DG-03": 4,
+      "DG-05": 5,
+      "DG-08": 1,
+      "HO-03": 2,
+      "HO-04": 1,
+      "HO-05": 1,
+      "HO-08": 1,
+      "LD-03": 1,
+      "LD-04": 1,
+      "LD-05": 1,
+      "MP-04": 3,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-08": 6
+    },
+    "source_mention_total": 29,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-08",
+      "LD-03",
+      "LD-05"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-08",
+        "line": 84,
+        "evidence_text": "| Date of birth / age | 1960-09-04 / 66 years; male |",
+        "section_title": "5. PAT-013: Daniel Oyelaran-Whitfield",
+        "section_number": "5",
+        "char_start": 6825,
+        "char_end": 6878,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-013",
+    "entity_type": "patient"
+  },
+  {
+    "id": "PAT-014",
+    "type": "patient",
+    "name": "Ingrid Solheim-Banerjee",
+    "attributes": {
+      "age_registry": 55,
+      "sex": "F",
+      "principal_problems_registry": "DIS-016, 018",
+      "allergy_flags_registry": "None",
+      "key_medications_registry": "MED-031, 024",
+      "date_of_birth_source": "1971-06-15",
+      "age_stated_in_source": 55
+    },
+    "registry_home_document": "PR-08",
+    "source_mentions": {
+      "DG-02": 2,
+      "DG-07": 5,
+      "DG-08": 1,
+      "LD-02": 2,
+      "LD-03": 1,
+      "MP-02": 2,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-08": 5
+    },
+    "source_mention_total": 20,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-08",
+      "LD-02"
+    ],
+    "attribute_evidence": [
+      {
+        "attribute": "date_of_birth_source / age_stated_in_source",
+        "document_id": "PR-08",
+        "line": 135,
+        "evidence_text": "| Date of birth / age | 1971-06-15 / 55 years; female |",
+        "section_title": "6. PAT-014: Ingrid Solheim-Banerjee",
+        "section_number": "6",
+        "char_start": 9695,
+        "char_end": 9750,
+        "page": null
+      }
+    ],
+    "entity_id": "PAT-014",
+    "entity_type": "patient"
+  },
+  {
+    "id": "DIS-001",
+    "type": "disease",
+    "name": "Type 2 diabetes mellitus",
+    "attributes": {
+      "category": "Endocrine",
+      "guideline_document_registry": "DG-02"
+    },
+    "registry_home_document": "DG-02",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-02": 2,
+      "DG-08": 1,
+      "LD-08": 2,
+      "MP-02": 3,
+      "PR-01": 2,
+      "PR-04": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-04",
+      "DG-02"
+    ],
+    "entity_id": "DIS-001",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-002",
+    "type": "disease",
+    "name": "Hypertension",
+    "attributes": {
+      "category": "Cardiovascular",
+      "guideline_document_registry": "DG-01"
+    },
+    "registry_home_document": "DG-01",
+    "source_mentions": {
+      "DG-01": 2,
+      "LD-08": 1,
+      "MP-01": 3,
+      "PR-01": 3,
+      "PR-02": 2,
+      "PR-05": 2,
+      "PR-07": 2
+    },
+    "source_mention_total": 15,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-02",
+      "PR-05",
+      "PR-07",
+      "DG-01",
+      "MP-01",
+      "LD-08"
+    ],
+    "entity_id": "DIS-002",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-003",
+    "type": "disease",
+    "name": "Chronic kidney disease",
+    "attributes": {
+      "category": "Renal",
+      "guideline_document_registry": "DG-03"
+    },
+    "registry_home_document": "DG-03",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-03": 2,
+      "DG-08": 1,
+      "LD-08": 1,
+      "MP-05": 1,
+      "PR-01": 2,
+      "PR-07": 1
+    },
+    "source_mention_total": 9,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-07",
+      "DG-01",
+      "DG-03",
+      "DG-08"
+    ],
+    "entity_id": "DIS-003",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-004",
+    "type": "disease",
+    "name": "Heart failure with reduced ejection fraction (HFrEF)",
+    "attributes": {
+      "category": "Cardiovascular",
+      "guideline_document_registry": "DG-01"
+    },
+    "registry_home_document": "DG-01",
+    "source_mentions": {
+      "DG-01": 2,
+      "HO-07": 1,
+      "LD-08": 1,
+      "MP-01": 4,
+      "PR-01": 4,
+      "PR-08": 1
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-08",
+      "DG-01",
+      "MP-01",
+      "LD-01",
+      "LD-04",
+      "LD-06",
+      "LD-08",
+      "HO-07"
+    ],
+    "entity_id": "DIS-004",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-005",
+    "type": "disease",
+    "name": "Atrial fibrillation",
+    "attributes": {
+      "category": "Cardiovascular",
+      "guideline_document_registry": "DG-01 (stroke link in DG-06)"
+    },
+    "registry_home_document": "DG-01",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-06": 2,
+      "LD-08": 1,
+      "MP-01": 1,
+      "MP-03": 2,
+      "PR-02": 2,
+      "PR-05": 3,
+      "PR-08": 1
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-05",
+      "PR-08",
+      "DG-01",
+      "DG-06",
+      "MP-01",
+      "MP-03",
+      "LD-06",
+      "LD-08",
+      "HO-07"
+    ],
+    "entity_id": "DIS-005",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-006",
+    "type": "disease",
+    "name": "Acute coronary syndrome",
+    "attributes": {
+      "category": "Cardiovascular",
+      "guideline_document_registry": "DG-01"
+    },
+    "registry_home_document": "DG-01",
+    "source_mentions": {
+      "DG-01": 2,
+      "LD-08": 1,
+      "MP-01": 2,
+      "MP-03": 3,
+      "PR-02": 2,
+      "PR-07": 1
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-07",
+      "DG-01"
+    ],
+    "entity_id": "DIS-006",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-007",
+    "type": "disease",
+    "name": "Chronic obstructive pulmonary disease (COPD)",
+    "attributes": {
+      "category": "Respiratory",
+      "guideline_document_registry": "DG-04"
+    },
+    "registry_home_document": "DG-04",
+    "source_mentions": {
+      "DG-04": 2,
+      "LD-08": 1,
+      "MP-05": 3,
+      "PR-03": 2
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "DG-04",
+      "MP-05",
+      "LD-04",
+      "LD-07",
+      "LD-08"
+    ],
+    "entity_id": "DIS-007",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-008",
+    "type": "disease",
+    "name": "Community-acquired pneumonia (CAP)",
+    "attributes": {
+      "category": "Respiratory/Infectious",
+      "guideline_document_registry": "DG-04 (antibiotic duration in DG-05)"
+    },
+    "registry_home_document": "DG-04",
+    "source_mentions": {
+      "DG-04": 2,
+      "DG-05": 2,
+      "LD-08": 1,
+      "MP-04": 2,
+      "PR-03": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-03",
+      "PR-04",
+      "PR-05",
+      "PR-08",
+      "DG-02",
+      "DG-04",
+      "DG-05",
+      "DG-08",
+      "MP-02",
+      "MP-04",
+      "MP-07",
+      "LD-01",
+      "LD-03",
+      "LD-04",
+      "HO-02",
+      "HO-04",
+      "HO-08"
+    ],
+    "entity_id": "DIS-008",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-009",
+    "type": "disease",
+    "name": "Sepsis",
+    "attributes": {
+      "category": "Infectious",
+      "guideline_document_registry": "DG-05"
+    },
+    "registry_home_document": "DG-05",
+    "source_mentions": {
+      "DG-05": 2,
+      "LD-08": 1,
+      "MP-04": 3,
+      "PR-03": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 9,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-08",
+      "DG-03",
+      "DG-04",
+      "DG-05",
+      "MP-04",
+      "LD-01",
+      "LD-03",
+      "LD-04",
+      "LD-05",
+      "LD-08",
+      "HO-01",
+      "HO-03",
+      "HO-04",
+      "HO-08"
+    ],
+    "entity_id": "DIS-009",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-010",
+    "type": "disease",
+    "name": "Complicated urinary tract infection",
+    "attributes": {
+      "category": "Infectious",
+      "guideline_document_registry": "DG-05"
+    },
+    "registry_home_document": "DG-05",
+    "source_mentions": {
+      "DG-05": 3,
+      "LD-08": 1,
+      "MP-04": 3,
+      "PR-06": 2,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "DG-05"
+    ],
+    "entity_id": "DIS-010",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-011",
+    "type": "disease",
+    "name": "Acute ischemic stroke",
+    "attributes": {
+      "category": "Neurological",
+      "guideline_document_registry": "DG-06"
+    },
+    "registry_home_document": "DG-06",
+    "source_mentions": {
+      "DG-06": 2,
+      "LD-08": 1,
+      "MP-03": 2,
+      "PR-05": 2
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "DG-06",
+      "LD-07"
+    ],
+    "entity_id": "DIS-011",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-012",
+    "type": "disease",
+    "name": "Venous thromboembolism (DVT/PE)",
+    "attributes": {
+      "category": "Thromboembolic",
+      "guideline_document_registry": "DG-06"
+    },
+    "registry_home_document": "DG-06",
+    "source_mentions": {
+      "DG-06": 2,
+      "LD-08": 1,
+      "MP-03": 4,
+      "PR-06": 2
+    },
+    "source_mention_total": 9,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "DG-06",
+      "MP-03"
+    ],
+    "entity_id": "DIS-012",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-013",
+    "type": "disease",
+    "name": "Diabetic ketoacidosis (DKA)",
+    "attributes": {
+      "category": "Endocrine emergency",
+      "guideline_document_registry": "DG-02"
+    },
+    "registry_home_document": "DG-02",
+    "source_mentions": {
+      "DG-02": 2,
+      "LD-08": 1,
+      "MP-02": 2,
+      "PR-04": 2
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "DG-02",
+      "DG-08",
+      "MP-02",
+      "MP-06",
+      "LD-01",
+      "LD-03",
+      "LD-04",
+      "LD-08",
+      "HO-02"
+    ],
+    "entity_id": "DIS-013",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-014",
+    "type": "disease",
+    "name": "Hyperlipidemia",
+    "attributes": {
+      "category": "Metabolic",
+      "guideline_document_registry": "DG-02"
+    },
+    "registry_home_document": "DG-02",
+    "source_mentions": {
+      "DG-02": 2,
+      "LD-08": 1,
+      "MP-01": 1,
+      "PR-07": 2
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "DG-02",
+      "MP-01",
+      "LD-08"
+    ],
+    "entity_id": "DIS-014",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-015",
+    "type": "disease",
+    "name": "Asthma",
+    "attributes": {
+      "category": "Respiratory",
+      "guideline_document_registry": "DG-04"
+    },
+    "registry_home_document": "DG-04",
+    "source_mentions": {
+      "DG-04": 2,
+      "LD-08": 1,
+      "MP-05": 2,
+      "PR-05": 2,
+      "PR-07": 1
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "PR-07",
+      "DG-01",
+      "DG-04",
+      "MP-01",
+      "MP-05",
+      "MP-07",
+      "LD-08"
+    ],
+    "entity_id": "DIS-015",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-016",
+    "type": "disease",
+    "name": "Hypothyroidism",
+    "attributes": {
+      "category": "Endocrine",
+      "guideline_document_registry": "DG-02"
+    },
+    "registry_home_document": "DG-02",
+    "source_mentions": {
+      "DG-02": 2,
+      "LD-08": 1,
+      "MP-02": 1,
+      "PR-04": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "PR-08",
+      "DG-02",
+      "DG-07",
+      "DG-08",
+      "MP-02",
+      "LD-08"
+    ],
+    "entity_id": "DIS-016",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-017",
+    "type": "disease",
+    "name": "Acute kidney injury (AKI)",
+    "attributes": {
+      "category": "Renal",
+      "guideline_document_registry": "DG-03"
+    },
+    "registry_home_document": "DG-03",
+    "source_mentions": {
+      "DG-03": 2,
+      "DG-08": 1,
+      "LD-08": 1,
+      "MP-05": 1,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "PR-07",
+      "PR-08",
+      "DG-03",
+      "DG-05",
+      "DG-08",
+      "MP-01",
+      "MP-02",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "LD-03",
+      "LD-08",
+      "HO-02",
+      "HO-08"
+    ],
+    "entity_id": "DIS-017",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-018",
+    "type": "disease",
+    "name": "Iron-deficiency anemia",
+    "attributes": {
+      "category": "Hematologic",
+      "guideline_document_registry": "DG-07"
+    },
+    "registry_home_document": "DG-07",
+    "source_mentions": {
+      "DG-07": 2,
+      "LD-08": 1,
+      "MP-02": 1,
+      "PR-02": 3,
+      "PR-08": 1
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-08",
+      "DG-07",
+      "MP-02",
+      "LD-02",
+      "LD-08"
+    ],
+    "entity_id": "DIS-018",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-019",
+    "type": "disease",
+    "name": "Hyperkalemia",
+    "attributes": {
+      "category": "Electrolyte",
+      "guideline_document_registry": "DG-03"
+    },
+    "registry_home_document": "DG-03",
+    "source_mentions": {
+      "DG-03": 2,
+      "DG-08": 1,
+      "LD-08": 1,
+      "MP-02": 1,
+      "PR-01": 2
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "DG-01",
+      "DG-03",
+      "DG-08",
+      "MP-01",
+      "MP-02",
+      "MP-06",
+      "MP-07",
+      "LD-03",
+      "LD-06",
+      "LD-08"
+    ],
+    "entity_id": "DIS-019",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-020",
+    "type": "disease",
+    "name": "Major depressive disorder",
+    "attributes": {
+      "category": "Psychiatric",
+      "guideline_document_registry": "DG-08"
+    },
+    "registry_home_document": "DG-08",
+    "source_mentions": {
+      "DG-08": 2,
+      "LD-08": 1,
+      "MP-05": 1,
+      "PR-07": 1
+    },
+    "source_mention_total": 5,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "DG-08",
+      "MP-05",
+      "LD-08"
+    ],
+    "entity_id": "DIS-020",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-021",
+    "type": "disease",
+    "name": "Osteoarthritis",
+    "attributes": {
+      "category": "Musculoskeletal",
+      "guideline_document_registry": "DG-08"
+    },
+    "registry_home_document": "DG-08",
+    "source_mentions": {
+      "DG-08": 2,
+      "LD-08": 1,
+      "MP-05": 1,
+      "PR-06": 2,
+      "PR-07": 2
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "PR-07",
+      "DG-08",
+      "MP-05",
+      "LD-08"
+    ],
+    "entity_id": "DIS-021",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-022",
+    "type": "disease",
+    "name": "Upper gastrointestinal bleeding",
+    "attributes": {
+      "category": "GI",
+      "guideline_document_registry": "DG-07"
+    },
+    "registry_home_document": "DG-07",
+    "source_mentions": {
+      "DG-07": 2,
+      "LD-08": 1,
+      "MP-02": 1,
+      "PR-02": 2,
+      "PR-07": 1
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "DG-07"
+    ],
+    "entity_id": "DIS-022",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-023",
+    "type": "disease",
+    "name": "Clostridioides difficile infection",
+    "attributes": {
+      "category": "Infectious",
+      "guideline_document_registry": "DG-05"
+    },
+    "registry_home_document": "DG-05",
+    "source_mentions": {
+      "DG-05": 3,
+      "HO-06": 1,
+      "LD-08": 1,
+      "MP-04": 1,
+      "PR-03": 2
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "DG-05"
+    ],
+    "entity_id": "DIS-023",
+    "entity_type": "disease"
+  },
+  {
+    "id": "DIS-024",
+    "type": "disease",
+    "name": "Anaphylaxis / drug hypersensitivity",
+    "attributes": {
+      "category": "Allergy/Emergency",
+      "guideline_document_registry": "DG-07"
+    },
+    "registry_home_document": "DG-07",
+    "source_mentions": {
+      "DG-07": 2,
+      "DG-08": 1,
+      "LD-08": 2,
+      "MP-05": 2,
+      "PR-07": 1
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "PR-07",
+      "DG-04",
+      "DG-07",
+      "DG-08",
+      "MP-01",
+      "MP-04",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "LD-08",
+      "HO-02",
+      "HO-08"
+    ],
+    "entity_id": "DIS-024",
+    "entity_type": "disease"
+  },
+  {
+    "id": "MED-001",
+    "type": "medication",
+    "name": "Metformin",
+    "attributes": {
+      "drug_class": "Biguanide",
+      "monograph_document": "MP-02",
+      "safety_tags_registry": "RD, INT"
+    },
+    "registry_home_document": "MP-02",
+    "source_mentions": {
+      "DG-02": 1,
+      "DG-03": 1,
+      "DG-08": 1,
+      "MP-02": 2,
+      "MP-06": 5,
+      "MP-07": 2,
+      "PR-01": 1,
+      "PR-04": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 15,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-04",
+      "PR-08",
+      "DG-01",
+      "DG-02",
+      "DG-03",
+      "DG-08",
+      "MP-02",
+      "MP-06",
+      "MP-07",
+      "LD-03",
+      "HO-02",
+      "HO-07",
+      "HO-08"
+    ],
+    "entity_id": "MED-001",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-002",
+    "type": "medication",
+    "name": "Insulin glargine",
+    "attributes": {
+      "drug_class": "Basal insulin",
+      "monograph_document": "MP-02",
+      "safety_tags_registry": "HA"
+    },
+    "registry_home_document": "MP-02",
+    "source_mentions": {
+      "DG-02": 1,
+      "HO-02": 2,
+      "HO-08": 1,
+      "MP-02": 2,
+      "MP-06": 3,
+      "MP-07": 1,
+      "PR-04": 1
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "DG-02",
+      "MP-02",
+      "HO-02"
+    ],
+    "entity_id": "MED-002",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-003",
+    "type": "medication",
+    "name": "Insulin regular (IV infusion use)",
+    "attributes": {
+      "drug_class": "Short-acting insulin",
+      "monograph_document": "MP-02",
+      "safety_tags_registry": "HA"
+    },
+    "registry_home_document": "MP-02",
+    "source_mentions": {
+      "DG-02": 1,
+      "DG-03": 1,
+      "HO-02": 2,
+      "HO-08": 1,
+      "MP-02": 2,
+      "MP-06": 2,
+      "MP-07": 1,
+      "PR-01": 2,
+      "PR-04": 2
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "DG-02",
+      "DG-03",
+      "MP-02",
+      "HO-02"
+    ],
+    "entity_id": "MED-003",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-004",
+    "type": "medication",
+    "name": "Lisinopril",
+    "attributes": {
+      "drug_class": "ACE inhibitor",
+      "monograph_document": "MP-01",
+      "safety_tags_registry": "RD, INT, ALG (ALG-004)"
+    },
+    "registry_home_document": "MP-01",
+    "source_mentions": {
+      "DG-01": 3,
+      "DG-03": 3,
+      "DG-08": 1,
+      "MP-01": 3,
+      "MP-06": 6,
+      "MP-07": 2,
+      "PR-01": 2,
+      "PR-07": 2
+    },
+    "source_mention_total": 22,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-07",
+      "DG-01",
+      "DG-03",
+      "DG-08",
+      "MP-01",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "HO-02",
+      "HO-08"
+    ],
+    "entity_id": "MED-004",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-005",
+    "type": "medication",
+    "name": "Amlodipine",
+    "attributes": {
+      "drug_class": "Calcium channel blocker",
+      "monograph_document": "MP-01",
+      "safety_tags_registry": ""
+    },
+    "registry_home_document": "MP-01",
+    "source_mentions": {
+      "DG-01": 1,
+      "MP-01": 2,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-05": 1
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "DG-01",
+      "MP-01",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "MED-005",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-006",
+    "type": "medication",
+    "name": "Metoprolol succinate",
+    "attributes": {
+      "drug_class": "Beta-blocker",
+      "monograph_document": "MP-01",
+      "safety_tags_registry": ""
+    },
+    "registry_home_document": "MP-01",
+    "source_mentions": {
+      "DG-01": 4,
+      "DG-04": 1,
+      "MP-01": 2,
+      "MP-05": 1,
+      "MP-06": 4,
+      "MP-07": 1,
+      "PR-01": 1,
+      "PR-02": 1,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-02",
+      "PR-07",
+      "PR-08",
+      "DG-01",
+      "MP-01"
+    ],
+    "entity_id": "MED-006",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-007",
+    "type": "medication",
+    "name": "Furosemide",
+    "attributes": {
+      "drug_class": "Loop diuretic",
+      "monograph_document": "MP-01",
+      "safety_tags_registry": "RD, INT"
+    },
+    "registry_home_document": "MP-01",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-03": 2,
+      "MP-01": 2,
+      "MP-06": 6,
+      "MP-07": 2,
+      "PR-01": 1,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-07",
+      "PR-08",
+      "DG-01",
+      "DG-03",
+      "MP-01",
+      "MP-04",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "HO-08"
+    ],
+    "entity_id": "MED-007",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-008",
+    "type": "medication",
+    "name": "Spironolactone",
+    "attributes": {
+      "drug_class": "Mineralocorticoid antagonist",
+      "monograph_document": "MP-01",
+      "safety_tags_registry": "RD, INT"
+    },
+    "registry_home_document": "MP-01",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-03": 3,
+      "MP-01": 3,
+      "MP-06": 2,
+      "MP-07": 1,
+      "PR-01": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-08",
+      "DG-01",
+      "DG-03",
+      "DG-08",
+      "MP-01",
+      "MP-06",
+      "MP-07",
+      "LD-03",
+      "HO-02"
+    ],
+    "entity_id": "MED-008",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-009",
+    "type": "medication",
+    "name": "Atorvastatin",
+    "attributes": {
+      "drug_class": "Statin",
+      "monograph_document": "MP-01",
+      "safety_tags_registry": "INT"
+    },
+    "registry_home_document": "MP-01",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-02": 1,
+      "MP-01": 2,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-01": 1,
+      "PR-02": 1,
+      "PR-07": 2
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-02",
+      "PR-07",
+      "DG-01",
+      "DG-02",
+      "MP-01",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "MED-009",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-010",
+    "type": "medication",
+    "name": "Aspirin",
+    "attributes": {
+      "drug_class": "Antiplatelet / NSAID",
+      "monograph_document": "MP-03",
+      "safety_tags_registry": "INT, ALG (ALG-003)"
+    },
+    "registry_home_document": "MP-03",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-06": 1,
+      "DG-07": 1,
+      "DG-08": 2,
+      "MP-03": 2,
+      "MP-05": 1,
+      "MP-06": 10,
+      "MP-07": 1,
+      "PR-02": 1,
+      "PR-05": 3,
+      "PR-07": 2
+    },
+    "source_mention_total": 25,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-05",
+      "PR-07",
+      "DG-01",
+      "DG-04",
+      "DG-06",
+      "DG-07",
+      "DG-08",
+      "MP-03",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "HO-02",
+      "HO-03",
+      "HO-08"
+    ],
+    "entity_id": "MED-010",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-011",
+    "type": "medication",
+    "name": "Clopidogrel",
+    "attributes": {
+      "drug_class": "P2Y12 inhibitor",
+      "monograph_document": "MP-03",
+      "safety_tags_registry": "INT"
+    },
+    "registry_home_document": "MP-03",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-06": 1,
+      "DG-07": 1,
+      "DG-08": 1,
+      "MP-03": 2,
+      "MP-06": 7,
+      "MP-07": 1,
+      "PR-02": 1,
+      "PR-05": 2,
+      "PR-07": 1
+    },
+    "source_mention_total": 18,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-05",
+      "PR-07",
+      "DG-01",
+      "DG-06",
+      "DG-07",
+      "DG-08",
+      "MP-02",
+      "MP-03",
+      "MP-06",
+      "MP-07",
+      "LD-02",
+      "HO-03"
+    ],
+    "entity_id": "MED-011",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-012",
+    "type": "medication",
+    "name": "Apixaban",
+    "attributes": {
+      "drug_class": "Direct oral anticoagulant",
+      "monograph_document": "MP-03",
+      "safety_tags_registry": "HA, RD, INT"
+    },
+    "registry_home_document": "MP-03",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-03": 1,
+      "DG-06": 2,
+      "DG-07": 1,
+      "HO-02": 2,
+      "HO-08": 1,
+      "MP-03": 2,
+      "MP-06": 5,
+      "MP-07": 1,
+      "PR-02": 1,
+      "PR-05": 2
+    },
+    "source_mention_total": 20,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-05",
+      "PR-07",
+      "DG-01",
+      "DG-06",
+      "DG-07",
+      "MP-03",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "LD-02",
+      "HO-02",
+      "HO-03",
+      "HO-04",
+      "HO-08"
+    ],
+    "entity_id": "MED-012",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-013",
+    "type": "medication",
+    "name": "Warfarin",
+    "attributes": {
+      "drug_class": "Vitamin K antagonist",
+      "monograph_document": "MP-03",
+      "safety_tags_registry": "HA, INT"
+    },
+    "registry_home_document": "MP-03",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-05": 1,
+      "DG-06": 1,
+      "DG-08": 1,
+      "HO-02": 1,
+      "HO-08": 1,
+      "MP-03": 2,
+      "MP-04": 1,
+      "MP-06": 8,
+      "MP-07": 1,
+      "PR-06": 3,
+      "PR-08": 1
+    },
+    "source_mention_total": 23,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "PR-08",
+      "DG-01",
+      "DG-05",
+      "DG-06",
+      "DG-08",
+      "MP-03",
+      "MP-04",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "LD-01",
+      "LD-02",
+      "LD-05",
+      "HO-01",
+      "HO-02",
+      "HO-04",
+      "HO-07",
+      "HO-08"
+    ],
+    "entity_id": "MED-013",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-014",
+    "type": "medication",
+    "name": "Heparin (unfractionated)",
+    "attributes": {
+      "drug_class": "Parenteral anticoagulant",
+      "monograph_document": "MP-03",
+      "safety_tags_registry": "HA"
+    },
+    "registry_home_document": "MP-03",
+    "source_mentions": {
+      "DG-06": 1,
+      "HO-02": 1,
+      "HO-08": 1,
+      "MP-03": 2,
+      "MP-06": 1,
+      "PR-06": 2
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "DG-06",
+      "MP-03",
+      "MP-06",
+      "MP-07",
+      "LD-01",
+      "LD-02",
+      "HO-02",
+      "HO-04"
+    ],
+    "entity_id": "MED-014",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-015",
+    "type": "medication",
+    "name": "Enoxaparin",
+    "attributes": {
+      "drug_class": "Low-molecular-weight heparin",
+      "monograph_document": "MP-03",
+      "safety_tags_registry": "HA, RD"
+    },
+    "registry_home_document": "MP-03",
+    "source_mentions": {
+      "DG-03": 1,
+      "DG-06": 1,
+      "HO-02": 1,
+      "HO-08": 1,
+      "MP-03": 2,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-06": 2
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "DG-06",
+      "MP-03",
+      "MP-06",
+      "MP-07",
+      "LD-02",
+      "LD-03",
+      "HO-02",
+      "HO-04"
+    ],
+    "entity_id": "MED-015",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-016",
+    "type": "medication",
+    "name": "Amoxicillin-clavulanate",
+    "attributes": {
+      "drug_class": "Aminopenicillin / beta-lactamase inhibitor",
+      "monograph_document": "MP-04",
+      "safety_tags_registry": "ALG (ALG-001)"
+    },
+    "registry_home_document": "MP-04",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-05": 1,
+      "DG-08": 1,
+      "HO-02": 1,
+      "HO-08": 1,
+      "MP-04": 3,
+      "MP-06": 3,
+      "MP-07": 3,
+      "PR-03": 2,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 18,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-07",
+      "PR-08",
+      "DG-04",
+      "DG-07",
+      "DG-08",
+      "MP-03",
+      "MP-04",
+      "MP-06",
+      "MP-07",
+      "LD-05",
+      "HO-08"
+    ],
+    "entity_id": "MED-016",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-017",
+    "type": "medication",
+    "name": "Ceftriaxone",
+    "attributes": {
+      "drug_class": "Cephalosporin",
+      "monograph_document": "MP-04",
+      "safety_tags_registry": "ALG (cross-reactivity, ALG-001)"
+    },
+    "registry_home_document": "MP-04",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-05": 2,
+      "HO-02": 1,
+      "MP-04": 2,
+      "MP-06": 2,
+      "MP-07": 2,
+      "PR-03": 2,
+      "PR-07": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 15,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-06",
+      "PR-07",
+      "PR-08",
+      "DG-04",
+      "DG-05",
+      "MP-03",
+      "MP-04",
+      "MP-06",
+      "MP-07",
+      "LD-05"
+    ],
+    "entity_id": "MED-017",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-018",
+    "type": "medication",
+    "name": "Piperacillin-tazobactam",
+    "attributes": {
+      "drug_class": "Antipseudomonal penicillin",
+      "monograph_document": "MP-04",
+      "safety_tags_registry": "ALG (ALG-001), RD"
+    },
+    "registry_home_document": "MP-04",
+    "source_mentions": {
+      "DG-03": 1,
+      "DG-05": 3,
+      "DG-08": 1,
+      "HO-02": 1,
+      "MP-04": 3,
+      "MP-06": 2,
+      "MP-07": 2,
+      "PR-03": 2,
+      "PR-08": 2
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-08",
+      "DG-03",
+      "DG-05",
+      "DG-08",
+      "MP-04",
+      "MP-06",
+      "MP-07",
+      "LD-03",
+      "LD-05",
+      "HO-02"
+    ],
+    "entity_id": "MED-018",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-019",
+    "type": "medication",
+    "name": "Vancomycin (IV and oral)",
+    "attributes": {
+      "drug_class": "Glycopeptide",
+      "monograph_document": "MP-04",
+      "safety_tags_registry": "HA, RD"
+    },
+    "registry_home_document": "MP-04",
+    "source_mentions": {
+      "DG-03": 1,
+      "DG-05": 2,
+      "HO-02": 1,
+      "HO-08": 1,
+      "MP-01": 1,
+      "MP-04": 3,
+      "MP-06": 2,
+      "MP-07": 1,
+      "PR-03": 4,
+      "PR-08": 2
+    },
+    "source_mention_total": 18,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-08",
+      "DG-03",
+      "DG-05",
+      "DG-08",
+      "MP-01",
+      "MP-04",
+      "MP-06",
+      "MP-07",
+      "LD-05",
+      "HO-02",
+      "HO-04",
+      "HO-06",
+      "HO-08"
+    ],
+    "entity_id": "MED-019",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-020",
+    "type": "medication",
+    "name": "Ciprofloxacin",
+    "attributes": {
+      "drug_class": "Fluoroquinolone",
+      "monograph_document": "MP-04",
+      "safety_tags_registry": "RD, INT"
+    },
+    "registry_home_document": "MP-04",
+    "source_mentions": {
+      "DG-03": 1,
+      "DG-05": 1,
+      "DG-06": 1,
+      "DG-08": 1,
+      "HO-08": 1,
+      "MP-02": 1,
+      "MP-03": 1,
+      "MP-04": 2,
+      "MP-06": 4,
+      "MP-07": 1,
+      "PR-06": 3
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "DG-05",
+      "DG-06",
+      "DG-08",
+      "MP-02",
+      "MP-03",
+      "MP-04",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "LD-02",
+      "LD-05",
+      "HO-04",
+      "HO-08"
+    ],
+    "entity_id": "MED-020",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-021",
+    "type": "medication",
+    "name": "Albuterol",
+    "attributes": {
+      "drug_class": "Short-acting beta-agonist",
+      "monograph_document": "MP-05",
+      "safety_tags_registry": ""
+    },
+    "registry_home_document": "MP-05",
+    "source_mentions": {
+      "DG-04": 3,
+      "DG-07": 1,
+      "MP-01": 1,
+      "MP-05": 2,
+      "MP-06": 2,
+      "PR-03": 2,
+      "PR-05": 1,
+      "PR-07": 1
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-05",
+      "PR-07",
+      "DG-04",
+      "DG-07",
+      "MP-01",
+      "MP-05",
+      "MP-06"
+    ],
+    "entity_id": "MED-021",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-022",
+    "type": "medication",
+    "name": "Tiotropium",
+    "attributes": {
+      "drug_class": "Long-acting antimuscarinic",
+      "monograph_document": "MP-05",
+      "safety_tags_registry": ""
+    },
+    "registry_home_document": "MP-05",
+    "source_mentions": {
+      "DG-04": 1,
+      "MP-05": 2,
+      "PR-03": 2
+    },
+    "source_mention_total": 5,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "DG-04",
+      "MP-05"
+    ],
+    "entity_id": "MED-022",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-023",
+    "type": "medication",
+    "name": "Prednisone",
+    "attributes": {
+      "drug_class": "Systemic corticosteroid",
+      "monograph_document": "MP-05",
+      "safety_tags_registry": "INT"
+    },
+    "registry_home_document": "MP-05",
+    "source_mentions": {
+      "DG-04": 2,
+      "MP-04": 1,
+      "MP-05": 2,
+      "MP-06": 4,
+      "PR-03": 2
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-07",
+      "DG-04",
+      "MP-04",
+      "MP-05",
+      "MP-06"
+    ],
+    "entity_id": "MED-023",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-024",
+    "type": "medication",
+    "name": "Levothyroxine",
+    "attributes": {
+      "drug_class": "Thyroid hormone",
+      "monograph_document": "MP-02",
+      "safety_tags_registry": "INT"
+    },
+    "registry_home_document": "MP-02",
+    "source_mentions": {
+      "DG-02": 1,
+      "DG-07": 1,
+      "HO-08": 1,
+      "MP-02": 2,
+      "MP-06": 1,
+      "PR-04": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "PR-08",
+      "DG-02",
+      "DG-07",
+      "DG-08",
+      "MP-02",
+      "MP-06",
+      "MP-07",
+      "HO-08"
+    ],
+    "entity_id": "MED-024",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-025",
+    "type": "medication",
+    "name": "Sertraline",
+    "attributes": {
+      "drug_class": "SSRI",
+      "monograph_document": "MP-05",
+      "safety_tags_registry": "INT"
+    },
+    "registry_home_document": "MP-05",
+    "source_mentions": {
+      "DG-07": 1,
+      "DG-08": 1,
+      "MP-03": 1,
+      "MP-05": 2,
+      "MP-06": 3,
+      "PR-07": 1
+    },
+    "source_mention_total": 9,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "DG-07",
+      "DG-08",
+      "MP-03",
+      "MP-05",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "MED-025",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-026",
+    "type": "medication",
+    "name": "Ibuprofen",
+    "attributes": {
+      "drug_class": "NSAID",
+      "monograph_document": "MP-05",
+      "safety_tags_registry": "INT, ALG (ALG-003)"
+    },
+    "registry_home_document": "MP-05",
+    "source_mentions": {
+      "DG-03": 1,
+      "DG-06": 1,
+      "DG-07": 1,
+      "DG-08": 3,
+      "HO-02": 1,
+      "HO-08": 1,
+      "MP-01": 3,
+      "MP-03": 1,
+      "MP-05": 3,
+      "MP-06": 13,
+      "MP-07": 2,
+      "PR-05": 3,
+      "PR-07": 2
+    },
+    "source_mention_total": 35,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "PR-07",
+      "DG-03",
+      "DG-06",
+      "DG-07",
+      "DG-08",
+      "MP-01",
+      "MP-03",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "LD-03",
+      "HO-02",
+      "HO-08"
+    ],
+    "entity_id": "MED-026",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-027",
+    "type": "medication",
+    "name": "Acetaminophen",
+    "attributes": {
+      "drug_class": "Analgesic/antipyretic",
+      "monograph_document": "MP-05",
+      "safety_tags_registry": ""
+    },
+    "registry_home_document": "MP-05",
+    "source_mentions": {
+      "DG-03": 1,
+      "DG-06": 1,
+      "DG-07": 1,
+      "DG-08": 2,
+      "MP-05": 3,
+      "MP-06": 1,
+      "MP-07": 2,
+      "PR-06": 1,
+      "PR-07": 3
+    },
+    "source_mention_total": 15,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "PR-06",
+      "PR-07",
+      "DG-03",
+      "DG-06",
+      "DG-07",
+      "DG-08",
+      "MP-03",
+      "MP-05",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "MED-027",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-028",
+    "type": "medication",
+    "name": "Pantoprazole",
+    "attributes": {
+      "drug_class": "Proton pump inhibitor",
+      "monograph_document": "MP-02",
+      "safety_tags_registry": ""
+    },
+    "registry_home_document": "MP-02",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-07": 1,
+      "DG-08": 1,
+      "MP-02": 2,
+      "MP-03": 1,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-02": 2,
+      "PR-07": 2
+    },
+    "source_mention_total": 12,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-07",
+      "DG-07",
+      "MP-02",
+      "MP-03",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "MED-028",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-029",
+    "type": "medication",
+    "name": "Epinephrine",
+    "attributes": {
+      "drug_class": "Catecholamine",
+      "monograph_document": "MP-05",
+      "safety_tags_registry": "HA"
+    },
+    "registry_home_document": "MP-05",
+    "source_mentions": {
+      "DG-07": 2,
+      "HO-02": 1,
+      "HO-08": 1,
+      "MP-01": 1,
+      "MP-05": 2,
+      "MP-06": 1,
+      "PR-07": 3
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "DG-07",
+      "MP-01",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "HO-02",
+      "HO-08"
+    ],
+    "entity_id": "MED-029",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-030",
+    "type": "medication",
+    "name": "Empagliflozin",
+    "attributes": {
+      "drug_class": "SGLT2 inhibitor",
+      "monograph_document": "MP-02",
+      "safety_tags_registry": "RD, INT"
+    },
+    "registry_home_document": "MP-02",
+    "source_mentions": {
+      "DG-02": 1,
+      "DG-03": 1,
+      "DG-08": 1,
+      "HO-02": 1,
+      "MP-02": 2,
+      "MP-06": 3,
+      "MP-07": 2,
+      "PR-04": 2
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "DG-02",
+      "DG-08",
+      "MP-02",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "MED-030",
+    "entity_type": "medication"
+  },
+  {
+    "id": "MED-031",
+    "type": "medication",
+    "name": "Ferrous sulfate",
+    "attributes": {
+      "drug_class": "Oral iron",
+      "monograph_document": "MP-02",
+      "safety_tags_registry": "INT"
+    },
+    "registry_home_document": "MP-02",
+    "source_mentions": {
+      "DG-07": 1,
+      "DG-08": 1,
+      "HO-08": 1,
+      "MP-02": 3,
+      "MP-04": 1,
+      "MP-06": 3,
+      "MP-07": 1,
+      "PR-02": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-08",
+      "DG-07",
+      "DG-08",
+      "MP-02",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "MED-031",
+    "entity_type": "medication"
+  },
+  {
+    "id": "LAB-001",
+    "type": "laboratory_test",
+    "name": "Complete blood count (CBC)",
+    "attributes": {
+      "report_document_registry": "LD-02",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-02",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-06": 1,
+      "DG-07": 2,
+      "LD-01": 2,
+      "LD-02": 1,
+      "LD-08": 3,
+      "MP-02": 1,
+      "MP-03": 2,
+      "PR-02": 1,
+      "PR-05": 1,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "DG-01",
+      "DG-06",
+      "DG-07",
+      "MP-03",
+      "LD-01",
+      "LD-02",
+      "HO-05"
+    ],
+    "entity_id": "LAB-001",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-002",
+    "type": "laboratory_test",
+    "name": "Basic metabolic panel (BMP)",
+    "attributes": {
+      "report_document_registry": "LD-03",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-03",
+    "source_mentions": {
+      "DG-02": 1,
+      "LD-01": 1,
+      "LD-03": 1,
+      "LD-08": 1,
+      "PR-01": 2,
+      "PR-04": 1,
+      "PR-07": 1
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-04",
+      "PR-07",
+      "LD-01",
+      "LD-03",
+      "HO-05"
+    ],
+    "entity_id": "LAB-002",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-003",
+    "type": "laboratory_test",
+    "name": "Hemoglobin A1c",
+    "attributes": {
+      "report_document_registry": "LD-03",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-03",
+    "source_mentions": {
+      "DG-02": 1,
+      "LD-01": 1,
+      "LD-03": 1,
+      "LD-08": 1,
+      "MP-02": 1,
+      "PR-01": 1,
+      "PR-04": 2
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "not_found_in_sources",
+    "name_found_in_documents": [],
+    "entity_id": "LAB-003",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-004",
+    "type": "laboratory_test",
+    "name": "Serum creatinine and eGFR",
+    "attributes": {
+      "report_document_registry": "LD-03",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-03",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-03": 1,
+      "LD-01": 1,
+      "LD-03": 1,
+      "LD-08": 2,
+      "MP-01": 2,
+      "MP-02": 1,
+      "MP-03": 2,
+      "MP-04": 1,
+      "PR-01": 1,
+      "PR-06": 1,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 16,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "LD-01"
+    ],
+    "entity_id": "LAB-004",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-005",
+    "type": "laboratory_test",
+    "name": "Serum potassium",
+    "attributes": {
+      "report_document_registry": "LD-03",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-03",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-02": 1,
+      "DG-03": 1,
+      "HO-05": 2,
+      "LD-01": 3,
+      "LD-03": 2,
+      "LD-08": 1,
+      "MP-01": 2,
+      "MP-02": 1,
+      "MP-05": 1,
+      "PR-01": 2,
+      "PR-04": 1
+    },
+    "source_mention_total": 18,
+    "name_found_in_sources": "not_found_in_sources",
+    "name_found_in_documents": [],
+    "entity_id": "LAB-005",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-006",
+    "type": "laboratory_test",
+    "name": "Serum sodium",
+    "attributes": {
+      "report_document_registry": "LD-03",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-03",
+    "source_mentions": {
+      "LD-01": 1,
+      "LD-03": 1,
+      "MP-01": 1
+    },
+    "source_mention_total": 3,
+    "name_found_in_sources": "not_found_in_sources",
+    "name_found_in_documents": [],
+    "entity_id": "LAB-006",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-007",
+    "type": "laboratory_test",
+    "name": "High-sensitivity troponin (hs-troponin)",
+    "attributes": {
+      "report_document_registry": "LD-04",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-04",
+    "source_mentions": {
+      "DG-01": 1,
+      "HO-03": 1,
+      "HO-05": 2,
+      "LD-01": 3,
+      "LD-04": 3,
+      "LD-08": 1,
+      "PR-02": 1,
+      "PR-07": 1
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-07",
+      "DG-01",
+      "LD-01",
+      "LD-04",
+      "LD-08",
+      "HO-03",
+      "HO-05",
+      "HO-08"
+    ],
+    "entity_id": "LAB-007",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-008",
+    "type": "laboratory_test",
+    "name": "NT-proBNP",
+    "attributes": {
+      "report_document_registry": "LD-04",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-04",
+    "source_mentions": {
+      "DG-01": 2,
+      "LD-01": 1,
+      "LD-04": 2,
+      "LD-08": 1,
+      "PR-01": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 9,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-08",
+      "DG-01",
+      "LD-01",
+      "LD-04",
+      "LD-08",
+      "HO-05",
+      "HO-07"
+    ],
+    "entity_id": "LAB-008",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-009",
+    "type": "laboratory_test",
+    "name": "Lipid panel",
+    "attributes": {
+      "report_document_registry": "LD-03",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-03",
+    "source_mentions": {
+      "DG-02": 1,
+      "LD-01": 1,
+      "LD-03": 2,
+      "LD-08": 1,
+      "MP-01": 1
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "DG-02",
+      "MP-01",
+      "LD-01",
+      "LD-03"
+    ],
+    "entity_id": "LAB-009",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-010",
+    "type": "laboratory_test",
+    "name": "PT/INR",
+    "attributes": {
+      "report_document_registry": "LD-02",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-02",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-06": 1,
+      "DG-07": 1,
+      "HO-05": 2,
+      "LD-01": 3,
+      "LD-02": 4,
+      "LD-08": 1,
+      "MP-03": 1,
+      "PR-02": 1,
+      "PR-05": 1,
+      "PR-06": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 18,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-05",
+      "DG-06",
+      "DG-07",
+      "LD-01",
+      "LD-02"
+    ],
+    "entity_id": "LAB-010",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-011",
+    "type": "laboratory_test",
+    "name": "aPTT",
+    "attributes": {
+      "report_document_registry": "LD-02",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-02",
+    "source_mentions": {
+      "DG-06": 1,
+      "LD-01": 1,
+      "LD-02": 2,
+      "MP-03": 1,
+      "PR-06": 1
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "DG-06",
+      "MP-03",
+      "MP-06",
+      "LD-01",
+      "LD-02",
+      "HO-04"
+    ],
+    "entity_id": "LAB-011",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-012",
+    "type": "laboratory_test",
+    "name": "Blood culture with susceptibility",
+    "attributes": {
+      "report_document_registry": "LD-05",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-05",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-05": 1,
+      "HO-03": 1,
+      "HO-05": 2,
+      "LD-01": 3,
+      "LD-05": 2,
+      "LD-08": 1,
+      "PR-03": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "LD-01",
+      "LD-05"
+    ],
+    "entity_id": "LAB-012",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-013",
+    "type": "laboratory_test",
+    "name": "Urinalysis and urine culture",
+    "attributes": {
+      "report_document_registry": "LD-05",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-05",
+    "source_mentions": {
+      "DG-05": 2,
+      "LD-01": 1,
+      "LD-05": 3,
+      "LD-08": 1,
+      "PR-06": 1,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "LD-01",
+      "LD-05"
+    ],
+    "entity_id": "LAB-013",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-014",
+    "type": "laboratory_test",
+    "name": "Serum lactate",
+    "attributes": {
+      "report_document_registry": "LD-04",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-04",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-03": 1,
+      "HO-05": 2,
+      "LD-01": 3,
+      "LD-04": 3,
+      "LD-08": 1,
+      "PR-03": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "not_found_in_sources",
+    "name_found_in_documents": [],
+    "entity_id": "LAB-014",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-015",
+    "type": "laboratory_test",
+    "name": "Procalcitonin",
+    "attributes": {
+      "report_document_registry": "LD-04",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-04",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-05": 1,
+      "LD-01": 1,
+      "LD-04": 2,
+      "LD-08": 2,
+      "PR-03": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 9,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-08",
+      "DG-04",
+      "DG-05",
+      "LD-01",
+      "LD-04",
+      "LD-07",
+      "LD-08",
+      "HO-04"
+    ],
+    "entity_id": "LAB-015",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-016",
+    "type": "laboratory_test",
+    "name": "C-reactive protein (CRP)",
+    "attributes": {
+      "report_document_registry": "LD-04",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-04",
+    "source_mentions": {
+      "DG-04": 1,
+      "LD-01": 1,
+      "LD-04": 2,
+      "LD-08": 1,
+      "PR-03": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-08",
+      "DG-04",
+      "LD-01",
+      "LD-04",
+      "LD-08"
+    ],
+    "entity_id": "LAB-016",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-017",
+    "type": "laboratory_test",
+    "name": "TSH",
+    "attributes": {
+      "report_document_registry": "LD-03",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-03",
+    "source_mentions": {
+      "DG-02": 1,
+      "LD-01": 1,
+      "LD-03": 2,
+      "LD-08": 1,
+      "MP-02": 1,
+      "PR-04": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "PR-08",
+      "DG-02",
+      "DG-07",
+      "MP-02",
+      "MP-06",
+      "LD-01",
+      "LD-02",
+      "LD-03",
+      "LD-08"
+    ],
+    "entity_id": "LAB-017",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-018",
+    "type": "laboratory_test",
+    "name": "Arterial blood gas (ABG)",
+    "attributes": {
+      "report_document_registry": "LD-04",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-04",
+    "source_mentions": {
+      "DG-02": 1,
+      "DG-04": 1,
+      "LD-01": 1,
+      "LD-04": 2,
+      "LD-08": 1,
+      "PR-03": 1,
+      "PR-04": 1
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-04",
+      "DG-04",
+      "LD-01",
+      "LD-03",
+      "LD-04"
+    ],
+    "entity_id": "LAB-018",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-019",
+    "type": "laboratory_test",
+    "name": "Spirometry",
+    "attributes": {
+      "report_document_registry": "LD-08",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-08",
+    "source_mentions": {
+      "DG-04": 2,
+      "HO-01": 1,
+      "LD-01": 1,
+      "LD-08": 4,
+      "PR-03": 1,
+      "PR-07": 1
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-07",
+      "DG-04",
+      "LD-01",
+      "LD-08",
+      "HO-01"
+    ],
+    "entity_id": "LAB-019",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-020",
+    "type": "laboratory_test",
+    "name": "Chest X-ray",
+    "attributes": {
+      "report_document_registry": "LD-07",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-07",
+    "source_mentions": {
+      "DG-04": 1,
+      "LD-01": 1,
+      "LD-07": 3,
+      "LD-08": 1,
+      "PR-03": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 9,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-08",
+      "DG-04",
+      "LD-01",
+      "LD-07",
+      "LD-08"
+    ],
+    "entity_id": "LAB-020",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-021",
+    "type": "laboratory_test",
+    "name": "12-lead ECG",
+    "attributes": {
+      "report_document_registry": "LD-06",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-06",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-03": 1,
+      "DG-06": 1,
+      "HO-03": 1,
+      "LD-01": 1,
+      "LD-06": 1,
+      "LD-08": 3,
+      "MP-01": 1,
+      "PR-01": 3,
+      "PR-02": 2,
+      "PR-05": 1,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 19,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-02",
+      "PR-07",
+      "DG-01",
+      "DG-03",
+      "DG-06",
+      "LD-01",
+      "LD-06",
+      "HO-03"
+    ],
+    "entity_id": "LAB-021",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-022",
+    "type": "laboratory_test",
+    "name": "CT head (non-contrast)",
+    "attributes": {
+      "report_document_registry": "LD-07",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-07",
+    "source_mentions": {
+      "DG-06": 2,
+      "LD-01": 1,
+      "LD-07": 2,
+      "LD-08": 1,
+      "PR-05": 2
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "DG-06",
+      "LD-01",
+      "LD-07"
+    ],
+    "entity_id": "LAB-022",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-023",
+    "type": "laboratory_test",
+    "name": "Transthoracic echocardiogram",
+    "attributes": {
+      "report_document_registry": "LD-06",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-06",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-06": 1,
+      "LD-01": 1,
+      "LD-06": 1,
+      "LD-08": 1,
+      "PR-01": 2,
+      "PR-02": 2,
+      "PR-05": 1,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "LD-01",
+      "LD-06"
+    ],
+    "entity_id": "LAB-023",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-024",
+    "type": "laboratory_test",
+    "name": "C. difficile toxin/PCR",
+    "attributes": {
+      "report_document_registry": "LD-05",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-05",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-05": 2,
+      "HO-06": 1,
+      "LD-01": 3,
+      "LD-05": 2,
+      "LD-08": 1,
+      "PR-03": 1
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "LD-01",
+      "LD-05",
+      "HO-05"
+    ],
+    "entity_id": "LAB-024",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-025",
+    "type": "laboratory_test",
+    "name": "Ferritin and iron studies",
+    "attributes": {
+      "report_document_registry": "LD-02",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-02",
+    "source_mentions": {
+      "DG-07": 2,
+      "LD-01": 1,
+      "LD-02": 2,
+      "LD-08": 2,
+      "MP-02": 1,
+      "PR-02": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "LD-01",
+      "LD-02"
+    ],
+    "entity_id": "LAB-025",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-026",
+    "type": "laboratory_test",
+    "name": "D-dimer",
+    "attributes": {
+      "report_document_registry": "LD-02",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-02",
+    "source_mentions": {
+      "DG-06": 1,
+      "LD-01": 1,
+      "LD-02": 2,
+      "LD-08": 1,
+      "PR-06": 1
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "DG-06",
+      "LD-01",
+      "LD-02",
+      "LD-07",
+      "LD-08"
+    ],
+    "entity_id": "LAB-026",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-027",
+    "type": "laboratory_test",
+    "name": "CT pulmonary angiogram (CTPA)",
+    "attributes": {
+      "report_document_registry": "LD-07",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-07",
+    "source_mentions": {
+      "DG-06": 1,
+      "LD-01": 1,
+      "LD-07": 2,
+      "LD-08": 1,
+      "PR-06": 1
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "DG-06",
+      "LD-01",
+      "LD-07",
+      "LD-08"
+    ],
+    "entity_id": "LAB-027",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "LAB-028",
+    "type": "laboratory_test",
+    "name": "Blood glucose and beta-hydroxybutyrate (ketones)",
+    "attributes": {
+      "report_document_registry": "LD-03",
+      "catalog_document": "LD-01"
+    },
+    "registry_home_document": "LD-03",
+    "source_mentions": {
+      "DG-02": 1,
+      "HO-02": 1,
+      "LD-01": 2,
+      "LD-03": 1,
+      "LD-08": 3,
+      "MP-02": 1,
+      "PR-04": 2
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "DG-02",
+      "MP-02",
+      "HO-08"
+    ],
+    "entity_id": "LAB-028",
+    "entity_type": "laboratory_test"
+  },
+  {
+    "id": "PRO-001",
+    "type": "protocol",
+    "name": "Medication reconciliation",
+    "attributes": {
+      "owner_department": "DEP-010",
+      "co_owner_department": null,
+      "primary_document": "HO-02"
+    },
+    "registry_home_document": "HO-02",
+    "source_mentions": {
+      "DG-07": 1,
+      "DG-08": 1,
+      "HO-01": 3,
+      "HO-02": 3,
+      "HO-07": 1,
+      "HO-08": 3,
+      "PR-07": 3
+    },
+    "source_mention_total": 15,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "HO-01",
+      "HO-02"
+    ],
+    "entity_id": "PRO-001",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-002",
+    "type": "protocol",
+    "name": "High-alert medication safety",
+    "attributes": {
+      "owner_department": "DEP-010",
+      "co_owner_department": null,
+      "primary_document": "HO-02"
+    },
+    "registry_home_document": "HO-02",
+    "source_mentions": {
+      "HO-01": 2,
+      "HO-02": 3,
+      "HO-08": 2,
+      "MP-01": 1,
+      "MP-02": 2,
+      "MP-03": 5,
+      "MP-04": 1,
+      "MP-05": 1
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-02"
+    ],
+    "entity_id": "PRO-002",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-003",
+    "type": "protocol",
+    "name": "Allergy documentation and alert (dual verification)",
+    "attributes": {
+      "owner_department": "DEP-013",
+      "co_owner_department": null,
+      "primary_document": "HO-02"
+    },
+    "registry_home_document": "HO-02",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-07": 1,
+      "HO-01": 2,
+      "HO-02": 3,
+      "HO-03": 1,
+      "HO-08": 6,
+      "MP-04": 1,
+      "MP-06": 1,
+      "MP-07": 3,
+      "PR-02": 3,
+      "PR-05": 3,
+      "PR-07": 3
+    },
+    "source_mention_total": 28,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "DG-07",
+      "MP-04",
+      "MP-06",
+      "MP-07",
+      "HO-01",
+      "HO-02",
+      "HO-08"
+    ],
+    "entity_id": "PRO-003",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-004",
+    "type": "protocol",
+    "name": "Sepsis bundle activation",
+    "attributes": {
+      "owner_department": "DEP-001",
+      "co_owner_department": "DEP-009",
+      "primary_document": "HO-03"
+    },
+    "registry_home_document": "HO-03",
+    "source_mentions": {
+      "DG-05": 2,
+      "HO-01": 3,
+      "HO-03": 3,
+      "HO-04": 1,
+      "HO-08": 4,
+      "LD-01": 1,
+      "LD-04": 2,
+      "MP-04": 1,
+      "PR-03": 3,
+      "PR-08": 4
+    },
+    "source_mention_total": 24,
+    "name_found_in_sources": "not_found_in_sources",
+    "name_found_in_documents": [],
+    "entity_id": "PRO-004",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-005",
+    "type": "protocol",
+    "name": "Stroke code pathway",
+    "attributes": {
+      "owner_department": "DEP-008",
+      "co_owner_department": null,
+      "primary_document": "HO-03"
+    },
+    "registry_home_document": "HO-03",
+    "source_mentions": {
+      "DG-06": 2,
+      "HO-01": 3,
+      "HO-03": 3,
+      "HO-08": 3,
+      "PR-05": 3
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "DG-06",
+      "HO-01",
+      "HO-03"
+    ],
+    "entity_id": "PRO-005",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-006",
+    "type": "protocol",
+    "name": "Chest pain / ACS pathway",
+    "attributes": {
+      "owner_department": "DEP-003",
+      "co_owner_department": null,
+      "primary_document": "HO-03"
+    },
+    "registry_home_document": "HO-03",
+    "source_mentions": {
+      "DG-01": 1,
+      "HO-01": 3,
+      "HO-03": 3,
+      "HO-08": 3,
+      "LD-04": 2,
+      "PR-02": 3,
+      "PR-07": 3
+    },
+    "source_mention_total": 18,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "HO-01"
+    ],
+    "entity_id": "PRO-006",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-007",
+    "type": "protocol",
+    "name": "Anticoagulation management and monitoring",
+    "attributes": {
+      "owner_department": "DEP-010",
+      "co_owner_department": null,
+      "primary_document": "HO-04"
+    },
+    "registry_home_document": "HO-04",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-05": 1,
+      "DG-06": 3,
+      "HO-01": 2,
+      "HO-02": 1,
+      "HO-04": 3,
+      "HO-07": 1,
+      "HO-08": 6,
+      "MP-03": 5,
+      "MP-04": 1,
+      "MP-06": 1,
+      "PR-02": 3,
+      "PR-05": 2,
+      "PR-06": 4,
+      "PR-08": 3
+    },
+    "source_mention_total": 38,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-04"
+    ],
+    "entity_id": "PRO-007",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-008",
+    "type": "protocol",
+    "name": "Renal dose adjustment",
+    "attributes": {
+      "owner_department": "DEP-010",
+      "co_owner_department": "DEP-005",
+      "primary_document": "HO-02"
+    },
+    "registry_home_document": "HO-02",
+    "source_mentions": {
+      "DG-02": 2,
+      "DG-03": 2,
+      "DG-05": 1,
+      "DG-06": 1,
+      "HO-01": 3,
+      "HO-02": 3,
+      "HO-08": 7,
+      "LD-03": 1,
+      "MP-02": 2,
+      "MP-03": 1,
+      "MP-04": 1,
+      "MP-07": 2,
+      "PR-01": 7,
+      "PR-06": 3,
+      "PR-07": 3,
+      "PR-08": 3
+    },
+    "source_mention_total": 42,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "DG-03",
+      "LD-03",
+      "HO-01",
+      "HO-02"
+    ],
+    "entity_id": "PRO-008",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-009",
+    "type": "protocol",
+    "name": "Critical laboratory value notification",
+    "attributes": {
+      "owner_department": "DEP-011",
+      "co_owner_department": null,
+      "primary_document": "HO-05"
+    },
+    "registry_home_document": "HO-05",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-03": 1,
+      "HO-01": 3,
+      "HO-03": 1,
+      "HO-04": 1,
+      "HO-05": 3,
+      "HO-06": 1,
+      "HO-08": 6,
+      "LD-01": 4,
+      "LD-02": 2,
+      "LD-03": 1,
+      "LD-04": 2,
+      "LD-05": 1,
+      "LD-06": 1,
+      "LD-07": 1,
+      "PR-01": 3,
+      "PR-02": 3,
+      "PR-03": 1,
+      "PR-04": 2,
+      "PR-06": 3,
+      "PR-07": 3
+    },
+    "source_mention_total": 44,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-05"
+    ],
+    "entity_id": "PRO-009",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-010",
+    "type": "protocol",
+    "name": "Hypoglycemia and insulin safety (incl. DKA infusion transition)",
+    "attributes": {
+      "owner_department": "DEP-004",
+      "co_owner_department": null,
+      "primary_document": "HO-02"
+    },
+    "registry_home_document": "HO-02",
+    "source_mentions": {
+      "DG-02": 2,
+      "HO-01": 2,
+      "HO-02": 3,
+      "HO-08": 3,
+      "MP-02": 2,
+      "PR-04": 5
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-02"
+    ],
+    "entity_id": "PRO-010",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-011",
+    "type": "protocol",
+    "name": "Discharge planning and follow-up scheduling",
+    "attributes": {
+      "owner_department": "DEP-014",
+      "co_owner_department": null,
+      "primary_document": "HO-07"
+    },
+    "registry_home_document": "HO-07",
+    "source_mentions": {
+      "HO-01": 3,
+      "HO-04": 1,
+      "HO-07": 2,
+      "HO-08": 3,
+      "PR-01": 3,
+      "PR-08": 2
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-07"
+    ],
+    "entity_id": "PRO-011",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-012",
+    "type": "protocol",
+    "name": "Infection prevention and isolation",
+    "attributes": {
+      "owner_department": "DEP-013",
+      "co_owner_department": null,
+      "primary_document": "HO-06"
+    },
+    "registry_home_document": "HO-06",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-01": 2,
+      "HO-05": 1,
+      "HO-06": 2,
+      "HO-08": 5,
+      "PR-03": 3
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-06"
+    ],
+    "entity_id": "PRO-012",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-013",
+    "type": "protocol",
+    "name": "Antimicrobial stewardship",
+    "attributes": {
+      "owner_department": "DEP-007",
+      "co_owner_department": null,
+      "primary_document": "HO-04"
+    },
+    "registry_home_document": "HO-04",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-05": 1,
+      "HO-01": 3,
+      "HO-03": 1,
+      "HO-04": 3,
+      "HO-08": 3,
+      "MP-04": 2,
+      "PR-03": 5,
+      "PR-06": 2,
+      "PR-08": 5
+    },
+    "source_mention_total": 26,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "DG-05",
+      "HO-01",
+      "HO-04"
+    ],
+    "entity_id": "PRO-013",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-014",
+    "type": "protocol",
+    "name": "Patient identification and specimen labeling",
+    "attributes": {
+      "owner_department": "DEP-011",
+      "co_owner_department": null,
+      "primary_document": "HO-05"
+    },
+    "registry_home_document": "HO-05",
+    "source_mentions": {
+      "HO-01": 2,
+      "HO-05": 3,
+      "HO-08": 2,
+      "LD-01": 2,
+      "PR-01": 1
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-05"
+    ],
+    "entity_id": "PRO-014",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-015",
+    "type": "protocol",
+    "name": "Rapid response and escalation",
+    "attributes": {
+      "owner_department": "DEP-009",
+      "co_owner_department": null,
+      "primary_document": "HO-03"
+    },
+    "registry_home_document": "HO-03",
+    "source_mentions": {
+      "HO-01": 3,
+      "HO-03": 4,
+      "HO-08": 2,
+      "PR-03": 3
+    },
+    "source_mention_total": 12,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-03"
+    ],
+    "entity_id": "PRO-015",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "PRO-016",
+    "type": "protocol",
+    "name": "Heart-failure post-discharge follow-up",
+    "attributes": {
+      "owner_department": "DEP-014",
+      "co_owner_department": "DEP-003",
+      "primary_document": "HO-07"
+    },
+    "registry_home_document": "HO-07",
+    "source_mentions": {
+      "DG-01": 1,
+      "HO-01": 4,
+      "HO-07": 4,
+      "HO-08": 5,
+      "PR-01": 3,
+      "PR-08": 3
+    },
+    "source_mention_total": 20,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-07"
+    ],
+    "entity_id": "PRO-016",
+    "entity_type": "protocol"
+  },
+  {
+    "id": "DEP-001",
+    "type": "department",
+    "name": "Emergency Medicine",
+    "attributes": {
+      "head": "STF-003"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-07": 1,
+      "HO-01": 4,
+      "HO-03": 1,
+      "PR-01": 3,
+      "PR-02": 5,
+      "PR-03": 2,
+      "PR-04": 3,
+      "PR-05": 3,
+      "PR-07": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 25,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "DG-07",
+      "HO-01"
+    ],
+    "entity_id": "DEP-001",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-002",
+    "type": "department",
+    "name": "Internal Medicine (Hospital Medicine)",
+    "attributes": {
+      "head": "STF-004"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-06": 1,
+      "DG-07": 1,
+      "DG-08": 1,
+      "HO-01": 2,
+      "PR-01": 11,
+      "PR-02": 1,
+      "PR-03": 2,
+      "PR-06": 3
+    },
+    "source_mention_total": 22,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-06",
+      "DG-06",
+      "DG-07",
+      "DG-08",
+      "HO-01"
+    ],
+    "entity_id": "DEP-002",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-003",
+    "type": "department",
+    "name": "Cardiology",
+    "attributes": {
+      "head": "STF-005"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-01": 1,
+      "HO-01": 6,
+      "HO-03": 1,
+      "HO-07": 2,
+      "LD-06": 1,
+      "PR-01": 8,
+      "PR-02": 9,
+      "PR-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 30,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "PR-02",
+      "PR-07",
+      "DG-01",
+      "DG-07",
+      "LD-06",
+      "HO-01",
+      "HO-03",
+      "HO-07"
+    ],
+    "entity_id": "DEP-003",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-004",
+    "type": "department",
+    "name": "Endocrinology and Diabetes",
+    "attributes": {
+      "head": "STF-006"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-02": 1,
+      "HO-01": 3,
+      "HO-02": 1,
+      "PR-04": 6
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-04",
+      "DG-02",
+      "HO-01"
+    ],
+    "entity_id": "DEP-004",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-005",
+    "type": "department",
+    "name": "Nephrology",
+    "attributes": {
+      "head": "STF-007"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-03": 1,
+      "HO-01": 3,
+      "HO-02": 1,
+      "PR-01": 2
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "DG-03",
+      "MP-01",
+      "MP-07",
+      "HO-01",
+      "HO-02"
+    ],
+    "entity_id": "DEP-005",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-006",
+    "type": "department",
+    "name": "Pulmonology",
+    "attributes": {
+      "head": "STF-008"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-04": 1,
+      "HO-01": 2,
+      "LD-08": 1,
+      "PR-03": 2
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "DG-04",
+      "LD-08",
+      "HO-01"
+    ],
+    "entity_id": "DEP-006",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-007",
+    "type": "department",
+    "name": "Infectious Diseases",
+    "attributes": {
+      "head": "STF-009"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-01": 4,
+      "HO-04": 1,
+      "MP-04": 1,
+      "PR-03": 2,
+      "PR-06": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 12,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-03",
+      "PR-06",
+      "DG-05",
+      "MP-04",
+      "HO-01"
+    ],
+    "entity_id": "DEP-007",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-008",
+    "type": "department",
+    "name": "Neurology",
+    "attributes": {
+      "head": "STF-010"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-06": 2,
+      "HO-01": 4,
+      "HO-03": 2,
+      "PR-05": 5
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "DG-06",
+      "HO-01",
+      "HO-03"
+    ],
+    "entity_id": "DEP-008",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-009",
+    "type": "department",
+    "name": "Intensive Care Unit",
+    "attributes": {
+      "head": "STF-011"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 6,
+      "HO-03": 2,
+      "PR-03": 2,
+      "PR-04": 3,
+      "PR-07": 1
+    },
+    "source_mention_total": 14,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "DEP-009",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-010",
+    "type": "department",
+    "name": "Clinical Pharmacy",
+    "attributes": {
+      "head": "STF-002"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-08": 1,
+      "HO-01": 8,
+      "HO-02": 2,
+      "HO-04": 1,
+      "MP-01": 1,
+      "MP-02": 1,
+      "MP-03": 1,
+      "MP-04": 2,
+      "MP-05": 1,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-01": 1,
+      "PR-02": 1,
+      "PR-03": 1,
+      "PR-05": 1,
+      "PR-06": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 26,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "PR-06",
+      "DG-08",
+      "MP-01",
+      "MP-02",
+      "MP-03",
+      "MP-04",
+      "MP-05",
+      "MP-06",
+      "MP-07",
+      "HO-01",
+      "HO-02"
+    ],
+    "entity_id": "DEP-010",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-011",
+    "type": "department",
+    "name": "Clinical Laboratory",
+    "attributes": {
+      "head": "STF-012"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 5,
+      "HO-05": 1,
+      "LD-01": 1,
+      "LD-02": 1,
+      "LD-03": 1,
+      "LD-04": 1,
+      "LD-05": 1,
+      "LD-08": 1
+    },
+    "source_mention_total": 12,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "LD-01",
+      "LD-02",
+      "LD-03",
+      "LD-04",
+      "LD-05",
+      "LD-08",
+      "HO-01",
+      "HO-05"
+    ],
+    "entity_id": "DEP-011",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-012",
+    "type": "department",
+    "name": "Radiology and Imaging",
+    "attributes": {
+      "head": "STF-013"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 2,
+      "HO-02": 1,
+      "LD-01": 1,
+      "LD-07": 1,
+      "PR-05": 1,
+      "PR-06": 1
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "LD-07",
+      "HO-01"
+    ],
+    "entity_id": "DEP-012",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-013",
+    "type": "department",
+    "name": "Quality, Patient Safety and Infection Control",
+    "attributes": {
+      "head": "STF-014"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 5,
+      "HO-02": 1,
+      "HO-05": 1,
+      "HO-06": 1,
+      "HO-08": 1,
+      "LD-05": 1,
+      "MP-07": 1
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-06",
+      "HO-08"
+    ],
+    "entity_id": "DEP-013",
+    "entity_type": "department"
+  },
+  {
+    "id": "DEP-014",
+    "type": "department",
+    "name": "Care Coordination and Discharge Services",
+    "attributes": {
+      "head": "STF-015"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 5,
+      "HO-07": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01",
+      "HO-07"
+    ],
+    "entity_id": "DEP-014",
+    "entity_type": "department"
+  },
+  {
+    "id": "STF-001",
+    "type": "staff_member",
+    "name": "Dr. Helena Marlowe",
+    "attributes": {
+      "role": "Chief Medical Officer"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 4
+    },
+    "source_mention_total": 4,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-001",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-002",
+    "type": "staff_member",
+    "name": "Dr. Tobias Renwick",
+    "attributes": {
+      "role": "Chief Pharmacist"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 3,
+      "MP-01": 1,
+      "MP-02": 1,
+      "MP-03": 1,
+      "MP-04": 1,
+      "MP-05": 1,
+      "MP-06": 1,
+      "MP-07": 1
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-002",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-003",
+    "type": "staff_member",
+    "name": "Dr. Amara Okafor-Lindqvist",
+    "attributes": {
+      "role": "Head, Emergency Medicine"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 2
+    },
+    "source_mention_total": 2,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-003",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-004",
+    "type": "staff_member",
+    "name": "Dr. Julian Park-Seymour",
+    "attributes": {
+      "role": "Head, Internal Medicine"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 2
+    },
+    "source_mention_total": 2,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-004",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-005",
+    "type": "staff_member",
+    "name": "Dr. Rohan Deshmukh-Ellis",
+    "attributes": {
+      "role": "Head, Cardiology"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-01": 1,
+      "HO-01": 2,
+      "HO-07": 1,
+      "LD-06": 1,
+      "PR-01": 3,
+      "PR-02": 1
+    },
+    "source_mention_total": 9,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-01",
+      "HO-01"
+    ],
+    "entity_id": "STF-005",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-006",
+    "type": "staff_member",
+    "name": "Dr. Sofia Marchetti-Nwosu",
+    "attributes": {
+      "role": "Head, Endocrinology"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-02": 1,
+      "HO-01": 2,
+      "PR-04": 1
+    },
+    "source_mention_total": 4,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-006",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-007",
+    "type": "staff_member",
+    "name": "Dr. Kwame Aldridge",
+    "attributes": {
+      "role": "Head, Nephrology"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-03": 1,
+      "HO-01": 2,
+      "PR-01": 2
+    },
+    "source_mention_total": 5,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-007",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-008",
+    "type": "staff_member",
+    "name": "Dr. Leila Haddad-Brandt",
+    "attributes": {
+      "role": "Head, Pulmonology"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-04": 1,
+      "HO-01": 2,
+      "LD-08": 1,
+      "PR-03": 1
+    },
+    "source_mention_total": 5,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-008",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-009",
+    "type": "staff_member",
+    "name": "Dr. Mateo Quintero-Hale",
+    "attributes": {
+      "role": "Head, Infectious Diseases; ASC chair"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-01": 3,
+      "MP-04": 1,
+      "PR-03": 1
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-009",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-010",
+    "type": "staff_member",
+    "name": "Dr. Yuki Takahashi-Moore",
+    "attributes": {
+      "role": "Head, Neurology"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "DG-06": 1,
+      "HO-01": 2,
+      "PR-05": 1
+    },
+    "source_mention_total": 4,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-010",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-011",
+    "type": "staff_member",
+    "name": "Dr. Chidi Abernathy",
+    "attributes": {
+      "role": "Head, ICU"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 2,
+      "PR-03": 1
+    },
+    "source_mention_total": 3,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-011",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-012",
+    "type": "staff_member",
+    "name": "Dr. Rebecca Sandoval-Wren",
+    "attributes": {
+      "role": "Laboratory Director"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 2,
+      "HO-05": 1,
+      "LD-01": 1,
+      "LD-02": 1,
+      "LD-03": 1,
+      "LD-04": 1,
+      "LD-05": 1
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-012",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-013",
+    "type": "staff_member",
+    "name": "Dr. Pavel Novak-Adeyemi",
+    "attributes": {
+      "role": "Head, Radiology"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 2,
+      "LD-01": 1,
+      "LD-07": 1
+    },
+    "source_mention_total": 4,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-013",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-014",
+    "type": "staff_member",
+    "name": "Dr. Miriam Ashworth-Joshi",
+    "attributes": {
+      "role": "Head, Quality and Patient Safety; PSC chair"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 3,
+      "HO-06": 1,
+      "HO-08": 1,
+      "MP-07": 1
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-014",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "STF-015",
+    "type": "staff_member",
+    "name": "Nora Whitlock, RN",
+    "attributes": {
+      "role": "Director, Care Coordination"
+    },
+    "registry_home_document": "HO-01",
+    "source_mentions": {
+      "HO-01": 2,
+      "HO-07": 1
+    },
+    "source_mention_total": 3,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "HO-01"
+    ],
+    "entity_id": "STF-015",
+    "entity_type": "staff_member"
+  },
+  {
+    "id": "ALG-001",
+    "type": "allergen_class",
+    "name": "Penicillins / aminopenicillins (with cephalosporin cross-reactivity rules in MP-07)",
+    "attributes": {
+      "patients_registry": "PAT-006, PAT-007"
+    },
+    "registry_home_document": "MP-07",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-05": 1,
+      "DG-08": 1,
+      "HO-02": 1,
+      "HO-08": 1,
+      "LD-05": 1,
+      "MP-04": 3,
+      "MP-06": 1,
+      "MP-07": 2,
+      "PR-01": 1,
+      "PR-06": 3,
+      "PR-07": 2
+    },
+    "source_mention_total": 18,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-06",
+      "PR-07",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "ALG-001",
+    "entity_type": "allergen_class"
+  },
+  {
+    "id": "ALG-002",
+    "type": "allergen_class",
+    "name": "Sulfonamide antibiotics (non-antibiotic sulfonamides handled separately in MP-07)",
+    "attributes": {
+      "patients_registry": "PAT-002"
+    },
+    "registry_home_document": "MP-07",
+    "source_mentions": {
+      "MP-01": 1,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-02": 3
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-02",
+      "MP-06",
+      "MP-07"
+    ],
+    "entity_id": "ALG-002",
+    "entity_type": "allergen_class"
+  },
+  {
+    "id": "ALG-003",
+    "type": "allergen_class",
+    "name": "NSAIDs including aspirin (respiratory-reaction pattern)",
+    "attributes": {
+      "patients_registry": "PAT-005"
+    },
+    "registry_home_document": "MP-07",
+    "source_mentions": {
+      "DG-01": 1,
+      "DG-04": 1,
+      "DG-06": 1,
+      "DG-08": 2,
+      "HO-02": 1,
+      "HO-03": 1,
+      "HO-08": 1,
+      "MP-03": 2,
+      "MP-05": 3,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-05": 6
+    },
+    "source_mention_total": 21,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-05",
+      "MP-07"
+    ],
+    "entity_id": "ALG-003",
+    "entity_type": "allergen_class"
+  },
+  {
+    "id": "ALG-004",
+    "type": "allergen_class",
+    "name": "ACE-inhibitor-associated angioedema",
+    "attributes": {
+      "patients_registry": "PAT-008"
+    },
+    "registry_home_document": "MP-07",
+    "source_mentions": {
+      "DG-01": 2,
+      "DG-08": 1,
+      "HO-02": 1,
+      "LD-06": 1,
+      "MP-01": 2,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-07": 2
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "DG-01",
+      "MP-07"
+    ],
+    "entity_id": "ALG-004",
+    "entity_type": "allergen_class"
+  },
+  {
+    "id": "ALG-005",
+    "type": "allergen_class",
+    "name": "Iodinated contrast media",
+    "attributes": {
+      "patients_registry": "No patient (policy-only distractor entity in MP-07 and HO-02)"
+    },
+    "registry_home_document": "MP-07",
+    "source_mentions": {
+      "HO-02": 1,
+      "MP-06": 1,
+      "MP-07": 1
+    },
+    "source_mention_total": 3,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "MP-07"
+    ],
+    "entity_id": "ALG-005",
+    "entity_type": "allergen_class"
+  },
+  {
+    "id": "ALG-006",
+    "type": "allergen_class",
+    "name": "Latex",
+    "attributes": {
+      "patients_registry": "PAT-009"
+    },
+    "registry_home_document": "MP-07",
+    "source_mentions": {
+      "DG-08": 1,
+      "HO-02": 2,
+      "LD-05": 1,
+      "MP-06": 1,
+      "MP-07": 2,
+      "PR-01": 1,
+      "PR-07": 2
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "found",
+    "name_found_in_documents": [
+      "PR-07",
+      "DG-08",
+      "MP-06",
+      "MP-07",
+      "LD-05",
+      "HO-02"
+    ],
+    "entity_id": "ALG-006",
+    "entity_type": "allergen_class"
+  },
+  {
+    "id": "INC-001",
+    "type": "incident",
+    "name": "INC-001",
+    "attributes": {
+      "patient": "PAT-007",
+      "summary": "Amoxicillin-clavulanate given despite a penicillin allergy flag; anaphylaxis treated with epinephrine",
+      "documents_registry": "PR-07, HO-02, HO-08"
+    },
+    "registry_home_document": "HO-08",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-07": 1,
+      "DG-08": 1,
+      "HO-01": 1,
+      "HO-02": 3,
+      "HO-08": 5,
+      "MP-04": 1,
+      "MP-05": 1,
+      "MP-06": 1,
+      "MP-07": 1,
+      "PR-07": 6
+    },
+    "source_mention_total": 22,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "INC-001",
+    "entity_type": "incident"
+  },
+  {
+    "id": "INC-002",
+    "type": "incident",
+    "name": "INC-002",
+    "attributes": {
+      "patient": "PAT-001",
+      "summary": "Critical potassium result communicated later than the policy window",
+      "documents_registry": "PR-01, HO-05, HO-08"
+    },
+    "registry_home_document": "HO-08",
+    "source_mentions": {
+      "DG-03": 1,
+      "HO-05": 3,
+      "HO-08": 4,
+      "LD-03": 2,
+      "MP-07": 1,
+      "PR-01": 6
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "INC-002",
+    "entity_type": "incident"
+  },
+  {
+    "id": "INC-003",
+    "type": "incident",
+    "name": "INC-003",
+    "attributes": {
+      "patient": "PAT-006",
+      "summary": "Ciprofloxacin-warfarin alert overridden; supratherapeutic INR",
+      "documents_registry": "PR-06, HO-04, HO-08"
+    },
+    "registry_home_document": "HO-08",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-02": 1,
+      "HO-04": 2,
+      "HO-08": 4,
+      "LD-02": 1,
+      "MP-03": 1,
+      "MP-04": 1,
+      "MP-06": 3,
+      "MP-07": 1,
+      "PR-06": 6
+    },
+    "source_mention_total": 21,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "INC-003",
+    "entity_type": "incident"
+  },
+  {
+    "id": "INC-004",
+    "type": "incident",
+    "name": "INC-004",
+    "attributes": {
+      "patient": "PAT-003",
+      "summary": "Delay in contact isolation after C. difficile positive result",
+      "documents_registry": "PR-03, HO-06, HO-08"
+    },
+    "registry_home_document": "HO-08",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-05": 1,
+      "HO-06": 3,
+      "HO-08": 3,
+      "LD-05": 2,
+      "PR-03": 5
+    },
+    "source_mention_total": 15,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "INC-004",
+    "entity_type": "incident"
+  },
+  {
+    "id": "INC-005",
+    "type": "incident",
+    "name": "INC-005",
+    "attributes": {
+      "patient": "PAT-009",
+      "summary": "NSAID prescribed to a patient with CKD, followed by AKI",
+      "documents_registry": "PR-07, HO-02, HO-08"
+    },
+    "registry_home_document": "HO-08",
+    "source_mentions": {
+      "DG-08": 2,
+      "HO-02": 2,
+      "HO-08": 4,
+      "LD-03": 1,
+      "MP-05": 2,
+      "MP-06": 3,
+      "MP-07": 2,
+      "PR-07": 6
+    },
+    "source_mention_total": 22,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "INC-005",
+    "entity_type": "incident"
+  },
+  {
+    "id": "INC-006",
+    "type": "incident",
+    "name": "INC-006",
+    "attributes": {
+      "patient": "PAT-011",
+      "summary": "Missed post-discharge heart-failure follow-up call, followed by readmission",
+      "documents_registry": "PR-08, HO-07, HO-08"
+    },
+    "registry_home_document": "HO-08",
+    "source_mentions": {
+      "HO-01": 1,
+      "HO-04": 1,
+      "HO-07": 3,
+      "HO-08": 5,
+      "LD-02": 1,
+      "PR-08": 6
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "INC-006",
+    "entity_type": "incident"
+  },
+  {
+    "id": "FPA-01",
+    "type": "policy_anchor",
+    "name": "FPA-01",
+    "attributes": {
+      "statement": "Critical potassium: 6.2 mmol/L or higher, or 2.9 mmol/L or lower",
+      "governs": "LAB-005, PRO-009",
+      "source_documents_registry": "LD-01, HO-05"
+    },
+    "registry_home_document": "LD-01",
+    "source_mentions": {
+      "DG-03": 1,
+      "HO-05": 1,
+      "HO-08": 1,
+      "LD-01": 1,
+      "LD-03": 1,
+      "LD-08": 1,
+      "PR-01": 1
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-01",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-02",
+    "type": "policy_anchor",
+    "name": "FPA-02",
+    "attributes": {
+      "statement": "Sepsis bundle v3 (effective 2026-03-01): first antibiotic within 50 minutes of sepsis alert; v2 (to 2026-02-28) was 60 minutes. Repeat lactate within 2 hours if above 2.5 mmol/L",
+      "governs": "PRO-004",
+      "source_documents_registry": "HO-03, HO-08"
+    },
+    "registry_home_document": "HO-03",
+    "source_mentions": {
+      "HO-03": 1,
+      "HO-08": 2,
+      "LD-04": 1,
+      "PR-03": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 6,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-02",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-03",
+    "type": "policy_anchor",
+    "name": "FPA-03",
+    "attributes": {
+      "statement": "Metformin: maximum 1,000 mg/day when eGFR 30-44; stop below 30",
+      "governs": "PRO-008, MED-001",
+      "source_documents_registry": "HO-02, MP-02, MP-07"
+    },
+    "registry_home_document": "HO-02",
+    "source_mentions": {
+      "DG-02": 1,
+      "HO-02": 1,
+      "HO-08": 1,
+      "MP-02": 1,
+      "MP-06": 2,
+      "MP-07": 1,
+      "PR-01": 2,
+      "PR-04": 1,
+      "PR-08": 1
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-03",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-04",
+    "type": "policy_anchor",
+    "name": "FPA-04",
+    "attributes": {
+      "statement": "Pharmacist verification of any new apixaban order within 4 hours",
+      "governs": "PRO-007, MED-012",
+      "source_documents_registry": "HO-04, MP-03"
+    },
+    "registry_home_document": "HO-04",
+    "source_mentions": {
+      "DG-06": 1,
+      "DG-07": 1,
+      "HO-02": 1,
+      "HO-04": 1,
+      "HO-08": 1,
+      "MP-03": 2,
+      "PR-02": 3,
+      "PR-05": 2
+    },
+    "source_mention_total": 12,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-04",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-05",
+    "type": "policy_anchor",
+    "name": "FPA-05",
+    "attributes": {
+      "statement": "Default warfarin INR target 2.0-3.0; INR above 4.5 triggers anticoagulation-clinic call within 24 hours; INR check within 72 hours of discharge",
+      "governs": "PRO-007, PRO-011",
+      "source_documents_registry": "HO-04, HO-07, MP-03"
+    },
+    "registry_home_document": "HO-04",
+    "source_mentions": {
+      "HO-04": 3,
+      "HO-07": 1,
+      "HO-08": 1,
+      "LD-01": 1,
+      "LD-02": 1,
+      "MP-03": 4,
+      "PR-06": 3,
+      "PR-08": 3
+    },
+    "source_mention_total": 17,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-05",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-06",
+    "type": "policy_anchor",
+    "name": "FPA-06",
+    "attributes": {
+      "statement": "Heart-failure discharge: phone call within 48 hours and clinic visit within 7 days",
+      "governs": "PRO-016",
+      "source_documents_registry": "HO-07"
+    },
+    "registry_home_document": "HO-07",
+    "source_mentions": {
+      "DG-01": 1,
+      "HO-07": 1,
+      "HO-08": 1,
+      "PR-01": 2,
+      "PR-08": 5
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-06",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-07",
+    "type": "policy_anchor",
+    "name": "FPA-07",
+    "attributes": {
+      "statement": "Stroke code: door-to-CT-head within 20 minutes",
+      "governs": "PRO-005, LAB-022",
+      "source_documents_registry": "HO-03, LD-07"
+    },
+    "registry_home_document": "HO-03",
+    "source_mentions": {
+      "DG-06": 1,
+      "HO-03": 1,
+      "HO-08": 2,
+      "LD-01": 1,
+      "LD-07": 2,
+      "PR-05": 3
+    },
+    "source_mention_total": 10,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-07",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-08",
+    "type": "policy_anchor",
+    "name": "FPA-08",
+    "attributes": {
+      "statement": "Chest-pain pathway: hs-troponin at 0 and 2 hours; ECG within 10 minutes of arrival",
+      "governs": "PRO-006, LAB-007, LAB-021",
+      "source_documents_registry": "HO-03, LD-04"
+    },
+    "registry_home_document": "HO-03",
+    "source_mentions": {
+      "DG-01": 1,
+      "HO-03": 1,
+      "HO-08": 2,
+      "LD-01": 2,
+      "LD-04": 2,
+      "LD-06": 1,
+      "PR-02": 2,
+      "PR-07": 2
+    },
+    "source_mention_total": 13,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-08",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-09",
+    "type": "policy_anchor",
+    "name": "FPA-09",
+    "attributes": {
+      "statement": "Dual verification (pharmacist and nurse) before the first dose of any beta-lactam in a patient with any allergy flag",
+      "governs": "PRO-003",
+      "source_documents_registry": "HO-02, MP-07"
+    },
+    "registry_home_document": "HO-02",
+    "source_mentions": {
+      "DG-04": 1,
+      "DG-07": 1,
+      "HO-02": 1,
+      "HO-08": 2,
+      "MP-04": 1,
+      "MP-07": 2,
+      "PR-07": 2,
+      "PR-08": 1
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-09",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-10",
+    "type": "policy_anchor",
+    "name": "FPA-10",
+    "attributes": {
+      "statement": "C. difficile: contact-enteric precautions until 72 hours after diarrhea resolves",
+      "governs": "PRO-012",
+      "source_documents_registry": "HO-06, DG-05"
+    },
+    "registry_home_document": "HO-06",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-06": 3,
+      "HO-08": 1,
+      "PR-03": 2
+    },
+    "source_mention_total": 7,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-10",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-11",
+    "type": "policy_anchor",
+    "name": "FPA-11",
+    "attributes": {
+      "statement": "IV vancomycin: pharmacy-managed dosing; first level before the fourth dose",
+      "governs": "PRO-013, MED-019",
+      "source_documents_registry": "HO-04, MP-04"
+    },
+    "registry_home_document": "HO-04",
+    "source_mentions": {
+      "DG-05": 1,
+      "HO-04": 1,
+      "HO-08": 2,
+      "MP-04": 1,
+      "MP-07": 1,
+      "PR-03": 3,
+      "PR-08": 3
+    },
+    "source_mention_total": 12,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-11",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-12",
+    "type": "policy_anchor",
+    "name": "FPA-12",
+    "attributes": {
+      "statement": "DKA infusion transition when beta-hydroxybutyrate is below 0.6 mmol/L on two consecutive checks; hypoglycemia alert threshold below 4.0 mmol/L",
+      "governs": "PRO-010, LAB-028",
+      "source_documents_registry": "HO-02, DG-02"
+    },
+    "registry_home_document": "HO-02",
+    "source_mentions": {
+      "DG-02": 1,
+      "HO-02": 2,
+      "HO-08": 2,
+      "LD-01": 1,
+      "LD-03": 2,
+      "MP-02": 2,
+      "PR-04": 6
+    },
+    "source_mention_total": 16,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-12",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-13",
+    "type": "policy_anchor",
+    "name": "FPA-13",
+    "attributes": {
+      "statement": "Critical results phoned to the responsible clinician within 20 minutes of verification, with read-back",
+      "governs": "PRO-009",
+      "source_documents_registry": "HO-05, LD-01"
+    },
+    "registry_home_document": "HO-05",
+    "source_mentions": {
+      "HO-05": 1,
+      "HO-08": 3,
+      "LD-01": 1,
+      "LD-03": 1,
+      "LD-04": 1,
+      "LD-05": 1,
+      "PR-01": 2,
+      "PR-02": 1
+    },
+    "source_mention_total": 11,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-13",
+    "entity_type": "policy_anchor"
+  },
+  {
+    "id": "FPA-14",
+    "type": "policy_anchor",
+    "name": "FPA-14",
+    "attributes": {
+      "statement": "Levothyroxine and oral iron separated by at least 4 hours",
+      "governs": "MED-024, MED-031",
+      "source_documents_registry": "MP-02, MP-06"
+    },
+    "registry_home_document": "MP-02",
+    "source_mentions": {
+      "DG-02": 1,
+      "DG-07": 1,
+      "HO-08": 1,
+      "MP-02": 2,
+      "MP-06": 1,
+      "PR-08": 2
+    },
+    "source_mention_total": 8,
+    "name_found_in_sources": "not_applicable",
+    "name_found_in_documents": [],
+    "entity_id": "FPA-14",
+    "entity_type": "policy_anchor"
+  }
+]

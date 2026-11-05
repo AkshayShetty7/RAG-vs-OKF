@@ -1,0 +1,9 @@
+ pyyaml 
+ pytest
+ sentence-transformers 
+ faiss-cpu 
+ rank-bm25 
+ numpy 
+ pandas
+ groq
+ python-dotenv

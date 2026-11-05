@@ -1,0 +1,23 @@
+{
+  "system": "okf",
+  "dataset_file": "data\\evaluation\\evaluation_dataset_FINAL.json",
+  "expected_questions": 100,
+  "successful_records": 100,
+  "failed_records": 97,
+  "token_usage": {
+    "llm_generation_count": 100,
+    "successful_questions_without_usage": 0,
+    "total_prompt_tokens": 67363,
+    "total_completion_tokens": 55365,
+    "total_tokens": 122728,
+    "total_reasoning_tokens": 31216,
+    "average_prompt_tokens": 673.63,
+    "average_completion_tokens": 553.65,
+    "average_total_tokens": 1227.28,
+    "average_reasoning_tokens": 312.16,
+    "questions_with_reasoning_usage": 100
+  },
+  "results_jsonl": "outputs\\benchmark_with_usage\\okf_results.jsonl",
+  "results_csv": "outputs\\benchmark_with_usage\\okf_results.csv",
+  "generated_at_utc": "2026-11-05T04:36:55.955031+00:00"
+}

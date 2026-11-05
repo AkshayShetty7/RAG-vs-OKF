@@ -1,0 +1,392 @@
+[
+    {
+        "document_id": "PR-01",
+        "title": "Longitudinal Chart: PAT-001 (Marcus E. Doyle)",
+        "folder": "01_patient_records",
+        "document_type": "patient_record",
+        "version": 1,
+        "file_path": "data\\source_documents\\01_patient_records\\PR-01_Longitudinal_Chart_PAT-001.md",
+        "section_count": 24,
+        "character_count": 14600
+    },
+    {
+        "document_id": "PR-02",
+        "title": "Longitudinal Chart: PAT-002 (Priya Nandakumar)",
+        "folder": "01_patient_records",
+        "document_type": "patient_record",
+        "version": 1,
+        "file_path": "data\\source_documents\\01_patient_records\\PR-02_Longitudinal_Chart_PAT-002.md",
+        "section_count": 22,
+        "character_count": 11667
+    },
+    {
+        "document_id": "PR-03",
+        "title": "Longitudinal Chart: PAT-003 (Thomas Okonkwo-Reyes)",
+        "folder": "01_patient_records",
+        "document_type": "patient_record",
+        "version": 1,
+        "file_path": "data\\source_documents\\01_patient_records\\PR-03_Longitudinal_Chart_PAT-003.md",
+        "section_count": 19,
+        "character_count": 10150
+    },
+    {
+        "document_id": "PR-04",
+        "title": "Longitudinal Chart: PAT-004 (Elena Voss)",
+        "folder": "01_patient_records",
+        "document_type": "patient_record",
+        "version": 1,
+        "file_path": "data\\source_documents\\01_patient_records\\PR-04_Longitudinal_Chart_PAT-004.md",
+        "section_count": 19,
+        "character_count": 8636
+    },
+    {
+        "document_id": "PR-05",
+        "title": "Longitudinal Chart: PAT-005 (Samuel Adeyemi-Clarke)",
+        "folder": "01_patient_records",
+        "document_type": "patient_record",
+        "version": 1,
+        "file_path": "data\\source_documents\\01_patient_records\\PR-05_Longitudinal_Chart_PAT-005.md",
+        "section_count": 19,
+        "character_count": 8914
+    },
+    {
+        "document_id": "PR-06",
+        "title": "Longitudinal Chart: PAT-006 (Grace Lindqvist-Obi)",
+        "folder": "01_patient_records",
+        "document_type": "patient_record",
+        "version": 1,
+        "file_path": "data\\source_documents\\01_patient_records\\PR-06_Longitudinal_Chart_PAT-006.md",
+        "section_count": 19,
+        "character_count": 9734
+    },
+    {
+        "document_id": "PR-07",
+        "title": "Admission Casebook A: PAT-007, PAT-008, PAT-009, PAT-010",
+        "folder": "01_patient_records",
+        "document_type": "patient_record",
+        "version": 1,
+        "file_path": "data\\source_documents\\01_patient_records\\PR-07_Admission_Casebook_A_PAT-007-010.md",
+        "section_count": 22,
+        "character_count": 12519
+    },
+    {
+        "document_id": "PR-08",
+        "title": "Admission Casebook B: PAT-011, PAT-012, PAT-013, PAT-014",
+        "folder": "01_patient_records",
+        "document_type": "patient_record",
+        "version": 1,
+        "file_path": "data\\source_documents\\01_patient_records\\PR-08_Admission_Casebook_B_PAT-011-014.md",
+        "section_count": 23,
+        "character_count": 12459
+    },
+    {
+        "document_id": "DG-01",
+        "title": "Cardiovascular Guidelines (Fictional Reference)",
+        "folder": "02_diseases_guidelines",
+        "document_type": "disease_guideline",
+        "version": 1,
+        "file_path": "data\\source_documents\\02_diseases_guidelines\\DG-01_Cardiovascular_Guidelines.md",
+        "section_count": 29,
+        "character_count": 9600
+    },
+    {
+        "document_id": "DG-02",
+        "title": "Endocrine and Metabolic Guidelines (Fictional Reference)",
+        "folder": "02_diseases_guidelines",
+        "document_type": "disease_guideline",
+        "version": 1,
+        "file_path": "data\\source_documents\\02_diseases_guidelines\\DG-02_Endocrine_and_Metabolic_Guidelines.md",
+        "section_count": 25,
+        "character_count": 8097
+    },
+    {
+        "document_id": "DG-03",
+        "title": "Renal and Electrolyte Guidelines (Fictional Reference)",
+        "folder": "02_diseases_guidelines",
+        "document_type": "disease_guideline",
+        "version": 1,
+        "file_path": "data\\source_documents\\02_diseases_guidelines\\DG-03_Renal_and_Electrolyte_Guidelines.md",
+        "section_count": 19,
+        "character_count": 6815
+    },
+    {
+        "document_id": "DG-04",
+        "title": "Respiratory Guidelines (Fictional Reference)",
+        "folder": "02_diseases_guidelines",
+        "document_type": "disease_guideline",
+        "version": 1,
+        "file_path": "data\\source_documents\\02_diseases_guidelines\\DG-04_Respiratory_Guidelines.md",
+        "section_count": 22,
+        "character_count": 6216
+    },
+    {
+        "document_id": "DG-05",
+        "title": "Infection and Sepsis Guidelines (Fictional Reference)",
+        "folder": "02_diseases_guidelines",
+        "document_type": "disease_guideline",
+        "version": 1,
+        "file_path": "data\\source_documents\\02_diseases_guidelines\\DG-05_Infection_and_Sepsis_Guidelines.md",
+        "section_count": 24,
+        "character_count": 7287
+    },
+    {
+        "document_id": "DG-06",
+        "title": "Neurovascular and Thromboembolic Guidelines (Fictional Reference)",
+        "folder": "02_diseases_guidelines",
+        "document_type": "disease_guideline",
+        "version": 1,
+        "file_path": "data\\source_documents\\02_diseases_guidelines\\DG-06_Neurovascular_and_Thromboembolic_Guidelines.md",
+        "section_count": 20,
+        "character_count": 6281
+    },
+    {
+        "document_id": "DG-07",
+        "title": "Hematology, GI and Hypersensitivity Guidelines (Fictional Reference)",
+        "folder": "02_diseases_guidelines",
+        "document_type": "disease_guideline",
+        "version": 1,
+        "file_path": "data\\source_documents\\02_diseases_guidelines\\DG-07_Hematology_GI_and_Hypersensitivity_Guidelines.md",
+        "section_count": 23,
+        "character_count": 7115
+    },
+    {
+        "document_id": "DG-08",
+        "title": "Chronic Disease and Multimorbidity Guidelines (Fictional Reference)",
+        "folder": "02_diseases_guidelines",
+        "document_type": "disease_guideline",
+        "version": 1,
+        "file_path": "data\\source_documents\\02_diseases_guidelines\\DG-08_Chronic_Disease_and_Multimorbidity_Guidelines.md",
+        "section_count": 18,
+        "character_count": 6572
+    },
+    {
+        "document_id": "MP-01",
+        "title": "Formulary Monographs: Cardiovascular Agents",
+        "folder": "03_medications_pharmacy",
+        "document_type": "medication_pharmacy",
+        "version": 1,
+        "file_path": "data\\source_documents\\03_medications_pharmacy\\MP-01_Formulary_Cardiovascular_Agents.md",
+        "section_count": 11,
+        "character_count": 7238
+    },
+    {
+        "document_id": "MP-02",
+        "title": "Formulary Monographs: Endocrine, GI and Supplements",
+        "folder": "03_medications_pharmacy",
+        "document_type": "medication_pharmacy",
+        "version": 1,
+        "file_path": "data\\source_documents\\03_medications_pharmacy\\MP-02_Formulary_Endocrine_GI_and_Supplements.md",
+        "section_count": 12,
+        "character_count": 7109
+    },
+    {
+        "document_id": "MP-03",
+        "title": "Antithrombotic Monographs",
+        "folder": "03_medications_pharmacy",
+        "document_type": "medication_pharmacy",
+        "version": 1,
+        "file_path": "data\\source_documents\\03_medications_pharmacy\\MP-03_Antithrombotic_Monographs.md",
+        "section_count": 11,
+        "character_count": 7017
+    },
+    {
+        "document_id": "MP-04",
+        "title": "Anti-Infective Monographs",
+        "folder": "03_medications_pharmacy",
+        "document_type": "medication_pharmacy",
+        "version": 1,
+        "file_path": "data\\source_documents\\03_medications_pharmacy\\MP-04_Anti-Infective_Monographs.md",
+        "section_count": 10,
+        "character_count": 5934
+    },
+    {
+        "document_id": "MP-05",
+        "title": "Monographs: Respiratory, Analgesic, Emergency and Psychiatric",
+        "folder": "03_medications_pharmacy",
+        "document_type": "medication_pharmacy",
+        "version": 1,
+        "file_path": "data\\source_documents\\03_medications_pharmacy\\MP-05_Respiratory_Analgesic_Emergency_and_Psychiatric_Monographs.md",
+        "section_count": 12,
+        "character_count": 5834
+    },
+    {
+        "document_id": "MP-06",
+        "title": "Drug Interaction and Contraindication Matrix",
+        "folder": "03_medications_pharmacy",
+        "document_type": "medication_pharmacy",
+        "version": 1,
+        "file_path": "data\\source_documents\\03_medications_pharmacy\\MP-06_Interaction_and_Contraindication_Matrix.md",
+        "section_count": 8,
+        "character_count": 9672
+    },
+    {
+        "document_id": "MP-07",
+        "title": "Allergy, ADR and Organ-Function Dosing Reference",
+        "folder": "03_medications_pharmacy",
+        "document_type": "medication_pharmacy",
+        "version": 1,
+        "file_path": "data\\source_documents\\03_medications_pharmacy\\MP-07_Allergy_ADR_and_Organ-Function_Dosing_Reference.md",
+        "section_count": 17,
+        "character_count": 7890
+    },
+    {
+        "document_id": "LD-01",
+        "title": "Test Catalog and Reference Ranges",
+        "folder": "04_laboratory_diagnostics",
+        "document_type": "laboratory_diagnostic",
+        "version": 1,
+        "file_path": "data\\source_documents\\04_laboratory_diagnostics\\LD-01_Test_Catalog_and_Reference_Ranges.md",
+        "section_count": 15,
+        "character_count": 7555
+    },
+    {
+        "document_id": "LD-02",
+        "title": "Hematology and Coagulation Reports",
+        "folder": "04_laboratory_diagnostics",
+        "document_type": "laboratory_diagnostic",
+        "version": 1,
+        "file_path": "data\\source_documents\\04_laboratory_diagnostics\\LD-02_Hematology_and_Coagulation_Reports.md",
+        "section_count": 13,
+        "character_count": 6843
+    },
+    {
+        "document_id": "LD-03",
+        "title": "Chemistry and Metabolic Reports",
+        "folder": "04_laboratory_diagnostics",
+        "document_type": "laboratory_diagnostic",
+        "version": 1,
+        "file_path": "data\\source_documents\\04_laboratory_diagnostics\\LD-03_Chemistry_and_Metabolic_Reports.md",
+        "section_count": 13,
+        "character_count": 7074
+    },
+    {
+        "document_id": "LD-04",
+        "title": "Cardiac, Sepsis and Blood Gas Reports",
+        "folder": "04_laboratory_diagnostics",
+        "document_type": "laboratory_diagnostic",
+        "version": 1,
+        "file_path": "data\\source_documents\\04_laboratory_diagnostics\\LD-04_Cardiac_Sepsis_and_Blood_Gas_Reports.md",
+        "section_count": 13,
+        "character_count": 4973
+    },
+    {
+        "document_id": "LD-05",
+        "title": "Microbiology and Infection Diagnostics Reports",
+        "folder": "04_laboratory_diagnostics",
+        "document_type": "laboratory_diagnostic",
+        "version": 1,
+        "file_path": "data\\source_documents\\04_laboratory_diagnostics\\LD-05_Microbiology_and_Infection_Diagnostics_Reports.md",
+        "section_count": 11,
+        "character_count": 4970
+    },
+    {
+        "document_id": "LD-06",
+        "title": "ECG and Echocardiography Reports",
+        "folder": "04_laboratory_diagnostics",
+        "document_type": "laboratory_diagnostic",
+        "version": 1,
+        "file_path": "data\\source_documents\\04_laboratory_diagnostics\\LD-06_ECG_and_Echocardiography_Reports.md",
+        "section_count": 10,
+        "character_count": 3850
+    },
+    {
+        "document_id": "LD-07",
+        "title": "Imaging Reports",
+        "folder": "04_laboratory_diagnostics",
+        "document_type": "laboratory_diagnostic",
+        "version": 1,
+        "file_path": "data\\source_documents\\04_laboratory_diagnostics\\LD-07_Imaging_Reports.md",
+        "section_count": 9,
+        "character_count": 3200
+    },
+    {
+        "document_id": "LD-08",
+        "title": "Pulmonary Function Reports and Diagnostic Criteria Crosswalk",
+        "folder": "04_laboratory_diagnostics",
+        "document_type": "laboratory_diagnostic",
+        "version": 1,
+        "file_path": "data\\source_documents\\04_laboratory_diagnostics\\LD-08_Pulmonary_Function_Reports_and_Diagnostic_Criteria_Crosswalk.md",
+        "section_count": 9,
+        "character_count": 5834
+    },
+    {
+        "document_id": "HO-01",
+        "title": "Organization, Departments and Service Directory",
+        "folder": "05_hospital_operations",
+        "document_type": "hospital_operation",
+        "version": 1,
+        "file_path": "data\\source_documents\\05_hospital_operations\\HO-01_Organization_Departments_and_Service_Directory.md",
+        "section_count": 11,
+        "character_count": 7481
+    },
+    {
+        "document_id": "HO-02",
+        "title": "Medication Safety Protocols Manual",
+        "folder": "05_hospital_operations",
+        "document_type": "hospital_operation",
+        "version": 1,
+        "file_path": "data\\source_documents\\05_hospital_operations\\HO-02_Medication_Safety_Protocols_Manual.md",
+        "section_count": 17,
+        "character_count": 7968
+    },
+    {
+        "document_id": "HO-03",
+        "title": "Time-Critical Care Pathways",
+        "folder": "05_hospital_operations",
+        "document_type": "hospital_operation",
+        "version": 1,
+        "file_path": "data\\source_documents\\05_hospital_operations\\HO-03_Time-Critical_Care_Pathways.md",
+        "section_count": 13,
+        "character_count": 5440
+    },
+    {
+        "document_id": "HO-04",
+        "title": "Anticoagulation and Antimicrobial Stewardship Protocols",
+        "folder": "05_hospital_operations",
+        "document_type": "hospital_operation",
+        "version": 1,
+        "file_path": "data\\source_documents\\05_hospital_operations\\HO-04_Anticoagulation_and_Antimicrobial_Stewardship_Protocols.md",
+        "section_count": 12,
+        "character_count": 6676
+    },
+    {
+        "document_id": "HO-05",
+        "title": "Laboratory Operations and Critical Results",
+        "folder": "05_hospital_operations",
+        "document_type": "hospital_operation",
+        "version": 1,
+        "file_path": "data\\source_documents\\05_hospital_operations\\HO-05_Laboratory_Operations_and_Critical_Results.md",
+        "section_count": 13,
+        "character_count": 5362
+    },
+    {
+        "document_id": "HO-06",
+        "title": "Infection Prevention and Isolation Manual",
+        "folder": "05_hospital_operations",
+        "document_type": "hospital_operation",
+        "version": 1,
+        "file_path": "data\\source_documents\\05_hospital_operations\\HO-06_Infection_Prevention_and_Isolation_Manual.md",
+        "section_count": 9,
+        "character_count": 4186
+    },
+    {
+        "document_id": "HO-07",
+        "title": "Discharge, Follow-up and Readmission Prevention",
+        "folder": "05_hospital_operations",
+        "document_type": "hospital_operation",
+        "version": 1,
+        "file_path": "data\\source_documents\\05_hospital_operations\\HO-07_Discharge_Follow-up_and_Readmission_Prevention.md",
+        "section_count": 15,
+        "character_count": 4750
+    },
+    {
+        "document_id": "HO-08",
+        "title": "Clinical Governance: Incidents, Audits and Policy Change Log",
+        "folder": "05_hospital_operations",
+        "document_type": "hospital_operation",
+        "version": 1,
+        "file_path": "data\\source_documents\\05_hospital_operations\\HO-08_Clinical_Governance_Incidents_Audits_and_Change_Log.md",
+        "section_count": 16,
+        "character_count": 12141
+    }
+]
