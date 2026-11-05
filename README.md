@@ -265,26 +265,28 @@ Both systems were evaluated using the same clinical-domain dataset containing 39
 | Median Latency | 15.494 s | 9.293 s |
 | P95 Latency | 20.169 s | 12.33 s |
 
-10.3 Token Usage Comparison
-Metric	RAG	OKF
-LLM Generations	100	100
-Total Prompt Tokens	150,035	67,363
-Total Completion Tokens	60,146	55,365
-Total Tokens	210,181	122,728
-Total Reasoning Tokens	32,054	31,216
-Average Prompt Tokens	1,500.35	673.63
-Average Completion Tokens	601.46	553.65
-Average Total Tokens	2,101.81	1,227.28
-Average Reasoning Tokens	320.54	312.16
+## 4.3 Token Usage Comparison
 
-### 4.3 Key Observations
+| Metric | RAG | OKF |
+|---|---:|---:|
+| LLM Generations | 100 | 100 |
+| Total Prompt Tokens | 150,035 | 67,363 |
+| Total Completion Tokens | 60,146 | 55,365 |
+| Total Tokens | 210,181 | 122,728 |
+| Total Reasoning Tokens | 32,054 | 31,216 |
+| Average Prompt Tokens | 1,500.35 | 673.63 |
+| Average Completion Tokens | 601.46 | 553.65 |
+| Average Total Tokens | 2,101.81 | 1,227.28 |
+| Average Reasoning Tokens | 320.54 | 312.16 |
+
+### 4.4 Key Observations
 
 - **RAG** achieved higher document recall and document F1, indicating better document-level retrieval coverage in this evaluation.
 - **OKF** recorded lower mean, median and P95 latency.
 - RAG retrieved a larger proportion of the expected relevant documents.
 - OKF demonstrated faster execution through structured fact and relationship retrieval.
 
-### 4.4 Overall Outcome
+### 4.5 Overall Outcome
 
 The evaluation demonstrates different strengths in the two retrieval approaches.
 
@@ -292,4 +294,3 @@ RAG provides stronger document-level retrieval coverage, while OKF provides fast
 
 The results highlight the trade-off between document-based retrieval and structured knowledge retrieval.
 
-*Note: These are preliminary retrieval and execution metrics. Document-level recall and F1 do not independently establish answer correctness or factual accuracy. Human evidence and answer-quality evaluation is required for those conclusions.*
