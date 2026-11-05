@@ -265,6 +265,18 @@ Both systems were evaluated using the same clinical-domain dataset containing 39
 | Median Latency | 15.494 s | 9.293 s |
 | P95 Latency | 20.169 s | 12.33 s |
 
+10.3 Token Usage Comparison
+Metric	RAG	OKF
+LLM Generations	100	100
+Total Prompt Tokens	150,035	67,363
+Total Completion Tokens	60,146	55,365
+Total Tokens	210,181	122,728
+Total Reasoning Tokens	32,054	31,216
+Average Prompt Tokens	1,500.35	673.63
+Average Completion Tokens	601.46	553.65
+Average Total Tokens	2,101.81	1,227.28
+Average Reasoning Tokens	320.54	312.16
+
 ### 4.3 Key Observations
 
 - **RAG** achieved higher document recall and document F1, indicating better document-level retrieval coverage in this evaluation.
